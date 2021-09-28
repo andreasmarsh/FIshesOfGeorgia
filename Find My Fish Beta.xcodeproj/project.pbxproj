@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1096184E27038B8200E41330 /* Find_My_Fish_BetaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1096184D27038B8200E41330 /* Find_My_Fish_BetaApp.swift */; };
+		1096185027038B8200E41330 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1096184F27038B8200E41330 /* ContentView.swift */; };
+		1096185227038B8300E41330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1096185127038B8300E41330 /* Assets.xcassets */; };
+		1096185527038B8300E41330 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1096185427038B8300E41330 /* Preview Assets.xcassets */; };
+		1096185F27038B8400E41330 /* Find_My_Fish_BetaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1096185E27038B8400E41330 /* Find_My_Fish_BetaTests.swift */; };
+		1096186927038B8400E41330 /* Find_My_Fish_BetaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1096186827038B8400E41330 /* Find_My_Fish_BetaUITests.swift */; };
+		1096186B27038B8400E41330 /* Find_My_Fish_BetaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1096186A27038B8400E41330 /* Find_My_Fish_BetaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1096185B27038B8400E41330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1096184227038B8200E41330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1096184927038B8200E41330;
+			remoteInfo = "Find My Fish Beta";
+		};
+		1096186527038B8400E41330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1096184227038B8200E41330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1096184927038B8200E41330;
+			remoteInfo = "Find My Fish Beta";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1096184A27038B8200E41330 /* Find My Fish Beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find My Fish Beta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1096184D27038B8200E41330 /* Find_My_Fish_BetaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_My_Fish_BetaApp.swift; sourceTree = "<group>"; };
+		1096184F27038B8200E41330 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1096185127038B8300E41330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1096185427038B8300E41330 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1096185A27038B8400E41330 /* Find My Fish BetaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find My Fish BetaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1096185E27038B8400E41330 /* Find_My_Fish_BetaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_My_Fish_BetaTests.swift; sourceTree = "<group>"; };
+		1096186427038B8400E41330 /* Find My Fish BetaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find My Fish BetaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1096186827038B8400E41330 /* Find_My_Fish_BetaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_My_Fish_BetaUITests.swift; sourceTree = "<group>"; };
+		1096186A27038B8400E41330 /* Find_My_Fish_BetaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_My_Fish_BetaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1096184727038B8200E41330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1096185727038B8400E41330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1096186127038B8400E41330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1096184127038B8200E41330 = {
+			isa = PBXGroup;
+			children = (
+				1096184C27038B8200E41330 /* Find My Fish Beta */,
+				1096185D27038B8400E41330 /* Find My Fish BetaTests */,
+				1096186727038B8400E41330 /* Find My Fish BetaUITests */,
+				1096184B27038B8200E41330 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1096184B27038B8200E41330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1096184A27038B8200E41330 /* Find My Fish Beta.app */,
+				1096185A27038B8400E41330 /* Find My Fish BetaTests.xctest */,
+				1096186427038B8400E41330 /* Find My Fish BetaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1096184C27038B8200E41330 /* Find My Fish Beta */ = {
+			isa = PBXGroup;
+			children = (
+				1096184D27038B8200E41330 /* Find_My_Fish_BetaApp.swift */,
+				1096184F27038B8200E41330 /* ContentView.swift */,
+				1096185127038B8300E41330 /* Assets.xcassets */,
+				1096185327038B8300E41330 /* Preview Content */,
+			);
+			path = "Find My Fish Beta";
+			sourceTree = "<group>";
+		};
+		1096185327038B8300E41330 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1096185427038B8300E41330 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1096185D27038B8400E41330 /* Find My Fish BetaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1096185E27038B8400E41330 /* Find_My_Fish_BetaTests.swift */,
+			);
+			path = "Find My Fish BetaTests";
+			sourceTree = "<group>";
+		};
+		1096186727038B8400E41330 /* Find My Fish BetaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1096186827038B8400E41330 /* Find_My_Fish_BetaUITests.swift */,
+				1096186A27038B8400E41330 /* Find_My_Fish_BetaUITestsLaunchTests.swift */,
+			);
+			path = "Find My Fish BetaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1096184927038B8200E41330 /* Find My Fish Beta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1096186E27038B8400E41330 /* Build configuration list for PBXNativeTarget "Find My Fish Beta" */;
+			buildPhases = (
+				1096184627038B8200E41330 /* Sources */,
+				1096184727038B8200E41330 /* Frameworks */,
+				1096184827038B8200E41330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Find My Fish Beta";
+			productName = "Find My Fish Beta";
+			productReference = 1096184A27038B8200E41330 /* Find My Fish Beta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1096185927038B8400E41330 /* Find My Fish BetaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1096187127038B8400E41330 /* Build configuration list for PBXNativeTarget "Find My Fish BetaTests" */;
+			buildPhases = (
+				1096185627038B8400E41330 /* Sources */,
+				1096185727038B8400E41330 /* Frameworks */,
+				1096185827038B8400E41330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1096185C27038B8400E41330 /* PBXTargetDependency */,
+			);
+			name = "Find My Fish BetaTests";
+			productName = "Find My Fish BetaTests";
+			productReference = 1096185A27038B8400E41330 /* Find My Fish BetaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1096186327038B8400E41330 /* Find My Fish BetaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1096187427038B8400E41330 /* Build configuration list for PBXNativeTarget "Find My Fish BetaUITests" */;
+			buildPhases = (
+				1096186027038B8400E41330 /* Sources */,
+				1096186127038B8400E41330 /* Frameworks */,
+				1096186227038B8400E41330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1096186627038B8400E41330 /* PBXTargetDependency */,
+			);
+			name = "Find My Fish BetaUITests";
+			productName = "Find My Fish BetaUITests";
+			productReference = 1096186427038B8400E41330 /* Find My Fish BetaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1096184227038B8200E41330 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					1096184927038B8200E41330 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					1096185927038B8400E41330 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 1096184927038B8200E41330;
+					};
+					1096186327038B8400E41330 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 1096184927038B8200E41330;
+					};
+				};
+			};
+			buildConfigurationList = 1096184527038B8200E41330 /* Build configuration list for PBXProject "Find My Fish Beta" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1096184127038B8200E41330;
+			productRefGroup = 1096184B27038B8200E41330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1096184927038B8200E41330 /* Find My Fish Beta */,
+				1096185927038B8400E41330 /* Find My Fish BetaTests */,
+				1096186327038B8400E41330 /* Find My Fish BetaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1096184827038B8200E41330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1096185527038B8300E41330 /* Preview Assets.xcassets in Resources */,
+				1096185227038B8300E41330 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1096185827038B8400E41330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1096186227038B8400E41330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1096184627038B8200E41330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1096185027038B8200E41330 /* ContentView.swift in Sources */,
+				1096184E27038B8200E41330 /* Find_My_Fish_BetaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1096185627038B8400E41330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1096185F27038B8400E41330 /* Find_My_Fish_BetaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1096186027038B8400E41330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1096186927038B8400E41330 /* Find_My_Fish_BetaUITests.swift in Sources */,
+				1096186B27038B8400E41330 /* Find_My_Fish_BetaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1096185C27038B8400E41330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1096184927038B8200E41330 /* Find My Fish Beta */;
+			targetProxy = 1096185B27038B8400E41330 /* PBXContainerItemProxy */;
+		};
+		1096186627038B8400E41330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1096184927038B8200E41330 /* Find My Fish Beta */;
+			targetProxy = 1096186527038B8400E41330 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1096186C27038B8400E41330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1096186D27038B8400E41330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1096186F27038B8400E41330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Find My Fish Beta/Preview Content\"";
+				DEVELOPMENT_TEAM = 3C2LH55395;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andreasmarsh.Find-My-Fish-Beta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1096187027038B8400E41330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Find My Fish Beta/Preview Content\"";
+				DEVELOPMENT_TEAM = 3C2LH55395;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andreasmarsh.Find-My-Fish-Beta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1096187227038B8400E41330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3C2LH55395;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andreasmarsh.Find-My-Fish-BetaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Find My Fish Beta.app/Find My Fish Beta";
+			};
+			name = Debug;
+		};
+		1096187327038B8400E41330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3C2LH55395;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andreasmarsh.Find-My-Fish-BetaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Find My Fish Beta.app/Find My Fish Beta";
+			};
+			name = Release;
+		};
+		1096187527038B8400E41330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3C2LH55395;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andreasmarsh.Find-My-Fish-BetaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Find My Fish Beta";
+			};
+			name = Debug;
+		};
+		1096187627038B8400E41330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3C2LH55395;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andreasmarsh.Find-My-Fish-BetaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Find My Fish Beta";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1096184527038B8200E41330 /* Build configuration list for PBXProject "Find My Fish Beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1096186C27038B8400E41330 /* Debug */,
+				1096186D27038B8400E41330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1096186E27038B8400E41330 /* Build configuration list for PBXNativeTarget "Find My Fish Beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1096186F27038B8400E41330 /* Debug */,
+				1096187027038B8400E41330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1096187127038B8400E41330 /* Build configuration list for PBXNativeTarget "Find My Fish BetaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1096187227038B8400E41330 /* Debug */,
+				1096187327038B8400E41330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1096187427038B8400E41330 /* Build configuration list for PBXNativeTarget "Find My Fish BetaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1096187527038B8400E41330 /* Debug */,
+				1096187627038B8400E41330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1096184227038B8200E41330 /* Project object */;
+}
