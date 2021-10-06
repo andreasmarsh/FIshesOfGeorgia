@@ -14,6 +14,15 @@
 		1096185F27038B8400E41330 /* Find_My_Fish_BetaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1096185E27038B8400E41330 /* Find_My_Fish_BetaTests.swift */; };
 		1096186927038B8400E41330 /* Find_My_Fish_BetaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1096186827038B8400E41330 /* Find_My_Fish_BetaUITests.swift */; };
 		1096186B27038B8400E41330 /* Find_My_Fish_BetaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1096186A27038B8400E41330 /* Find_My_Fish_BetaUITestsLaunchTests.swift */; };
+		10A420BF2705E15A005E498B /* CustomPickerTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A420BE2705E15A005E498B /* CustomPickerTextView.swift */; };
+		10A420C12705E19F005E498B /* CustomPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A420C02705E19F005E498B /* CustomPickerView.swift */; };
+		10A420C3270A6E31005E498B /* NameSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A420C2270A6E31005E498B /* NameSearch.swift */; };
+		10B5F73A27038FBD00287AD1 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B5F73927038FBD00287AD1 /* Storage.swift */; };
+		10B5F73C2703902600287AD1 /* FishFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B5F73B2703902600287AD1 /* FishFinder.swift */; };
+		10B5F73E2703905400287AD1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B5F73D2703905400287AD1 /* CardView.swift */; };
+		10B9ED14270CC53600AC9FF0 /* Fishs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B9ED13270CC53600AC9FF0 /* Fishs.swift */; };
+		10B9ED16270CC61400AC9FF0 /* Fishdata.json in Resources */ = {isa = PBXBuildFile; fileRef = 10B9ED15270CC61400AC9FF0 /* Fishdata.json */; };
+		10B9ED18270CFCA000AC9FF0 /* CardView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B9ED17270CFCA000AC9FF0 /* CardView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,15 @@
 		1096186427038B8400E41330 /* Find My Fish BetaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find My Fish BetaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1096186827038B8400E41330 /* Find_My_Fish_BetaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_My_Fish_BetaUITests.swift; sourceTree = "<group>"; };
 		1096186A27038B8400E41330 /* Find_My_Fish_BetaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_My_Fish_BetaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		10A420BE2705E15A005E498B /* CustomPickerTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerTextView.swift; sourceTree = "<group>"; };
+		10A420C02705E19F005E498B /* CustomPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerView.swift; sourceTree = "<group>"; };
+		10A420C2270A6E31005E498B /* NameSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameSearch.swift; sourceTree = "<group>"; };
+		10B5F73927038FBD00287AD1 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		10B5F73B2703902600287AD1 /* FishFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishFinder.swift; sourceTree = "<group>"; };
+		10B5F73D2703905400287AD1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		10B9ED13270CC53600AC9FF0 /* Fishs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fishs.swift; sourceTree = "<group>"; };
+		10B9ED15270CC61400AC9FF0 /* Fishdata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Fishdata.json; sourceTree = "<group>"; };
+		10B9ED17270CFCA000AC9FF0 /* CardView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +114,15 @@
 			children = (
 				1096184D27038B8200E41330 /* Find_My_Fish_BetaApp.swift */,
 				1096184F27038B8200E41330 /* ContentView.swift */,
+				10B5F73D2703905400287AD1 /* CardView.swift */,
+				10B9ED17270CFCA000AC9FF0 /* CardView2.swift */,
+				10B5F73B2703902600287AD1 /* FishFinder.swift */,
+				10A420C2270A6E31005E498B /* NameSearch.swift */,
+				10A420BE2705E15A005E498B /* CustomPickerTextView.swift */,
+				10A420C02705E19F005E498B /* CustomPickerView.swift */,
+				10B5F73927038FBD00287AD1 /* Storage.swift */,
+				10B9ED15270CC61400AC9FF0 /* Fishdata.json */,
+				10B9ED13270CC53600AC9FF0 /* Fishs.swift */,
 				1096185127038B8300E41330 /* Assets.xcassets */,
 				1096185327038B8300E41330 /* Preview Content */,
 			);
@@ -232,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1096185527038B8300E41330 /* Preview Assets.xcassets in Resources */,
+				10B9ED16270CC61400AC9FF0 /* Fishdata.json in Resources */,
 				1096185227038B8300E41330 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +286,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1096185027038B8200E41330 /* ContentView.swift in Sources */,
+				10B5F73C2703902600287AD1 /* FishFinder.swift in Sources */,
+				10B9ED14270CC53600AC9FF0 /* Fishs.swift in Sources */,
+				10A420C3270A6E31005E498B /* NameSearch.swift in Sources */,
 				1096184E27038B8200E41330 /* Find_My_Fish_BetaApp.swift in Sources */,
+				10A420C12705E19F005E498B /* CustomPickerView.swift in Sources */,
+				10B5F73A27038FBD00287AD1 /* Storage.swift in Sources */,
+				10A420BF2705E15A005E498B /* CustomPickerTextView.swift in Sources */,
+				10B5F73E2703905400287AD1 /* CardView.swift in Sources */,
+				10B9ED18270CFCA000AC9FF0 /* CardView2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

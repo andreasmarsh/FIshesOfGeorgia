@@ -7,10 +7,63 @@
 
 import SwiftUI
 
+//class GlobalFishes: ObservableObject {
+//    @Published var datas = ReadData()
+//}
+
 struct ContentView: View {
+    
+    // allows nav bar to be transparent when scrolling and thus only show custom
+    // back button
+    init() {
+        UINavigationBar.appearance().barTintColor = .clear
+        UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
+        UINavigationBar.appearance().shadowImage = UIImage()
+    }
+    
+//    @EnvironmentObject var fishList: GlobalFishes
+    @StateObject var datas = ReadData()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        NavigationView{
+            fishBackground
+                .overlay(
+                    GeometryReader { geometry in
+                        VStack(alignment: .center) {
+                            
+                            Spacer()
+                                .frame(height: geometry.size.height/10)
+                            
+                            Image("fishMain")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .edgesIgnoringSafeArea(.all)
+                                .shadow(color: /*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/, radius: 32, x: 8.0, y: 6.0)
+                            
+                            
+                            Spacer()
+                                .frame(height: geometry.size.height/20)
+                            
+                            NavigationLink(destination: FishFinder()) {
+                                ButtonView(image: "magnifyingglass", title: "Fish Finder")
+                            }
+                            
+                            Spacer()
+                                .frame(height: geometry.size.height/20)
+                            
+                            NavigationLink(destination: NameSearch(datas: datas, commonNames: datas.fishes.map {$0.common}, scientificNames: ReadData().fishes.map {$0.scientific})) {
+                                ButtonView(image: "doc.text.magnifyingglass", title: "Name Search")
+                            }
+                        }
+                    })
+        }
+        .navigationViewStyle(StackNavigationViewStyle())
+        // makes iPad display same as iPhones, no need for weird side bar
+    }
+    private var fishBackground: some View{
+        LinearGradient(gradient: Gradient(colors: [Color ("Blueish"), Color("Greenish")]), startPoint: .topLeading, endPoint: .bottomTrailing)
+            .edgesIgnoringSafeArea(.all)
     }
 }
 
