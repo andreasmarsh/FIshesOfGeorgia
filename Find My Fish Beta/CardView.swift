@@ -11,6 +11,7 @@ struct CardView: View {
     
     @Environment(\.presentationMode) var presentationMode // for custom back button
     var fish: Fish
+    var num: Int
     
     var body: some View {
         LinearGradient(gradient: Gradient(colors: [Color ("Blueish"), Color("Greenish")]), startPoint: .topTrailing, endPoint: .bottomLeading)
@@ -32,7 +33,7 @@ struct CardView: View {
                                         .font(.system(size: geo.size.height > geo.size.width ? geo.size.width * 0.1: geo.size.height * 0.09))
                                         .multilineTextAlignment(.center)
                                         .padding(5)
-                                        .foregroundColor(.primary)
+                                        .foregroundColor(Color ("BW"))
                                         .multilineTextAlignment(.center)
                                         .lineLimit(3)
                                         .minimumScaleFactor(0.5)
@@ -41,7 +42,7 @@ struct CardView: View {
                                     Text(fish.scientific)
                                         .font(.system(size: geo.size.height > geo.size.width ? geo.size.width * 0.06: geo.size.height * 0.09))
                                         .multilineTextAlignment(.center)
-                                        .foregroundColor(.primary)
+                                        .foregroundColor(Color ("BW"))
                                         .lineLimit(3)
                                         .minimumScaleFactor(0.5)
                                     
@@ -51,7 +52,8 @@ struct CardView: View {
                                         .frame(height: geo.size.height/20)
                                     
                                     // image that shrinks and darkens when paused
-                                    Image("fish" + String(Int.random(in: 1..<5)))
+                                    // Image("fish" + String(Int.random(in: 1..<5)))
+                                    Image("name" + String(num))
                                         .resizable()
                                         .aspectRatio(contentMode: .fit)
                                         .cornerRadius(10)
@@ -64,14 +66,14 @@ struct CardView: View {
                                     Text("Found in: " + fish.marine)
                                         .font(.system(size: geo.size.height > geo.size.width ? geo.size.width * 0.06: geo.size.height * 0.09))
                                         .multilineTextAlignment(.center)
-                                        .foregroundColor(.primary)
+                                        .foregroundColor(Color ("BW"))
                                         .minimumScaleFactor(0.5)
                                     
                                     // custom font for fish scientific name
                                     Text(fish.distribution)
                                         .font(.system(size: geo.size.height > geo.size.width ? geo.size.width * 0.06: geo.size.height * 0.09))
                                         .multilineTextAlignment(.center)
-                                        .foregroundColor(.primary)
+                                        .foregroundColor(Color ("BW"))
                                         .minimumScaleFactor(0.5)
                                         .padding(10)
                                     
@@ -80,7 +82,8 @@ struct CardView: View {
                                         .frame(height: geo.size.height/20)
                                     
                                     // image that shrinks and darkens when paused
-                                    Image("map" + String(Int.random(in: 1..<5)))
+                                    // Image("map" + String(Int.random(in: 1..<5)))
+                                     Image("namemap" + String(num))
                                         .resizable()
                                         .aspectRatio(contentMode: .fill)
                                         .cornerRadius(10)
@@ -111,6 +114,6 @@ struct CardView: View {
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView(fish: ReadData().fishes[1])
+        CardView(fish: ReadData().fishes[1], num: 1)
     }
 }

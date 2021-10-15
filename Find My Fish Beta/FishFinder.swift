@@ -14,11 +14,14 @@ struct FishFinder: View, CustomPicker {
     @State private var counter = 0
     
     @State private var color = ""
-    @State private var colors = ["red", "blue"]
+    @State private var colors = ["red", "blue", "green", "yellow", "orange", "brown"]
     private var gills = ["1","2"]
+    var dorsalLocation = ["front", "middle", "back"]
+
     
     @State private var presentPicker = false
     @State private var tag: Int = 1
+    @State private var tag2: Int = 0
     @State private var menuUp: Bool = false
     
     
@@ -33,29 +36,35 @@ struct FishFinder: View, CustomPicker {
                             {
                                 // Spacer for resizable positioning
                                 Spacer()
-                                    .frame(height: geo.size.height/6)
+                                    .frame(height: geo.size.height/5)
                                 
                                 Text("Find that Fish")
                                     .font(.system(size: geo.size.height > geo.size.width ? geo.size.width * 0.09: geo.size.height * 0.09))
                                     .multilineTextAlignment(.center)
-                                    .padding(5)
+                                    .padding(20)
+                                    .foregroundColor(Color ("BW"))
                                 
-                                Text("start by selecting a color and gill number then press the search button below")
+                                Text("select a dorsal fin location")
                                     .font(.system(size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.04))
                                     .multilineTextAlignment(.center)
-                                    .padding(5)
-                                    .frame(width: geo.size.width/1.1, height: 60)
+                                    .padding(.bottom, -5)
+                                    .frame(width: geo.size.width/1.1, height: 40)
+                                    .foregroundColor(Color ("BW"))
                                 
-                                VStack {
-                                CustomPickerTextView(presentPicker: $presentPicker,
-                                                     fieldString: $color,
-                                                     placeholder: "Select a fish color.",
-                                                     tag: $tag,
-                                                     selectedTag: 1)
+                                HStack() {
+                                    Picker(selection: $tag2, label: Text("")) {
+                                        ForEach(0..<dorsalLocation.count) { //index in
+                                            Text(dorsalLocation[$0])
+                                                .foregroundColor(Color ("BW"))
+                                        }}
+                                    .frame(width: geo.size.width/1.5)
+                                    .clipped()
+                                    .onReceive(
+                                        [self.tag2].publisher.first()){
+                                            (value) in
+                                        }.pickerStyle(.segmented)
                                 }
-                                .textFieldStyle(RoundedBorderTextFieldStyle())
-                                .frame(width: 250)
-                                .padding()
+                                .frame(width: geo.size.width/1.5, height: 20)
                                 
                                 HStack() {
                                     Stepper(onIncrement: {
@@ -73,10 +82,30 @@ struct FishFinder: View, CustomPicker {
                                         // RECALCULATE WHICH FISH TO DISPLAY
                                     }
                                     ) {
-                                        Text("number of gills: \(gills[counter])")
+                                        Text("number of dorsal fins: \(gills[counter])")
+                                            .font(.system(size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.04))
+                                            .multilineTextAlignment(.center)
+                                            .frame(width: geo.size.width/2, height: 60)
+                                            .foregroundColor(Color ("BW"))
                                     }
                                 }
-                                .frame(width: geo.size.width/1.5, height: 20)
+                                .frame(width: geo.size.width/1.5, height: 30)
+                                .padding(.top, 10)
+                                
+                                VStack {
+                                CustomPickerTextView(presentPicker: $presentPicker,
+                                                     fieldString: $color,
+                                                     placeholder: Text("Select a fish color."),
+                                                     tag: $tag,
+                                                     selectedTag: 1)
+                                }
+                                //.textFieldStyle(RoundedBorderTextFieldStyle())
+                                //.foregroundColor(Color ("BW"))
+                                //.textFieldStyle(.roundedBorder)
+                                //.background(RoundedRectangle(cornerRadius: 50).fill(Color ("WB")))
+                                //.foregroundColor(Color ("W"))
+                                .frame(width: 250)
+                                .padding(6)
                                 
                                 Spacer()
                                     .frame(height: geo.size.height/10)
@@ -125,30 +154,6 @@ struct FishFinder: View, CustomPicker {
     }
     func saveUpdates(_ newItem: String) {
         // empty as no items are going to be allowed to be added to picker
-    }
-}
-
-struct ButtonView: View {
-    var image: String
-    var title: String
-    
-    var body: some View {
-        HStack {
-            Image(systemName: image)
-                .font(.largeTitle)
-                .foregroundColor(.white)
-            Text(title)
-                .foregroundColor(.white)
-                .font(.system(.largeTitle, design: .rounded))
-                .fontWeight(.bold)
-        }
-        .frame(minWidth: 0, maxWidth: .infinity)
-        .foregroundColor(.white)
-        .padding()
-        .background(LinearGradient(gradient: Gradient(colors: [Color ("Greenish"), Color("Blueish")]), startPoint: .leading, endPoint: .trailing))
-        .cornerRadius(40)
-        .padding(.horizontal, 40)
-        .shadow(color: .black, radius: 24, x: 8.0, y: 6.0)
     }
 }
 

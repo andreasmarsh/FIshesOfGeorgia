@@ -67,6 +67,30 @@ struct ContentView: View {
     }
 }
 
+struct ButtonView: View {
+    var image: String
+    var title: String
+    
+    var body: some View {
+        HStack {
+            Image(systemName: image)
+                .font(.largeTitle)
+                .foregroundColor(Color ("BW"))
+            Text(title)
+                .foregroundColor(Color ("BW"))
+                .font(.system(.largeTitle, design: .rounded))
+                .fontWeight(.bold)
+        }
+        .frame(minWidth: 0, maxWidth: .infinity)
+        .foregroundColor(.white)
+        .padding()
+        .background(LinearGradient(gradient: Gradient(colors: [Color ("Greenish"), Color("Blueish")]), startPoint: .leading, endPoint: .trailing))
+        .cornerRadius(40)
+        .padding(.horizontal, 40)
+        .shadow(color: .black, radius: 24, x: 8.0, y: 6.0)
+    }
+}
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()

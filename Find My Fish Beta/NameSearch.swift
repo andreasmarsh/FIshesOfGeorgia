@@ -53,6 +53,7 @@ struct NameSearch: View, CustomPicker {
                                     .multilineTextAlignment(.center)
                                     .padding(5)
                                     .frame(width: geo.size.width/1.1, height: 60)
+                                    .foregroundColor(Color ("BW"))
                                 
                                 Spacer().frame(width: geo.size.width/1.5, height: 20)
                                 
@@ -62,8 +63,9 @@ struct NameSearch: View, CustomPicker {
                                         Picker(selection: $tag, label: Text("")) {
                                             ForEach(0..<commonSci.count) { //index in
                                                 Text(commonSci[$0])
+                                                    .foregroundColor(Color ("BW"))
                                             }}
-                                        .frame(width: geo.size.width/1.5, height: 140)
+                                        .frame(width: geo.size.width/1.5, height: 40)
                                         .clipped()
                                         .onReceive(
                                             [self.tag].publisher.first()){
@@ -77,11 +79,11 @@ struct NameSearch: View, CustomPicker {
                                     
                                     CustomPickerTextView(presentPicker: $presentPicker,
                                                          fieldString: $name,
-                                                         placeholder: "Select a fish name.",
+                                                         placeholder: Text("Select a fish name."),
                                                          tag: $tag,
                                                          selectedTag: tag)
                                 }
-                                .textFieldStyle(RoundedBorderTextFieldStyle())
+                                //.textFieldStyle(RoundedBorderTextFieldStyle())
                                 .frame(width: geo.size.width/1.5, height: 20)
                                 .padding()
                                 
@@ -89,7 +91,7 @@ struct NameSearch: View, CustomPicker {
                                     .frame(height: geo.size.height/10)
                                 
                                 // Takes user to relevant genre CardView
-                                NavigationLink(destination:  CardView(fish: datas.fishes[namePicked])) {
+                                NavigationLink(destination:  CardView(fish: datas.fishes[namePicked], num: tag)) {
                                     ButtonView(image: "magnifyingglass", title: "Search")
                                 }
                                 

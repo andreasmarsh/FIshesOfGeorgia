@@ -7,8 +7,8 @@
 
 import Foundation
 
-var allFish = [fishs(commonName: "Lowland Shiner", binomialNomenclature: "Pteronotropis stonei", description: "In Georgia, occurs in the Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.", map: "map1", image: "fish1"),
-               fishs(commonName: "Flame Chub", binomialNomenclature: "Hemitremia flammea", description: "In Georgia, occurs in the Tennessee River Basin.", map: "map2", image: "fish2"),
+var allFish = [fishs(commonName: "Flame Chub", binomialNomenclature: "Hemitremia flammea", description: "In Georgia, occurs in the Tennessee River Basin.", map: "map2", image: "fish2"),
+               fishs(commonName: "Lowland Shiner", binomialNomenclature: "Pteronotropis stonei", description: "In Georgia, occurs in the Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.", map: "map1", image: "fish1"),
                fishs(commonName: "Brown Bullhead", binomialNomenclature: "Ameiurus nebulosus", description: "In Georgia, occurs in all major river basins.", map: "map3", image: "fish3"), // freshwater
                fishs(commonName: "Freshwater Drum", binomialNomenclature: "Aplodinotus grunniens", description: "In Georgia, occurs in the Tennessee and Coosa River basins.", map: "map4", image: "fish4")] // freshwater
 
