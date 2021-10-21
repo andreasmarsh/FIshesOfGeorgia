@@ -95,6 +95,7 @@ struct FishFinder: View, CustomPicker {
                                 VStack {
                                 CustomPickerTextView(presentPicker: $presentPicker,
                                                      fieldString: $color,
+                                                     width: geo.size.width,
                                                      placeholder: Text("Select a fish color.")
                                                         .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.04))
                                                      ,

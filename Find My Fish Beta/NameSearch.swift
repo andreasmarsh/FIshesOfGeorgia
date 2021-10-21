@@ -79,12 +79,12 @@ struct NameSearch: View, CustomPicker {
                                     
                                     CustomPickerTextView(presentPicker: $presentPicker,
                                                          fieldString: $name,
+                                                         width: geo.size.width,
                                                          placeholder: Text("Select a fish name.")
                                                             .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.09)),
                                                          tag: $tag,
                                                          selectedTag: tag)
                                 }
-                                //.textFieldStyle(RoundedBorderTextFieldStyle())
                                 .frame(width: geo.size.width/1.5)
                                 .padding()
                                 

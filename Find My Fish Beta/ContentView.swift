@@ -19,12 +19,13 @@ struct ContentView: View {
         UINavigationBar.appearance().barTintColor = .clear
         UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
         UINavigationBar.appearance().shadowImage = UIImage()
-        //UITableView.appearance().separatorStyle = .none
-        //UITableView.appearance().separatorColor = .darkGray
         UITableView.appearance().backgroundColor = UIColor.secondarySystemBackground
+        UISegmentedControl.appearance().setTitleTextAttributes(
+                    [
+                        .font: UIFont(name: "Montserrat-Regular", size: 14)!,
+                    ], for: .normal)
     }
     
-//    @EnvironmentObject var fishList: GlobalFishes
     @StateObject var datas = ReadData()
     
     var body: some View {
