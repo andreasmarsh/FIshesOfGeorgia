@@ -47,7 +47,7 @@ struct NameSearch: View, CustomPicker {
                                     .padding(5)
                                 
                                 Text("switch between searching by scientific or common name")
-                                    .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.09))
+                                    .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.06))
                                     .multilineTextAlignment(.center)
                                     .padding(5)
                                     .frame(width: geo.size.width/1.1, height: 60)
@@ -63,7 +63,7 @@ struct NameSearch: View, CustomPicker {
                                             ForEach(0..<commonSci.count) { //index in
                                                 Text(commonSci[$0])
                                                     .foregroundColor(Color ("BW"))
-                                                    .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.09))
+                                                    .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.06))
                                             }}
                                         .frame(width: geo.size.width/1.5, height: 40)
                                         .clipped()
@@ -81,7 +81,7 @@ struct NameSearch: View, CustomPicker {
                                                          fieldString: $name,
                                                          width: geo.size.width,
                                                          placeholder: Text("Select a fish name.")
-                                                            .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.09)),
+                                                            .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.04)),
                                                          tag: $tag,
                                                          selectedTag: tag)
                                 }
