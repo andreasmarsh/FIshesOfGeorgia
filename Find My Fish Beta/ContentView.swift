@@ -49,14 +49,14 @@ struct ContentView: View {
                                 .frame(height: geometry.size.height/20)
                             
                             NavigationLink(destination: FishFinder()) {
-                                ButtonView(image: "magnifyingglass", title: "Fish Finder")
+                                ButtonView(image: "magnifyingglass", title: "Fish Finder", wid: geometry.size.width)
                             }
                             
                             Spacer()
                                 .frame(height: geometry.size.height/20)
                             
                             NavigationLink(destination: NameSearch(datas: datas, commonNames: datas.fishes.map {$0.common}, scientificNames: ReadData().fishes.map {$0.scientific})) {
-                                ButtonView(image: "doc.text.magnifyingglass", title: "Name Search")
+                                ButtonView(image: "doc.text.magnifyingglass", title: "Name Search", wid: geometry.size.width)
                             }
                         }
                     })
@@ -73,6 +73,7 @@ struct ContentView: View {
 struct ButtonView: View {
     var image: String
     var title: String
+    var wid: CGFloat
     
     var body: some View {
         HStack {
@@ -83,7 +84,7 @@ struct ButtonView: View {
                 .foregroundColor(Color ("BW"))
                 .font(Font.custom("norwester", size: 40))
         }
-        .frame(minWidth: 0, maxWidth: .infinity)
+        .frame(maxWidth: wid / 1.35)
         .foregroundColor(.white)
         .padding()
         .background(LinearGradient(gradient: Gradient(colors: [Color ("Greenish"), Color("Blueish")]), startPoint: .leading, endPoint: .trailing))

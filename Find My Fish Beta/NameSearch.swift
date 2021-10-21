@@ -93,7 +93,7 @@ struct NameSearch: View, CustomPicker {
                                 
                                 // Takes user to relevant genre CardView
                                 NavigationLink(destination:  CardView(fish: datas.fishes[namePicked], num: tag)) {
-                                    ButtonView(image: "magnifyingglass", title: "Search")
+                                    ButtonView(image: "magnifyingglass", title: "Search", wid: geo.size.width)
                                 }
                                 
                                 Spacer()

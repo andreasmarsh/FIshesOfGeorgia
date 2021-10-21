@@ -114,7 +114,7 @@ struct FishFinder: View, CustomPicker {
                                 
                                 // Takes user to relevant genre CardView
                                 NavigationLink(destination:  CardView2(fish: allFish[(colorPicked*2)+counter])) {
-                                    ButtonView(image: "magnifyingglass", title: "Search")
+                                    ButtonView(image: "magnifyingglass", title: "Search", wid: geo.size.width)
                                 }
                                 
                                 Spacer()
