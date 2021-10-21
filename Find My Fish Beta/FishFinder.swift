@@ -39,13 +39,13 @@ struct FishFinder: View, CustomPicker {
                                     .frame(height: geo.size.height/5)
                                 
                                 Text("Find that Fish")
-                                    .font(.system(size: geo.size.height > geo.size.width ? geo.size.width * 0.09: geo.size.height * 0.09))
+                                    .font(Font.custom("Montserrat-SemiBold", size: geo.size.height > geo.size.width ? geo.size.width * 0.1: geo.size.height * 0.09))
                                     .multilineTextAlignment(.center)
                                     .padding(20)
                                     .foregroundColor(Color ("BW"))
                                 
                                 Text("select a dorsal fin location")
-                                    .font(.system(size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.04))
+                                    .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.09))
                                     .multilineTextAlignment(.center)
                                     .padding(.bottom, -5)
                                     .frame(width: geo.size.width/1.1, height: 40)
@@ -83,9 +83,9 @@ struct FishFinder: View, CustomPicker {
                                     }
                                     ) {
                                         Text("number of dorsal fins: \(gills[counter])")
-                                            .font(.system(size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.04))
+                                            .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.04))
                                             .multilineTextAlignment(.center)
-                                            .frame(width: geo.size.width/2, height: 60)
+                                            .frame(width: geo.size.width/2, height: 40)
                                             .foregroundColor(Color ("BW"))
                                     }
                                 }
@@ -95,7 +95,9 @@ struct FishFinder: View, CustomPicker {
                                 VStack {
                                 CustomPickerTextView(presentPicker: $presentPicker,
                                                      fieldString: $color,
-                                                     placeholder: Text("Select a fish color."),
+                                                     placeholder: Text("Select a fish color.")
+                                                        .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.04))
+                                                     ,
                                                      tag: $tag,
                                                      selectedTag: 1)
                                 }
@@ -104,7 +106,7 @@ struct FishFinder: View, CustomPicker {
                                 //.textFieldStyle(.roundedBorder)
                                 //.background(RoundedRectangle(cornerRadius: 50).fill(Color ("WB")))
                                 //.foregroundColor(Color ("W"))
-                                .frame(width: 250)
+                                .frame(width: geo.size.width / 1.5)
                                 .padding(6)
                                 
                                 Spacer()

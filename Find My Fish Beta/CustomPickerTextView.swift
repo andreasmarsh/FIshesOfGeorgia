@@ -14,7 +14,6 @@ struct CustomPickerTextView: View {
     @Binding var tag: Int    
     var selectedTag: Int
     var body: some View {
-        //TextField(placeholder, text: $fieldString).disabled(true)
         SuperTextField(placeholder: placeholder.foregroundColor(Color ("BW")), text: $fieldString)
             .overlay(
                 Button(action: {

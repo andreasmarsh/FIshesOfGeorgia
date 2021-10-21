@@ -30,7 +30,7 @@ struct CardView: View {
                                     
                                     // custom sizing for fish common name
                                     Text(fish.common)
-                                        .font(.system(size: geo.size.height > geo.size.width ? geo.size.width * 0.1: geo.size.height * 0.09))
+                                        .font(Font.custom("Montserrat-SemiBold", size: geo.size.height > geo.size.width ? geo.size.width * 0.1: geo.size.height * 0.09))
                                         .multilineTextAlignment(.center)
                                         .padding(5)
                                         .foregroundColor(Color ("BW"))
@@ -40,7 +40,7 @@ struct CardView: View {
                                     
                                     // custom font for fish scientific name
                                     Text(fish.scientific)
-                                        .font(.system(size: geo.size.height > geo.size.width ? geo.size.width * 0.06: geo.size.height * 0.09))
+                                        .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.06: geo.size.height * 0.09))
                                         .multilineTextAlignment(.center)
                                         .foregroundColor(Color ("BW"))
                                         .lineLimit(3)
@@ -51,27 +51,25 @@ struct CardView: View {
                                     Spacer()
                                         .frame(height: geo.size.height/20)
                                     
-                                    // image that shrinks and darkens when paused
-                                    // Image("fish" + String(Int.random(in: 1..<5)))
                                     Image("name" + String(num))
                                         .resizable()
                                         .aspectRatio(contentMode: .fit)
                                         .cornerRadius(10)
-                                        .shadow(color: /*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/, radius: 5, x: 4, y: 8)
+                                        .shadow(color: .black, radius: 5, x: 4, y: 8)
                                     
                                     // Spacer for resizable positioning
                                     Spacer()
                                         .frame(height: geo.size.height/30)
                                     
                                     Text("Found in: " + fish.marine)
-                                        .font(.system(size: geo.size.height > geo.size.width ? geo.size.width * 0.06: geo.size.height * 0.09))
+                                        .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.06: geo.size.height * 0.09))
                                         .multilineTextAlignment(.center)
                                         .foregroundColor(Color ("BW"))
                                         .minimumScaleFactor(0.5)
                                     
-                                    // custom font for fish scientific name
+                                    // custom font for fish distribution
                                     Text(fish.distribution)
-                                        .font(.system(size: geo.size.height > geo.size.width ? geo.size.width * 0.06: geo.size.height * 0.09))
+                                        .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.06: geo.size.height * 0.09))
                                         .multilineTextAlignment(.center)
                                         .foregroundColor(Color ("BW"))
                                         .minimumScaleFactor(0.5)
@@ -83,11 +81,11 @@ struct CardView: View {
                                     
                                     // image that shrinks and darkens when paused
                                     // Image("map" + String(Int.random(in: 1..<5)))
-                                     Image("namemap" + String(num))
+                                    Image("namemap" + String(num))
                                         .resizable()
                                         .aspectRatio(contentMode: .fill)
                                         .cornerRadius(10)
-                                        .shadow(color: /*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/, radius: 5, x: 4, y: 8)
+                                        .shadow(color: .black, radius: 5, x: 4, y: 8)
                                         .padding(16)
                                 }
                             }

@@ -30,19 +30,19 @@ struct CardView2: View {
                                     
                                     // custom sizing for fish common name
                                     Text(fish.commonName)
-                                        .font(.system(size: geo.size.height > geo.size.width ? geo.size.width * 0.1: geo.size.height * 0.09))
+                                        .font(Font.custom("Montserrat-SemiBold", size: geo.size.height > geo.size.width ? geo.size.width * 0.1: geo.size.height * 0.09))
                                         .multilineTextAlignment(.center)
                                         .padding(5)
-                                        .foregroundColor(.primary)
+                                        .foregroundColor(Color ("BW"))
                                         .multilineTextAlignment(.center)
                                         .lineLimit(3)
                                         .minimumScaleFactor(0.5)
                                     
                                     // custom font for fish scientific name
                                     Text(fish.binomialNomenclature)
-                                        .font(.system(size: geo.size.height > geo.size.width ? geo.size.width * 0.06: geo.size.height * 0.09))
+                                        .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.06: geo.size.height * 0.09))
                                         .multilineTextAlignment(.center)
-                                        .foregroundColor(.primary)
+                                        .foregroundColor(Color ("BW"))
                                         .lineLimit(3)
                                         .minimumScaleFactor(0.5)
                                     
@@ -64,9 +64,9 @@ struct CardView2: View {
                                     
                                     // custom font for fish scientific name
                                     Text(fish.description)
-                                        .font(.system(size: geo.size.height > geo.size.width ? geo.size.width * 0.06: geo.size.height * 0.09))
+                                        .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.06: geo.size.height * 0.09))
                                         .multilineTextAlignment(.center)
-                                        .foregroundColor(.primary)
+                                        .foregroundColor(Color ("BW"))
                                         .lineLimit(3)
                                         .minimumScaleFactor(0.5)
                                         .padding(10)

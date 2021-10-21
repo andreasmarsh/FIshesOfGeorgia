@@ -17,6 +17,9 @@
 		10A420BF2705E15A005E498B /* CustomPickerTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A420BE2705E15A005E498B /* CustomPickerTextView.swift */; };
 		10A420C12705E19F005E498B /* CustomPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A420C02705E19F005E498B /* CustomPickerView.swift */; };
 		10A420C3270A6E31005E498B /* NameSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A420C2270A6E31005E498B /* NameSearch.swift */; };
+		10AA5A802721DB4500881C46 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10AA5A7F2721DB4500881C46 /* Montserrat-Regular.ttf */; };
+		10AA5A822721DB4D00881C46 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10AA5A812721DB4D00881C46 /* Montserrat-SemiBold.ttf */; };
+		10AA5A842721DBC000881C46 /* norwester.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10AA5A832721DBC000881C46 /* norwester.otf */; };
 		10B5F73A27038FBD00287AD1 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B5F73927038FBD00287AD1 /* Storage.swift */; };
 		10B5F73C2703902600287AD1 /* FishFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B5F73B2703902600287AD1 /* FishFinder.swift */; };
 		10B5F73E2703905400287AD1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B5F73D2703905400287AD1 /* CardView.swift */; };
@@ -56,6 +59,10 @@
 		10A420BE2705E15A005E498B /* CustomPickerTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerTextView.swift; sourceTree = "<group>"; };
 		10A420C02705E19F005E498B /* CustomPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerView.swift; sourceTree = "<group>"; };
 		10A420C2270A6E31005E498B /* NameSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameSearch.swift; sourceTree = "<group>"; };
+		10AA5A7F2721DB4500881C46 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		10AA5A812721DB4D00881C46 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		10AA5A832721DBC000881C46 /* norwester.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = norwester.otf; sourceTree = "<group>"; };
+		10AA5A852721DC4C00881C46 /* Find-My-Fish-Beta-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Find-My-Fish-Beta-Info.plist"; sourceTree = SOURCE_ROOT; };
 		10B5F73927038FBD00287AD1 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		10B5F73B2703902600287AD1 /* FishFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishFinder.swift; sourceTree = "<group>"; };
 		10B5F73D2703905400287AD1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -112,6 +119,7 @@
 		1096184C27038B8200E41330 /* Find My Fish Beta */ = {
 			isa = PBXGroup;
 			children = (
+				10AA5A852721DC4C00881C46 /* Find-My-Fish-Beta-Info.plist */,
 				1096184D27038B8200E41330 /* Find_My_Fish_BetaApp.swift */,
 				1096184F27038B8200E41330 /* ContentView.swift */,
 				10B5F73D2703905400287AD1 /* CardView.swift */,
@@ -123,6 +131,9 @@
 				10B5F73927038FBD00287AD1 /* Storage.swift */,
 				10B9ED15270CC61400AC9FF0 /* Fishdata.json */,
 				10B9ED13270CC53600AC9FF0 /* Fishs.swift */,
+				10AA5A7F2721DB4500881C46 /* Montserrat-Regular.ttf */,
+				10AA5A812721DB4D00881C46 /* Montserrat-SemiBold.ttf */,
+				10AA5A832721DBC000881C46 /* norwester.otf */,
 				1096185127038B8300E41330 /* Assets.xcassets */,
 				1096185327038B8300E41330 /* Preview Content */,
 			);
@@ -258,9 +269,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10AA5A802721DB4500881C46 /* Montserrat-Regular.ttf in Resources */,
 				1096185527038B8300E41330 /* Preview Assets.xcassets in Resources */,
 				10B9ED16270CC61400AC9FF0 /* Fishdata.json in Resources */,
 				1096185227038B8300E41330 /* Assets.xcassets in Resources */,
+				10AA5A822721DB4D00881C46 /* Montserrat-SemiBold.ttf in Resources */,
+				10AA5A842721DBC000881C46 /* norwester.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +472,7 @@
 				DEVELOPMENT_TEAM = 3C2LH55395;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Find-My-Fish-Beta-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -488,6 +503,7 @@
 				DEVELOPMENT_TEAM = 3C2LH55395;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Find-My-Fish-Beta-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

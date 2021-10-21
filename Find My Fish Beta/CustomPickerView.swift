@@ -47,6 +47,7 @@ struct CustomPickerView: View {
                             ZStack {
                                 Rectangle().foregroundColor((Color.clear)).frame(width: 70, height: 40, alignment: .center)
                             Text("Cancel")
+                                    .font(Font.custom("Montserrat-SemiBold", size: 15))
                             }
                         }
                         Spacer()
@@ -69,10 +70,12 @@ struct CustomPickerView: View {
                     .background(Color(UIColor.darkGray))
                     .foregroundColor(.white)
                     Text("Tap an entry to select it.")
-                        .font(.caption)
+                        .font(Font.custom("Montserrat-Regular", size: 12))
                         .padding(.leading,10)
                     TextField("Filter by entering text", text: filterBinding)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
+                        .font(Font.custom("Montserrat-Regular", size: 16))
+                        .foregroundColor(Color ("BW"))
                         .padding()
                         .padding(.top, -10)
                     List {
@@ -85,8 +88,10 @@ struct CustomPickerView: View {
                                 }
                             }) {
                                 Text(item)
+                                    .font(Font.custom("Montserrat-SemiBold", size: 16))
                             }
                         }
+                        .listRowBackground(Color ("WB"))
                     }
                     .padding(.top, -20)
                 }

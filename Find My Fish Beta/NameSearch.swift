@@ -10,8 +10,6 @@ import SwiftUI
 struct NameSearch: View, CustomPicker {
     @Environment(\.presentationMode) var presentationMode // for custom back button
     
-//    @EnvironmentObject var fishList: GlobalFishes
-
     @ObservedObject var datas: ReadData
     
     @State private var counter = 0
@@ -44,16 +42,17 @@ struct NameSearch: View, CustomPicker {
                                     .frame(height: geo.size.height/6)
                                 
                                 Text("Name Search")
-                                    .font(.system(size: geo.size.height > geo.size.width ? geo.size.width * 0.09: geo.size.height * 0.09))
+                                    .font(Font.custom("Montserrat-SemiBold", size: geo.size.height > geo.size.width ? geo.size.width * 0.1: geo.size.height * 0.09))
                                     .multilineTextAlignment(.center)
                                     .padding(5)
                                 
                                 Text("switch between searching by scientific or common name")
-                                    .font(.system(size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.04))
+                                    .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.09))
                                     .multilineTextAlignment(.center)
                                     .padding(5)
                                     .frame(width: geo.size.width/1.1, height: 60)
                                     .foregroundColor(Color ("BW"))
+                                    .minimumScaleFactor(0.5)
                                 
                                 Spacer().frame(width: geo.size.width/1.5, height: 20)
                                 
@@ -64,6 +63,7 @@ struct NameSearch: View, CustomPicker {
                                             ForEach(0..<commonSci.count) { //index in
                                                 Text(commonSci[$0])
                                                     .foregroundColor(Color ("BW"))
+                                                    .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.09))
                                             }}
                                         .frame(width: geo.size.width/1.5, height: 40)
                                         .clipped()
@@ -79,12 +79,13 @@ struct NameSearch: View, CustomPicker {
                                     
                                     CustomPickerTextView(presentPicker: $presentPicker,
                                                          fieldString: $name,
-                                                         placeholder: Text("Select a fish name."),
+                                                         placeholder: Text("Select a fish name.")
+                                                            .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.09)),
                                                          tag: $tag,
                                                          selectedTag: tag)
                                 }
                                 //.textFieldStyle(RoundedBorderTextFieldStyle())
-                                .frame(width: geo.size.width/1.5, height: 20)
+                                .frame(width: geo.size.width/1.5)
                                 .padding()
                                 
                                 Spacer()

@@ -19,6 +19,9 @@ struct ContentView: View {
         UINavigationBar.appearance().barTintColor = .clear
         UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
         UINavigationBar.appearance().shadowImage = UIImage()
+        //UITableView.appearance().separatorStyle = .none
+        //UITableView.appearance().separatorColor = .darkGray
+        UITableView.appearance().backgroundColor = UIColor.secondarySystemBackground
     }
     
 //    @EnvironmentObject var fishList: GlobalFishes
@@ -78,8 +81,7 @@ struct ButtonView: View {
                 .foregroundColor(Color ("BW"))
             Text(title)
                 .foregroundColor(Color ("BW"))
-                .font(.system(.largeTitle, design: .rounded))
-                .fontWeight(.bold)
+                .font(Font.custom("norwester", size: 40))
         }
         .frame(minWidth: 0, maxWidth: .infinity)
         .foregroundColor(.white)
