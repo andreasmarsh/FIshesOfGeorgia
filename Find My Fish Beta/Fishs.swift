@@ -13,6 +13,8 @@ struct Fish: Codable, Identifiable {
         case common
         case marine
         case distribution
+        case photo
+        case map
     }
     
     var id = UUID()
@@ -20,6 +22,8 @@ struct Fish: Codable, Identifiable {
     var common: String
     var marine: String
     var distribution: String
+    var photo: String
+    var map: String
 }
 
 class ReadData: ObservableObject  {

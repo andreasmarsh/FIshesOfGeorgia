@@ -1,2030 +1,2706 @@
 [
-    {
-        "scientific":"Ichthyomyzon bdellium",
-        "common":"Ohio lamprey",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River basin."
-    },
-    {
-        "scientific":"Ichthyomyzon castaneus",
-        "common":"chestnut lamprey",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee and Coosa River basins."
-    },
-    {
-        "scientific":"Ichthyomyzon gagei",
-        "common":"southern brook lamprey",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa, Tallapoosa, Chattanooga, Flint and Ochlockonee River Basins."
-    },
-    {
-        "scientific":"Ichthyomyzon greeleyi",
-        "common":"mountain brook lamprey",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River basin."
-    },
-    {
-        "scientific":"Lampetra aepyptera",
-        "common":"least brook lamprey",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa River basin."
-    },
-    {
-        "scientific":"Lampetra appendix",
-        "common":"American brook lamprey",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River basin."
-    },
-    {
-        "scientific":"Petromyzon marinus",
-        "common":"sea lamprey",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Ocmulgee, Altamaha, and Savannah River basins."
-    },
-    {
-        "scientific":"Dasyatis sabina",
-        "common":"Atlantic stingray",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Ogeechee River basin."
-    },
-    {
-        "scientific":"Acipenser brevirostrum",
-        "common":"shortnose sturgeon",
-        "marine":"brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, Altamaha, Ogeechee and Savannah River Basin"
-    },
-    {
-        "scientific":"Acipenser fulvescens",
-        "common":"lake sturgeon",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa River basin."
-    },
-    {
-        "scientific":"Acipenser oxyrinchus desotoi",
-        "common":"Gulf sturgeon",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia occured in the Chattahoochee and Flint River Basins."
-    },
-    {
-        "scientific":"Acipenser oxyrinchus oxyrinchus",
-        "common":"Atlantic sturgeon",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins."
-    },
-    {
-        "scientific":"Lepisosteus oculatus",
-        "common":"spotted gar",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, and Flint River basins."
-    },
-    {
-        "scientific":"Lepisosteus osseus",
-        "common":"longnose gar",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia occurs in the Tennessee, Coosa, Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, St. Marys, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Lepisosteus platyrhincus",
-        "common":"Florida gar",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Suwannee, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basisn."
-    },
-    {
-        "scientific":"Amia calva",
-        "common":"bowfin",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins."
-    },
-    {
-        "scientific":"Hiodon tergisus",
-        "common":"mooneye",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa River Basin."
-    },
-    {
-        "scientific":"Elops saurus",
-        "common":"ladyfish",
-        "marine":"marine, brackish",
-        "distribution":"In Georgia, occurs in the Ogeechee and Savannah River basins."
-    },
-    {
-        "scientific":"Megalops atlanticus",
-        "common":"tarpon",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Anguilla rostrata",
-        "common":"American eel",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins."
-    },
-    {
-        "scientific":"Myrophis punctatus",
-        "common":"speckled worm eel",
-        "marine":"marine, brackish",
-        "distribution":"In Georgia, occurs in the Ogeechee and Savannah River basins."
-    },
-    {
-        "scientific":"Anchoa mitchilli",
-        "common":"bay anchovy",
-        "marine":"marine, brackish",
-        "distribution":"In Georgia, occurs in the Satilla, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Alosa aestivalis",
-        "common":"blueback herring",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Chattahoochee, Ocmulgee, Altamaha, and Savannah River basins."
-    },
-    {
-        "scientific":"Alosa alabamae",
-        "common":"Alabama shad",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint, and Suwannee River basins."
-    },
-    {
-        "scientific":"Alosa chrysochloris",
-        "common":"skipjack herring",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee and Flint River basins."
-    },
-    {
-        "scientific":"Alosa mediocris",
-        "common":"hickory shad",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Ocmulgee, Altamaha Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Alosa sapidissima",
-        "common":"American shad",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Brevoortia smithi",
-        "common":"yellowfin menhaden",
-        "marine":"marine, brackish",
-        "distribution":"In Georgia, occurs in the Ogeechee River basin."
-    },
-    {
-        "scientific":"Brevoortia tyrannus",
-        "common":"Atlantic menhaden",
-        "marine":"marine, brackish",
-        "distribution":"In Georgia, occurs in the Satilla, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Dorosoma cepedianum",
-        "common":"gizzard shad",
-        "marine":"brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Dorosoma petenense",
-        "common":"threadfin shad",
-        "marine":"brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, Flint, Suwannee, Satilla, Ocmulgee, Oconee, Altamaha, and Savannah River basins."
-    },
-    {
-        "scientific":"Opisthonema oglinum",
-        "common":"Atlantic thread herring",
-        "marine":"marine, brackish",
-        "distribution":"In Georgia, occurs in the Satilla, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Campostoma anomalum",
-        "common":"central stoneroller",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review."
-    },
-    {
-        "scientific":"Campostoma oligolepis",
-        "common":"largescale stoneroller",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review."
-    },
-    {
-        "scientific":"Campostoma pauciradii",
-        "common":"bluefin stoneroller",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review."
-    },
-    {
-        "scientific":"Carassius auratus",
-        "common":"goldfish",
-        "marine":"freshwater",
-        "distribution":"Introduced, potentially statewide."
-    },
-    {
-        "scientific":"Clinostomus funduloides",
-        "common":"rosyside dace",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee and Savannah River Basins."
-    },
-    {
-        "scientific":"Ctenopharyngodon idella",
-        "common":"grass carp",
-        "marine":"freshwater",
-        "distribution":"Introduced, potentially statewide."
-    },
-    {
-        "scientific":"Cyprinus carpio",
-        "common":"common carp",
-        "marine":"freshwater",
-        "distribution":"Introduced, potentially statewide."
-    },
-    {
-        "scientific":"Cyprinella callitaenia",
-        "common":"bluestripe shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, this occurs in the Chattahoochee and Flint River Basins."
-    },
-    {
-        "scientific":"Cyprinella galactura",
-        "common":"whitetail shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee and Savannah River Basins."
-    },
-    {
-        "scientific":"Cyprinella gibbsi",
-        "common":"Tallapoosa shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tallapoosa River Basin."
-    },
-    {
-        "scientific":"Cyprinella leedsi",
-        "common":"bannerfin shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Ochlockonee, Suwannee, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Cyprinella lutrensis",
-        "common":"red shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa, Chattahoochee, and Ocmulgee River Basins."
-    },
-    {
-        "scientific":"Erimonax monachus",
-        "common":"spotfin chub",
-        "marine":"freshwater",
-        "distribution":"Historical distribution in Georgia included the Tennessee River Basin."
-    },
-    {
-        "scientific":"Cyprinella nivea",
-        "common":"whitefin shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Savannah River Basin."
-    },
-    {
-        "scientific":"Cyprinella pyrrhomelas",
-        "common":"fireyblack shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Savannah River basin."
-    },
-    {
-        "scientific":"Cyprinella spiloptera",
-        "common":"spotfin shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River basin."
-    },
-    {
-        "scientific":"Cyprinella trichroistia",
-        "common":"tricolor shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa River Basin."
-    },
-    {
-        "scientific":"Cyprinella venusta",
-        "common":"blacktail shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, and Ocmulgee River Basins."
-    },
-    {
-        "scientific":"Cyprinella whipplei",
-        "common":"steelcolor shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Cyprinella xaenura",
-        "common":"Altamaha shiner",
-        "marine":"freshwater",
-        "distribution":"Occurs in the Ocmulgee and Oconee River Basins primarily above the Fall Line."
-    },
-    {
-        "scientific":"Erimystax insignis",
-        "common":"blotched chub",
-        "marine":"freshwater",
-        "distribution":"In Georiga, occurs in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Hemitremia flammea",
-        "common":"flame chub",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Hybognathus regius",
-        "common":"eastern silvery minnow",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, Altamaha, and Savannah River Basins."
-    },
-    {
-        "scientific":"Hybopsis lineapunctata",
-        "common":"lined chub",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa and Tallapoosa River basins."
-    },
-    {
-        "scientific":"Hybopsis rubrifrons",
-        "common":"rosyface chub",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Hybopsis winchelli",
-        "common":"coastal chub",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee and Flint River basins."
-    },
-    {
-        "scientific":"Luxilus chrysocephalus",
-        "common":"striped shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, and Tallapoosa River basins."
-    },
-    {
-        "scientific":"Luxilus coccogenis",
-        "common":"warpaint shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee and Savannah River Basins."
-    },
-    {
-        "scientific":"Luxilus zonistius",
-        "common":"bandfin shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, Occurs in the Coosa, Tallapoosa, Chattahoochee, Ocmulgee, Oconee, and Savannah River Basins."
-    },
-    {
-        "scientific":"Lythrurus atrapiculus",
-        "common":"blacktip shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee and Flint River Basins."
-    },
-    {
-        "scientific":"Lythrurus bellus",
-        "common":"pretty shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tallapoosa River Basin."
-    },
-    {
-        "scientific":"Lythrurus fasciolaris",
-        "common":"scarlet shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River Basin. "
-    },
-    {
-        "scientific":"Lythrurus lirus",
-        "common":"mountain shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee and Coosa River basins."
-    },
-    {
-        "scientific":"Macrhybopsis sp. cf M. aestivalis",
-        "common":"Coosa",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Macrhybopsis storeriana",
-        "common":"silver chub",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa River basin"
-    },
-    {
-        "scientific":"Nocomis leptocephalus",
-        "common":"bluehead chub",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa, Tallapoosa, Chattahoochee, Flint, Ocmulgee, Oconee, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Nocomis micropogon",
-        "common":"river chub",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occur in the Tennessee, Coosa, and Savannah River basins."
-    },
-    {
-        "scientific":"Notemigonus crysoleucas",
-        "common":"golden shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in all major river basins."
-    },
-    {
-        "scientific":"Notropis altipinnis",
-        "common":"highfin shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Savannah River Basin."
-    },
-    {
-        "scientific":"Notropis amplamala",
-        "common":"longjaw minnow",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ocmulgee, and Oconee River Basins."
-    },
-    {
-        "scientific":"Notropis ariommus",
-        "common":"popeye shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River basin."
-    },
-    {
-        "scientific":"Notropis asperifrons",
-        "common":"burrhead shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa River basin."
-    },
-    {
-        "scientific":"Notropis atherinoides",
-        "common":"emerald shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Notropis baileyi",
-        "common":"rough shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee River Basin."
-    },
-    {
-        "scientific":"Notropis chrosomus",
-        "common":"rainbow shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa River Basin."
-    },
-    {
-        "scientific":"Notropis cummingsae",
-        "common":"dusky shiner",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Notropis harperi",
-        "common":"redeye chub",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint and Ocmulgee River Basins below the Fall Line."
-    },
-    {
-        "scientific":"Notropis hudsonius",
-        "common":"spottail shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurrs in the Chattahoochee, Flint, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins."
-    },
-    {
-        "scientific":"Notropis hypsilepis",
-        "common":"highscale shiner",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Notropis leuciodus",
-        "common":"Tennessee shiner",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Notropis longirostris",
-        "common":"longnose shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ocmulgee, and Oconee River Basins."
-    },
-    {
-        "scientific":"Notropis lutipinnis",
-        "common":"yellowfin shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, Flint, Ocmulgee, Oconee, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Notropis maculatus",
-        "common":"taillight shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, St. Mary's, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins primarily below the Fall Line."
-    },
-    {
-        "scientific":"Notropis petersoni",
-        "common":"coastal shiner",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Notropis photogenis",
-        "common":"silver shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Notropis scepticus",
-        "common":"sandbar shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Savannah River Basin."
-    },
-    {
-        "scientific":"Notropis spectrunculus",
-        "common":"mirror shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee and Savannah River Basins."
-    },
-    {
-        "scientific":"Pteronotropis stonei",
-        "common":"lowland shiner",
-        "marine":"",
-        "distribution":"In Georgia, occurs in the Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Notropis texanus",
-        "common":"weed shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwanee, Ocmulgee ad Oconee River Basins"
-    },
-    {
-        "scientific":"Notropis volucellus",
-        "common":"mimic shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River basin."
-    },
-    {
-        "scientific":"Notropis xaenocephalus",
-        "common":"Coosa shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa, Tallapoosa, and Chattahoochee River Basins."
-    },
-    {
-        "scientific":"Opsopoeodus emiliae",
-        "common":"pugnose minnow",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Phenacobius catostomus",
-        "common":"riffle minnow",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa and Tallapoosa River Basins."
-    },
-    {
-        "scientific":"Phenacobius crassilabrum",
-        "common":"fatlips minnow",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Phenacobius uranops",
-        "common":"stargazing minnow",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Phoxinus tennesseensis",
-        "common":"Tennessee dace",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Pimephales notatus",
-        "common":"bluntnose minnow",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River basin."
-    },
-    {
-        "scientific":"Pimephales vigilax",
-        "common":"bullhead minnow",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa River Basin."
-    },
-    {
-        "scientific":"Pteronotropis euryzonus",
-        "common":"broadstripe shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee River basin."
-    },
-    {
-        "scientific":"Pteronotropis grandipinnis",
-        "common":"Apalachee shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint, and Apalachicola River basins."
-    },
-    {
-        "scientific":"Pteronotropis sp. cf. P. hypselopterus",
-        "common":"metallic shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Ochlockonee and Suwannee River basins."
-    },
-    {
-        "scientific":"Pteronotropis welaka",
-        "common":"bluenose shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Flint River basin."
-    },
-    {
-        "scientific":"Rhinichthys cataractae",
-        "common":"longnose dace",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee and Savannah River basins."
-    },
-    {
-        "scientific":"Rhinichthys obtusus",
-        "common":"western blacknose dace",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa River and Savannah River Basins."
-    },
-    {
-        "scientific":"Semotilus atromaculatus",
-        "common":"creek chub",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Semotilus thoreauianus",
-        "common":"Dixie chub",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Carpiodes carpio",
-        "common":"river carpsucker",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Carpiodes sp. cf. C. cyprinus",
-        "common":"quillbacks",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Carpiodes sp. cf. C. velifer",
-        "common":"highfin carpsucker species",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Catostomus commersoni",
-        "common":"white sucker",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, Ocmulgee, and Savannah River basins."
-    },
-    {
-        "scientific":"Erimyzon oblongus",
-        "common":"creek chubsucker",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ocmulgee, Oconee, Altamaha, Ogeechee and Savannah River basins."
-    },
-    {
-        "scientific":"Erimyzon sucetta",
-        "common":"lake chubsucker",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins."
-    },
-    {
-        "scientific":"Hypentelium etowanum",
-        "common":"Alabama hog sucker",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa, Tallapoosa, Chattahoochee, and Flint River Basins."
-    },
-    {
-        "scientific":"Hypentelium nigricans",
-        "common":"northern hog sucker",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Oconee, and Savannah River basins."
-    },
-    {
-        "scientific":"Ictiobus bubalus",
-        "common":"smallmouth buffalo",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa River basin."
-    },
-    {
-        "scientific":"Ictiobus niger",
-        "common":"black buffalo",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Chattahoochee, and Savannah River basins."
-    },
-    {
-        "scientific":"Minytrema melanops",
-        "common":"spotted sucker",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in all major river basins."
-    },
-    {
-        "scientific":"Moxostoma anisurum",
-        "common":"silver redhorse",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Colosossoma spp.",
-        "common":"pacu species",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, Flint, Ochlockonee, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Moxostoma carinatum",
-        "common":"river redhorse",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa and Tennessee River Basins."
-    },
-    {
-        "scientific":"Moxostoma collapsum",
-        "common":"notchlip redhorse",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins."
-    },
-    {
-        "scientific":"Moxostoma duquesnei",
-        "common":"black redhorse",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, and Tallapoosa River Basins."
-    },
-    {
-        "scientific":"Moxostoma erythrurum",
-        "common":"golden redhorse",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa, Tallapoosa, and Tennessee River Basins."
-    },
-    {
-        "scientific":"Moxostoma lacerum",
-        "common":"harelip sucker",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurred in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Moxostoma lachneri",
-        "common":"greater jumprock",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee and Flint River Basins."
-    },
-    {
-        "scientific":"Moxostoma poecilurum",
-        "common":"blacktail redhorse",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa and Tallapoosa River Basins."
-    },
-    {
-        "scientific":"Moxostoma robustum",
-        "common":"robust redhorse",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, Ogeechee, and Savannah River Basins."
-    },
-    {
-        "scientific":"Moxostoma rupiscartes",
-        "common":"striped jumprock",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ocmulgee, Oconee, and Savannah River basins."
-    },
-    {
-        "scientific":"Moxostoma sp. cf. M. lachneri ",
-        "common":"brassy jumprock",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, and Savannah River basins."
-    },
-    {
-        "scientific":"Moxostoma sp.",
-        "common":"sicklefin redhorse",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Moxostoma sp.",
-        "common":"Apalachicola redhorse",
-        "marine":"freshwater",
-        "distribution":"In Georgia, this occurs in the Chattahoochee and Flint River Basins."
-    },
-    {
-        "scientific":"Ameiurus brunneus",
-        "common":"snail bullhead",
-        "marine":"freshwater",
-        "distribution":"Occurs in the Tennessee, Coosa, Chattahoochee, Flint, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Ameiurus catus",
-        "common":"white catfish",
-        "marine":"brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Ameiurus melas",
-        "common":"black bullhead",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Ameiurus natalis",
-        "common":"yellow bullhead",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in all major river basins."
-    },
-    {
-        "scientific":"Ameiurus nebulosus",
-        "common":"brown bullhead",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in all major river basins."
-    },
-    {
-        "scientific":"Ameiurus platycephalus",
-        "common":"flat bullhead",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Ameiurus serracanthus",
-        "common":"spotted bullhead",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, and Withlacoochee River systems."
-    },
-    {
-        "scientific":"Ictalurus furcatus",
-        "common":"blue catfish",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa, Chattahoochee, Flint, Ocmulgee, Oconee, Altamaha, Satilla, and Savannah River basins."
-    },
-    {
-        "scientific":"Ictalurus punctatus",
-        "common":"channel catfish",
-        "marine":"brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Noturus eleutherus",
-        "common":"mountain madtom",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River basin."
-    },
-    {
-        "scientific":"Noturus flavipinnis",
-        "common":"yellowfin madtom",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River basin."
-    },
-    {
-        "scientific":"Noturus funebris",
-        "common":"black madtom",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tallapoosa and Chattahoochee River basins."
-    },
-    {
-        "scientific":"Noturus gyrinus",
-        "common":"tadpole madtom",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Noturus insignis",
-        "common":"margined madtom",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, and Savannah River basins."
-    },
-    {
-        "scientific":"Noturus leptacanthus",
-        "common":"speckled madtom",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, St. Marys, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Noturus nocturnus",
-        "common":"freckled madtom",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Noturus sp. cf. N. munitus",
-        "common":"Coosa madtom",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa River basin."
-    },
-    {
-        "scientific":"Pylodictis olivaris",
-        "common":"flathead catfish",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, Flint, Satilla, Ocmulgee, Oconee, Altamaha, and Savannah River basins."
-    },
-    {
-        "scientific":"Ariopsis felis",
-        "common":"hardhead catfish",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Ogeechee River basin."
-    },
-    {
-        "scientific":"Bagre marinus",
-        "common":"gafftopsail catfish",
-        "marine":"marine, brackish",
-        "distribution":"In Georgia, occurs in the Satilla, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Esox americanus",
-        "common":"redfin pickerel",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa, Chattahoochee, Flint, Ochlockonee, Suwanne, Satilla, St. Marys, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Esox lucius",
-        "common":"northern pike",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Savannah River basin."
-    },
-    {
-        "scientific":"Esox masquinongy",
-        "common":"muskellunge",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River basin."
-    },
-    {
-        "scientific":"Esox niger",
-        "common":"chain pickerel",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa, Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, St. Marys, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Umbra pygmaea",
-        "common":"eastern mudminnow",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Suwannee, Satilla, Ogeechee, and Savannah River Basins."
-    },
-    {
-        "scientific":"Oncorhynchus mykiss",
-        "common":"rainbow trout",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, and Savannah River basins."
-    },
-    {
-        "scientific":"Salmo trutta",
-        "common":"brown trout",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, and Savannah River basins."
-    },
-    {
-        "scientific":"Salvelinus fontinalis",
-        "common":"brook trout",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, and Savannah River basins."
-    },
-    {
-        "scientific":"Aphredoderus sayanus",
-        "common":"pirate perch",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, St. Marys, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Chologaster cornuta",
-        "common":"swampfish",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Ocmulgee, Altamaha, Ogeechee, and Savannah River Basins."
-    },
-    {
-        "scientific":"Typhlichthys subterraneus",
-        "common":"southern cavefish",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River basin."
-    },
-    {
-        "scientific":"Agonostomus monticola",
-        "common":"mountain mullet",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Savannah River basin."
-    },
-    {
-        "scientific":"Mugil cephalus",
-        "common":"striped mullet",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Flint, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Mugil curema",
-        "common":"white mullet",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Satilla, Ogeechee and Savannah River basins."
-    },
-    {
-        "scientific":"Labidesthes sicculus",
-        "common":"brook silverside",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Chattahoochee, Flint, Apalachicola, Ochlockonee, Suwannee, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Membras martinica",
-        "common":"rough silverside",
-        "marine":"marine, brackish",
-        "distribution":"In Georgia, occurs in the Satilla, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Menidia beryllina",
-        "common":"inland silverside",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the St. Marys, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Menidia menidia",
-        "common":"Atlantic silverside",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Satilla and Ogeechee River basins."
-    },
-    {
-        "scientific":"Strongylura marina",
-        "common":"Atlantic needlefish",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ocmulgee, Altamaha, Ogeechee, and Savannah River Basins."
-    },
-    {
-        "scientific":"Fundulus bifax",
-        "common":"stippled studfish",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tallapoosa River basin."
-    },
-    {
-        "scientific":"Fundulus catenatus",
-        "common":"northern studfish",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River basin."
-    },
-    {
-        "scientific":"Fundulus chrysotus",
-        "common":"golden topminnow",
-        "marine":"brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Ogeechee, and Savannah River Basins."
-    },
-    {
-        "scientific":"Fundulus cingulatus",
-        "common":"banded topminnow",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Flint River basin."
-    },
-    {
-        "scientific":"Fundulus confluentus",
-        "common":"marsh killifish",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Satilla, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Fundulus escambiae",
-        "common":"russetfin topminnow",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Fundulus heteroclitus",
-        "common":"mummichog",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the St. Marys, Satilla, Ogeechee and Savannah River basins."
-    },
-    {
-        "scientific":"Fundulus lineolatus",
-        "common":"lined topminnow",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Fundulus luciae",
-        "common":"spotfin killifish",
-        "marine":"marine, brackish",
-        "distribution":"In Georgia, occurs in the Ogeechee River basin."
-    },
-    {
-        "scientific":"Fundulus majalis",
-        "common":"striped killifish",
-        "marine":"marine, brackish",
-        "distribution":"In Georgia, occurs in the Satilla and Ogeechee River basins."
-    },
-    {
-        "scientific":"Fundulus olivaceus",
-        "common":"blackspotted topminnow",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, and Chattahoochee River basins."
-    },
-    {
-        "scientific":"Syngnathus louisianae",
-        "common":"chain pipefish",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Ogeechee and Savannah River basins."
-    },
-    {
-        "scientific":"Syngnathus fuscus",
-        "common":"northern pipefish",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Ogeechee River basin."
-    },
-    {
-        "scientific":"Fundulus stellifer",
-        "common":"southern studfish",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa and Chattahoochee River basin."
-    },
-    {
-        "scientific":"Leptolucania ommata",
-        "common":"pygmy killifish",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Flint, Suwannee, St. Marys, Satilla, and Ogeechee River basins."
-    },
-    {
-        "scientific":"Lucania goodei",
-        "common":"bluefin killifish",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Flint and Ogeechee River basin."
-    },
-    {
-        "scientific":"Lucania parva",
-        "common":"rainwater killifish",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Suwannee and Savannah River basins."
-    },
-    {
-        "scientific":"Gambusia affinis and Gambusia holbrooki",
-        "common":"western and eastern mosquitofish",
-        "marine":"brackish, freshwater",
-        "distribution":"Occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Heterandria formosa",
-        "common":"least killifish",
-        "marine":"brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Suwannee, St. Marys, Satilla, Altamaha, Ogeechee and Savannah River Basins."
-    },
-    {
-        "scientific":"Poecilia latipinna",
-        "common":"sailfin molly",
-        "marine":"brackish, freshwater",
-        "distribution":"In Georgia, occurs in the St. Marys and Ogeechee River basins."
-    },
-    {
-        "scientific":"Cyprinodon variegatus",
-        "common":"sheepshead minnow",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Satilla, Ogeecheen and Savannah River basins. "
-    },
-    {
-        "scientific":"Syngnathus scovelli",
-        "common":"Gulf pipefish",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Ogeechee and Savannah River systems."
-    },
-    {
-        "scientific":"Monopterus sp. cf. M. albus",
-        "common":"swamp eel",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee River Basin."
-    },
-    {
-        "scientific":"Cottus sp. cf. C. bairdi",
-        "common":"Savannah sculpin",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Cottus carolinae",
-        "common":"banded sculpin",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Cottus carolinae zopherus",
-        "common":"Coosa banded sculpin",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Cottus chattahoochee",
-        "common":"Chattahoochee sculpin",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Cottus sp. cf. C. carolinae",
-        "common":"banded sculpin species",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Cottus tallapoosae",
-        "common":"Tallapoosa sculpin",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tallapoosa River Basin."
-    },
-    {
-        "scientific":"Centropomus undecimalis",
-        "common":"common snook",
-        "marine":"marine, brackish",
-        "distribution":"In Georgia, occurs in the Ogeechee River basin. "
-    },
-    {
-        "scientific":"Morone americana",
-        "common":"white perch",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Savannah River basin."
-    },
-    {
-        "scientific":"Morone chrysops X M. saxatilis",
-        "common":"white bass X striped bass hybrid",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, Flint, Ocmulgee, Oconee, Altamaha, and Savannah River basins."
-    },
-    {
-        "scientific":"Morone mississippiensis",
-        "common":"yellow bass",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa River basin."
-    },
-    {
-        "scientific":"Morone saxatilis",
-        "common":"striped bass",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, Flint, Ochlockonee, St. Marys, Ocmulgee, Oconee, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Acantharchus pomotis",
-        "common":"mud sunfish",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Ambloplites ariommus",
-        "common":"shadow bass",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa, Tallapoosa, Chattahoochee, and Flint River basins."
-    },
-    {
-        "scientific":"Ambloplites rupestris",
-        "common":"rock bass",
-        "marine":"freshwater",
-        "distribution":"In Georgia occurs in the Tennessee, Chattahoochee, and Savannah River basins."
-    },
-    {
-        "scientific":"Centrarchus macropterus",
-        "common":"flier",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Enneacanthus chaetodon",
-        "common":"blackbanded sunfish",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Ochlockonee, Suwannee and Savannah River Basins."
-    },
-    {
-        "scientific":"Enneacanthus gloriosus",
-        "common":"bluespotted sunfish",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins."
-    },
-    {
-        "scientific":"Enneacanthus obesus",
-        "common":"banded sunfish",
-        "marine":"brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Suwannee, St. Marys, Satilla, Oconee, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Lepomis auritus",
-        "common":"redbreast sunfish",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, St. Marys, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Lepomis cyanellus",
-        "common":"green sunfish",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Lepomis gibbosus",
-        "common":"pumpkinseed",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Savannah River basin."
-    },
-    {
-        "scientific":"Lepomis gulosus",
-        "common":"warmouth",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Lepomis humilis",
-        "common":"orangespotted sunfish",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee and Flint River basins."
-    },
-    {
-        "scientific":"Lepomis marginatus",
-        "common":"dollar sunfish",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Lepomis megalotis",
-        "common":"longear sunfish",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Lepomis miniatus X L. punctatus integrade",
-        "common":"spotted sunfish integrade",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Upper Coosa, Tallapoosa, Chattahoochee, and Flint River basins. "
-    },
-    {
-        "scientific":"Lepomis punctatus",
-        "common":"spotted sunfish",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Micropterus cataractae",
-        "common":"shoal bass",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint and Ocmulgee River systems."
-    },
-    {
-        "scientific":"Micropterus coosae",
-        "common":"redeye bass",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Micropterus dolomieu",
-        "common":"smallmouth bass",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Micropterus notius",
-        "common":"Suwannee bass",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Ochlockonee and Suwannee River basins."
-    },
-    {
-        "scientific":"Micropterus punctulatus",
-        "common":"spotted bass",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Micropterus salmoides",
-        "common":"largemouth bass",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, St. Marys, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Micropterus sp. cf. M. coosae",
-        "common":"Bartram's bass",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Savannah River basin."
-    },
-    {
-        "scientific":"Pomoxis annularis",
-        "common":"white crappie",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ocmulgee, Oconee, and Savannah River basins."
-    },
-    {
-        "scientific":"Pomoxis nigromaculatus",
-        "common":"black crappie",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, St. Marys, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Oreochromis, Sarotherodon, and Tilapia spp.",
-        "common":"tilapia species",
-        "marine":"brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Satilla, and Savannah River basins."
-    },
-    {
-        "scientific":"Notropis sp. cf N. longirostris",
-        "common":"longnose shiner species",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa River Basin."
-    },
-    {
-        "scientific":"Etheostoma caeruleum",
-        "common":"rainbow darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Etheostoma chuckwachatte",
-        "common":"lipstick darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tallapoosa River Basin."
-    },
-    {
-        "scientific":"Etheostoma cinereum",
-        "common":"ashy darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurred in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Etheostoma coosae",
-        "common":"Coosa darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa River basin."
-    },
-    {
-        "scientific":"Etheostoma ditrema",
-        "common":"coldwater darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa River Basin."
-    },
-    {
-        "scientific":"Etheostoma duryi",
-        "common":"black darter",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Etheostoma edwini",
-        "common":"brown darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint and Ochlockonee River Basins, below the Fall Line."
-    },
-    {
-        "scientific":"Etheostoma etowahae",
-        "common":"Etowah darter",
-        "marine":"freshwater",
-        "distribution":"Occurs in the Etowah River basin."
-    },
-    {
-        "scientific":"Etheostoma fricksium",
-        "common":"Savannah darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Savannah River basin."
-    },
-    {
-        "scientific":"Etheostoma fusiforme",
-        "common":"swamp darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, Ocmulgee, Oconee, Altamaha, Savannah and Ogeechee River Basins."
-    },
-    {
-        "scientific":"Etheostoma gutselli",
-        "common":"Tuckasegee darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Etheostoma hopkinsi",
-        "common":"Christmas darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins."
-    },
-    {
-        "scientific":"Etheostoma inscriptum",
-        "common":"turquoise darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Etheostoma jessiae",
-        "common":"blueside darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Etheostoma jordani",
-        "common":"greenbreast darter",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Etheostoma olmstedi",
-        "common":"tessellated darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins."
-    },
-    {
-        "scientific":"Etheostoma parvipinne",
-        "common":"goldstripe darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ocmulgee, and Oconee River Basins."
-    },
-    {
-        "scientific":"Etheostoma sp. cf. E. rufilineatum",
-        "common":"redline darter species",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Etheostoma scotti",
-        "common":"Cherokee darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa River Basin."
-    },
-    {
-        "scientific":"Etheostoma serrifer",
-        "common":"sawcheek darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Ocmulgee, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Etheostoma tennesseense",
-        "common":"Tennessee darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Etheostoma vulneratum",
-        "common":"wounded darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River basin."
-    },
-    {
-        "scientific":"Etheostoma stigmaeum",
-        "common":"speckled darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa, and Tallapoosa River Basins."
-    },
-    {
-        "scientific":"Etheostoma tallapoosae",
-        "common":"Tallapoosa darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tallapoosa River Basin."
-    },
-    {
-        "scientific":"Etheostoma rufilineatum",
-        "common":"redline darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Etheostoma trisella",
-        "common":"trispot darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa River Basin."
-    },
-    {
-        "scientific":"Etheostoma zonifer",
-        "common":"backwater darter",
-        "marine":"freshwater",
-        "distribution":"Occurs in the Chattahoochee River basin."
-    },
-    {
-        "scientific":"Perca flavescens",
-        "common":"yellow perch",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ocmulgee, Oconee, Altamaha, and Savannah River Basins."
-    },
-    {
-        "scientific":"Percina antesella",
-        "common":"amber darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa River Basin."
-    },
-    {
-        "scientific":"Percina aurolineata",
-        "common":"goldline darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa River Basin."
-    },
-    {
-        "scientific":"Percina caprodes",
-        "common":"logperch",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River basin."
-    },
-    {
-        "scientific":"Percina evides",
-        "common":"gilt darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Percina jenkinsi",
-        "common":"Conasauga logperch",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa River Basin."
-    },
-    {
-        "scientific":"Percina kathae",
-        "common":"Mobile logperch",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa and Tallapoosa River Basins."
-    },
-    {
-        "scientific":"Percina kusha",
-        "common":"bridled darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa River Basin."
-    },
-    {
-        "scientific":"Percina lenticula",
-        "common":"freckled darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa River Basin."
-    },
-    {
-        "scientific":"Eucinostomus gula",
-        "common":"silver jenny",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the St. Marys, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Percina nigrofasciata",
-        "common":"blackbanded darter",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Percina palmaris",
-        "common":"bronze darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa and Tallapoosa River Basins."
-    },
-    {
-        "scientific":"Percina sciera",
-        "common":"dusky darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Percina shumardi",
-        "common":"river darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurred in the Coosa River basin."
-    },
-    {
-        "scientific":"Percina smithvanizi",
-        "common":"Muscadine darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tallapoosa River Basin."
-    },
-    {
-        "scientific":"Percina crypta",
-        "common":"Halloween darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee and Flint River Basins."
-    },
-    {
-        "scientific":"Percina squamata",
-        "common":"olive darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River Basins."
-    },
-    {
-        "scientific":"Percina tanasi",
-        "common":"snail darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Sander canadensis",
-        "common":"sauger",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Chattahoochee, Flint, and Savannah River basins."
-    },
-    {
-        "scientific":"Sander vitreus",
-        "common":"walleye",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, and Savannah River basins."
-    },
-    {
-        "scientific":"Caranx hippos",
-        "common":"crevalle jack",
-        "marine":"marine, brackish",
-        "distribution":"In Georgia, occurs in the Ogeechee and Savannah River basins."
-    },
-    {
-        "scientific":"Eugerres plumieri",
-        "common":"striped mojarra",
-        "marine":"marine, brackish",
-        "distribution":"In Georgia, occurs in the Savannah River basin."
-    },
-    {
-        "scientific":"Eucinostomus argenteus",
-        "common":"spotfin mojarra",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Altamaha and Ogeechee River basins."
-    },
-    {
-        "scientific":"Archosargus probatocephalus",
-        "common":"sheepshead",
-        "marine":"marine, brackish",
-        "distribution":"In Georgia, occurs in the Ogeechee River basin."
-    },
-    {
-        "scientific":"Lagodon rhomboides",
-        "common":"pinfish",
-        "marine":"marine, brackish",
-        "distribution":"In Georgia, occurs in the Ogeechee River basin."
-    },
-    {
-        "scientific":"Aplodinotus grunniens",
-        "common":"freshwater drum",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee and Coosa River basins."
-    },
-    {
-        "scientific":"Bairdiella chrysoura",
-        "common":"silver perch",
-        "marine":"marine, brackish",
-        "distribution":"In Georgia, occurs in the Satilla and Ogeechee River basins."
-    },
-    {
-        "scientific":"Cynoscion nebulosus",
-        "common":"spotted seatrout",
-        "marine":"marine, brackish",
-        "distribution":"In Georgia, occurs in the Ogeechee and Savannah HUC 8 basins."
-    },
-    {
-        "scientific":"Leiostomus xanthurus",
-        "common":"spot",
-        "marine":"marine, brackish",
-        "distribution":"In Georgia, occurs in the Satilla and Ogeechee River basins."
-    },
-    {
-        "scientific":"Micropogonias undulatus",
-        "common":"Atlantic croaker",
-        "marine":"marine, brackish",
-        "distribution":"In Georgia, occurs in the Satilla, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Sciaenops ocellatus",
-        "common":"red drum",
-        "marine":"marine, brackish",
-        "distribution":"In Georgia, occurs in the Ogeechee River basin."
-    },
-    {
-        "scientific":"Elassoma evergladei",
-        "common":"Everglades pygmy sunfish",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Elassoma okefenokee",
-        "common":"Okefenokee pygmy sunfish",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Suwannee, St. Marys, Satilla, and Ocmulgee River basins."
-    },
-    {
-        "scientific":"Elassoma gilberti",
-        "common":"Gulf coast pygmy sunfish",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Flint and Ochlockonee River Basins."
-    },
-    {
-        "scientific":"Elassoma zonatum",
-        "common":"banded pygmy sunfish",
-        "marine":"freshwater",
-        "distribution":"Occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins. "
-    },
-    {
-        "scientific":"Dormitator maculatus",
-        "common":"fat sleeper",
-        "marine":"brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Ogeechee River basin. "
-    },
-    {
-        "scientific":"Ctenogobius boleosoma",
-        "common":"darter goby",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in Ogeechee and Savannah River basin."
-    },
-    {
-        "scientific":"Ctenogobius shufeldti",
-        "common":"freshwater goby",
-        "marine":"brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Gobiosoma bosc",
-        "common":"naked goby",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Ogeechee River basin."
-    },
-    {
-        "scientific":"Chaetodipterus faber",
-        "common":"Atlantic spadefish",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Ogeechee and Savannah River basins."
-    },
-    {
-        "scientific":"Citharichthys spilopterus",
-        "common":"bay whiff",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Ogeechee River basin."
-    },
-    {
-        "scientific":"Paralichthys dentatus",
-        "common":"summer flounder",
-        "marine":"marine, brackish",
-        "distribution":"In Georgia, occurs in the Ogeechee and Savannah River basins."
-    },
-    {
-        "scientific":"Paralichthys lethostigma",
-        "common":"southern flounder",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Trinectes maculatus",
-        "common":"hogchoker",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Flint, Ocmulgee, Altamaha, Ogeechee, and Savannah River Basins below the Fall Line."
-    },
-    {
-        "scientific":"Cyprinella caerulea",
-        "common":"blue shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa River Basin."
-    },
-    {
-        "scientific":"Cyprinella callisema",
-        "common":"Ocmulgee shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Ocmulgee and Oconee River basins."
-    },
-    {
-        "scientific":"Cyprinella callistia",
-        "common":"Alabama shiner",
-        "marine":"freshwater",
-        "distribution":"In Geoergia, occurs in the Coosa and Tallapoosa River Basins."
-    },
-    {
-        "scientific":"Hybopsis amblops",
-        "common":"bigeye chub",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Notropis chalybaeus",
-        "common":"ironcolor shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs primarily below the Fall Line in the Flint, Ochlockonee, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins."
-    },
-    {
-        "scientific":"Notropis stilbius",
-        "common":"silverstripe shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occus in the Coosa and Tallapoosa River basins."
-    },
-    {
-        "scientific":"Notropis telescopus",
-        "common":"telescope shiner",
-        "marine":"freshwater",
-        "distribution":"In Georgia occurs in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Fundulus diaphanus",
-        "common":"banded killifish",
-        "marine":"brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Savannah River Basin."
-    },
-    {
-        "scientific":"Cottus sp. cf. C. bairdi",
-        "common":"smoky sculpin",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Morone chrysops",
-        "common":"white bass",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, Flint, Ocmulgee, Oconee, and Savannah River basins."
-    },
-    {
-        "scientific":"Lepomis macrochirus",
-        "common":"bluegill",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins."
-    },
-    {
-        "scientific":"Lepomis microlophus",
-        "common":"redear sunfish",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in all major river basins."
-    },
-    {
-        "scientific":"Fundulus rubrifrons",
-        "common":"redface topminnow",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Suwannee and St. Marys River basins."
-    },
-    {
-        "scientific":"Etheostoma blennioides",
-        "common":"greenside darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Etheostoma chlorobranchium",
-        "common":"greenfin darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Etheostoma zonale",
-        "common":"banded darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Etheostoma rupestre",
-        "common":"rock darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Coosa River Basin."
-    },
-    {
-        "scientific":"Etheostoma sp. cf. E. brevirostrum",
-        "common":"holiday darter complex",
-        "marine":"freshwater",
-        "distribution":"In Georgia occurs in the Coosa River Basin."
-    },
-    {
-        "scientific":"Etheostoma swaini",
-        "common":"gulf darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee, Flint, and Ochlockonee River basins."
-    },
-    {
-        "scientific":"Percina aurantiaca",
-        "common":"tangerine darter",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Tennessee River Basin."
-    },
-    {
-        "scientific":"Elassoma okatie",
-        "common":"bluebarred pygmy sunfish",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Savannah River basin."
-    },
-    {
-        "scientific":"Pimephales promelas",
-        "common":"fathead minnow",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Micropterus sp. cf. M. coosae",
-        "common":"redeye bass (Chattahoochee)",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Chattahoochee and Flint River basins."
-    },
-    {
-        "scientific":"Micropterus sp. cf. M. coosae",
-        "common":"redeye bass (Altamaha \/ Ogeechee)",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, and Ogeechee River basins."
-    },
-    {
-        "scientific":"Astronotus ocellatus",
-        "common":"oscar",
-        "marine":"freshwater",
-        "distribution":"In Georgia, records have occured in the Coosa, Chattahoochee, Flint, and Ocmulgee River basins."
-    },
-    {
-        "scientific":"Hybopsis sp. cf. H. winchelli",
-        "common":"Etowah chub",
-        "marine":"freshwater",
-        "distribution":"In Georgia occurs in the Coosa River system."
-    },
-    {
-        "scientific":"Polyodon spathula",
-        "common":"paddlefish",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Flint River basin."
-    },
-    {
-        "scientific":"Cynoscion regalis",
-        "common":"weakfish",
-        "marine":"marine, brackish",
-        "distribution":"In Georgia, occurs in the Ogeechee and Savannah River basins."
-    },
-    {
-        "scientific":"Cynoscion nothus",
-        "common":"silver seatrout",
-        "marine":"marine, brackish",
-        "distribution":"In Georgia, occurs in the Ogeechee River basin."
-    },
-    {
-        "scientific":"Micropterus henshalli",
-        "common":"Alabama bass",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Microphis brachyurus",
-        "common":"opossum pipefish",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Satilla and Savannah River basins."
-    },
-    {
-        "scientific":"Cottus sp. cf. C. bairdi",
-        "common":"Ridge and Valley sculpin",
-        "marine":"freshwater",
-        "distribution":"Distribution map under review.<\/I><\/font>"
-    },
-    {
-        "scientific":"Tanichthys albonubes",
-        "common":"white cloud mountain minnow",
-        "marine":"freshwater",
-        "distribution":"In Georgia, occurs in the Savannah River basin."
-    },
-    {
-        "scientific":"Alosa pseudoharengus",
-        "common":"alewife",
-        "marine":"marine, brackish, freshwater",
-        "distribution":"In Georgia, occurs in the Coosa River basins."
-    }
+   {
+      "scientific":"Ichthyomyzon bdellium",
+      "common":"Ohio lamprey",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "photo":"ichtbdel",
+      "map":"ichtbdelrm"
+   },
+   {
+      "scientific":"Ichthyomyzon castaneus",
+      "common":"chestnut lamprey",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee and Coosa River basins.",
+      "photo":"ichtcast",
+      "map":"ichtcastrm"
+   },
+   {
+      "scientific":"Ichthyomyzon gagei",
+      "common":"southern brook lamprey",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa, Tallapoosa, Chattanooga, Flint and Ochlockonee River Basins.",
+      "photo":"ichtgage",
+      "map":"ichtgagerm"
+   },
+   {
+      "scientific":"Ichthyomyzon greeleyi",
+      "common":"mountain brook lamprey",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "photo":"ichtgree",
+      "map":"ichtgreerm"
+   },
+   {
+      "scientific":"Lampetra aepyptera",
+      "common":"least brook lamprey",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa River basin.",
+      "photo":"lampaepy",
+      "map":"lampaepyrm"
+   },
+   {
+      "scientific":"Lampetra appendix",
+      "common":"American brook lamprey",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "photo":"lampappe",
+      "map":"lampapperm"
+   },
+   {
+      "scientific":"Petromyzon marinus",
+      "common":"sea lamprey",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Ocmulgee, Altamaha, and Savannah River basins.",
+      "photo":"petrmari",
+      "map":"petrmarirm"
+   },
+   {
+      "scientific":"Dasyatis sabina",
+      "common":"Atlantic stingray",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Ogeechee River basin.",
+      "photo":"dasysabi",
+      "map":"dasysabirm"
+   },
+   {
+      "scientific":"Acipenser brevirostrum",
+      "common":"shortnose sturgeon",
+      "marine":"brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, Altamaha, Ogeechee and Savannah River Basin",
+      "photo":"acipbrev",
+      "map":"acipbrevrm"
+   },
+   {
+      "scientific":"Acipenser fulvescens",
+      "common":"lake sturgeon",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa River basin.",
+      "photo":"acipfulv",
+      "map":"acipfulvrm"
+   },
+   {
+      "scientific":"Acipenser oxyrinchus desotoi",
+      "common":"Gulf sturgeon",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia occured in the Chattahoochee and Flint River Basins.",
+      "photo":"acipdeso",
+      "map":"acipdesorm"
+   },
+   {
+      "scientific":"Acipenser oxyrinchus oxyrinchus",
+      "common":"Atlantic sturgeon",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins.",
+      "photo":"acipoxyr",
+      "map":"acipoxyrrm"
+   },
+   {
+      "scientific":"Lepisosteus oculatus",
+      "common":"spotted gar",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, and Flint River basins.",
+      "photo":"lepiocul",
+      "map":"lepioculrm"
+   },
+   {
+      "scientific":"Lepisosteus osseus",
+      "common":"longnose gar",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia occurs in the Tennessee, Coosa, Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, St. Marys, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"lepiosse",
+      "map":"lepiosserm"
+   },
+   {
+      "scientific":"Lepisosteus platyrhincus",
+      "common":"Florida gar",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Suwannee, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basisn.",
+      "photo":"lepiplat",
+      "map":"lepiplatrm"
+   },
+   {
+      "scientific":"Amia calva",
+      "common":"bowfin",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins.",
+      "photo":"amiacalv",
+      "map":"amiacalvrm"
+   },
+   {
+      "scientific":"Hiodon tergisus",
+      "common":"mooneye",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "photo":"hiodterg",
+      "map":"hiodtergrm"
+   },
+   {
+      "scientific":"Elops saurus",
+      "common":"ladyfish",
+      "marine":"marine, brackish",
+      "distribution":"In Georgia, occurs in the Ogeechee and Savannah River basins.",
+      "photo":"elopsaur",
+      "map":"elopsaurrm"
+   },
+   {
+      "scientific":"Megalops atlanticus",
+      "common":"tarpon",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"megaatla",
+      "map":"megaatlarm"
+   },
+   {
+      "scientific":"Anguilla rostrata",
+      "common":"American eel",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins.",
+      "photo":"angurost",
+      "map":"angurostrm"
+   },
+   {
+      "scientific":"Myrophis punctatus",
+      "common":"speckled worm eel",
+      "marine":"marine, brackish",
+      "distribution":"In Georgia, occurs in the Ogeechee and Savannah River basins.",
+      "photo":"myropunc",
+      "map":"myropuncrm"
+   },
+   {
+      "scientific":"Anchoa mitchilli",
+      "common":"bay anchovy",
+      "marine":"marine, brackish",
+      "distribution":"In Georgia, occurs in the Satilla, Ogeechee, and Savannah River basins.",
+      "photo":"anchmitc",
+      "map":"anchmitcrm"
+   },
+   {
+      "scientific":"Alosa aestivalis",
+      "common":"blueback herring",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Chattahoochee, Ocmulgee, Altamaha, and Savannah River basins.",
+      "photo":"alosaest",
+      "map":"alosaestrm"
+   },
+   {
+      "scientific":"Alosa alabamae",
+      "common":"Alabama shad",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint, and Suwannee River basins.",
+      "photo":"alosalab",
+      "map":"alosalabrm"
+   },
+   {
+      "scientific":"Alosa chrysochloris",
+      "common":"skipjack herring",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee and Flint River basins.",
+      "photo":"aloschry",
+      "map":"aloschryrm"
+   },
+   {
+      "scientific":"Alosa mediocris",
+      "common":"hickory shad",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Ocmulgee, Altamaha Ogeechee, and Savannah River basins.",
+      "photo":"alosmedi",
+      "map":"alosmedirm"
+   },
+   {
+      "scientific":"Alosa sapidissima",
+      "common":"American shad",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"alossapi",
+      "map":"alossapirm"
+   },
+   {
+      "scientific":"Brevoortia smithi",
+      "common":"yellowfin menhaden",
+      "marine":"marine, brackish",
+      "distribution":"In Georgia, occurs in the Ogeechee River basin.",
+      "photo":"brevsmit",
+      "map":"brevsmitrm"
+   },
+   {
+      "scientific":"Brevoortia tyrannus",
+      "common":"Atlantic menhaden",
+      "marine":"marine, brackish",
+      "distribution":"In Georgia, occurs in the Satilla, Ogeechee, and Savannah River basins.",
+      "photo":"brevtyra",
+      "map":"brevtyrarm"
+   },
+   {
+      "scientific":"Dorosoma cepedianum",
+      "common":"gizzard shad",
+      "marine":"brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"dorocepe",
+      "map":"doroceperm"
+   },
+   {
+      "scientific":"Dorosoma petenense",
+      "common":"threadfin shad",
+      "marine":"brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, Flint, Suwannee, Satilla, Ocmulgee, Oconee, Altamaha, and Savannah River basins.",
+      "photo":"doropete",
+      "map":"doropeterm"
+   },
+   {
+      "scientific":"Opisthonema oglinum",
+      "common":"Atlantic thread herring",
+      "marine":"marine, brackish",
+      "distribution":"In Georgia, occurs in the Satilla, Ogeechee, and Savannah River basins.",
+      "photo":"opisogli",
+      "map":"opisoglirm"
+   },
+   {
+      "scientific":"Campostoma anomalum",
+      "common":"central stoneroller",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"campanom",
+      "map":"campanomrm"
+   },
+   {
+      "scientific":"Campostoma oligolepis",
+      "common":"largescale stoneroller",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"campolig",
+      "map":"campoligrm"
+   },
+   {
+      "scientific":"Campostoma pauciradii",
+      "common":"bluefin stoneroller",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"camppauc",
+      "map":"camppaucrm"
+   },
+   {
+      "scientific":"Carassius auratus",
+      "common":"goldfish",
+      "marine":"freshwater",
+      "distribution":"Introduced, potentially statewide.",
+      "photo":"caraaura",
+      "map":"caraaurarm"
+   },
+   {
+      "scientific":"Clinostomus funduloides",
+      "common":"rosyside dace",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee and Savannah River Basins.",
+      "photo":"clinfund",
+      "map":"clinfundrm"
+   },
+   {
+      "scientific":"Ctenopharyngodon idella",
+      "common":"grass carp",
+      "marine":"freshwater",
+      "distribution":"Introduced, potentially statewide.",
+      "photo":"ctenidel",
+      "map":"ctenidelrm"
+   },
+   {
+      "scientific":"Cyprinus carpio",
+      "common":"common carp",
+      "marine":"freshwater",
+      "distribution":"Introduced, potentially statewide.",
+      "photo":"cyprcarp",
+      "map":"cyprcarprm"
+   },
+   {
+      "scientific":"Cyprinella callitaenia",
+      "common":"bluestripe shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, this occurs in the Chattahoochee and Flint River Basins.",
+      "photo":"ccallita",
+      "map":"ccallitarm"
+   },
+   {
+      "scientific":"Cyprinella galactura",
+      "common":"whitetail shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee and Savannah River Basins.",
+      "photo":"cyprgala",
+      "map":"cyprgalarm"
+   },
+   {
+      "scientific":"Cyprinella gibbsi",
+      "common":"Tallapoosa shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tallapoosa River Basin.",
+      "photo":"cyprgibb",
+      "map":"cyprgibbrm"
+   },
+   {
+      "scientific":"Cyprinella leedsi",
+      "common":"bannerfin shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Ochlockonee, Suwannee, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"cyprleed",
+      "map":"cyprleedrm"
+   },
+   {
+      "scientific":"Cyprinella lutrensis",
+      "common":"red shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa, Chattahoochee, and Ocmulgee River Basins.",
+      "photo":"cyprlutr",
+      "map":"cyprlutrrm"
+   },
+   {
+      "scientific":"Erimonax monachus",
+      "common":"spotfin chub",
+      "marine":"freshwater",
+      "distribution":"Historical distribution in Georgia included the Tennessee River Basin.",
+      "photo":"cyprmona",
+      "map":"cyprmonarm"
+   },
+   {
+      "scientific":"Cyprinella nivea",
+      "common":"whitefin shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Savannah River Basin.",
+      "photo":"cyprnive",
+      "map":"cyprniverm"
+   },
+   {
+      "scientific":"Cyprinella pyrrhomelas",
+      "common":"fireyblack shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Savannah River basin.",
+      "photo":"cyprpyrr",
+      "map":"cyprpyrrrm"
+   },
+   {
+      "scientific":"Cyprinella spiloptera",
+      "common":"spotfin shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "photo":"cyprspil",
+      "map":"cyprspilrm"
+   },
+   {
+      "scientific":"Cyprinella trichroistia",
+      "common":"tricolor shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "photo":"cyprtric",
+      "map":"cyprtricrm"
+   },
+   {
+      "scientific":"Cyprinella venusta",
+      "common":"blacktail shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, and Ocmulgee River Basins.",
+      "photo":"cyprvenu",
+      "map":"cyprvenurm"
+   },
+   {
+      "scientific":"Cyprinella whipplei",
+      "common":"steelcolor shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "photo":"cyprwhip",
+      "map":"cyprwhiprm"
+   },
+   {
+      "scientific":"Cyprinella xaenura",
+      "common":"Altamaha shiner",
+      "marine":"freshwater",
+      "distribution":"Occurs in the Ocmulgee and Oconee River Basins primarily above the Fall Line.",
+      "photo":"cyprxaen",
+      "map":"cyprxaenrm"
+   },
+   {
+      "scientific":"Erimystax insignis",
+      "common":"blotched chub",
+      "marine":"freshwater",
+      "distribution":"In Georiga, occurs in the Tennessee River Basin.",
+      "photo":"eriminsi",
+      "map":"eriminsirm"
+   },
+   {
+      "scientific":"Hemitremia flammea",
+      "common":"flame chub",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "photo":"hemiflam",
+      "map":"hemiflamrm"
+   },
+   {
+      "scientific":"Hybognathus regius",
+      "common":"eastern silvery minnow",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, Altamaha, and Savannah River Basins.",
+      "photo":"hyboregi",
+      "map":"hyboregirm"
+   },
+   {
+      "scientific":"Hybopsis lineapunctata",
+      "common":"lined chub",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa and Tallapoosa River basins.",
+      "photo":"hyboline",
+      "map":"hybolinerm"
+   },
+   {
+      "scientific":"Hybopsis rubrifrons",
+      "common":"rosyface chub",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, Ogeechee, and Savannah River basins.",
+      "photo":"hyborubr",
+      "map":"hyborubrrm"
+   },
+   {
+      "scientific":"Hybopsis winchelli",
+      "common":"coastal chub",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee and Flint River basins.",
+      "photo":"hybowinc",
+      "map":"hybowincrm"
+   },
+   {
+      "scientific":"Luxilus chrysocephalus",
+      "common":"striped shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, and Tallapoosa River basins.",
+      "photo":"luxichry",
+      "map":"luxichryrm"
+   },
+   {
+      "scientific":"Luxilus coccogenis",
+      "common":"warpaint shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee and Savannah River Basins.",
+      "photo":"luxicocc",
+      "map":"luxicoccrm"
+   },
+   {
+      "scientific":"Luxilus zonistius",
+      "common":"bandfin shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, Occurs in the Coosa, Tallapoosa, Chattahoochee, Ocmulgee, Oconee, and Savannah River Basins.",
+      "photo":"luxizoni",
+      "map":"luxizonirm"
+   },
+   {
+      "scientific":"Lythrurus atrapiculus",
+      "common":"blacktip shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee and Flint River Basins.",
+      "photo":"lythatra",
+      "map":"lythatrarm"
+   },
+   {
+      "scientific":"Lythrurus bellus",
+      "common":"pretty shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tallapoosa River Basin.",
+      "photo":"lythbell",
+      "map":"lythbellrm"
+   },
+   {
+      "scientific":"Lythrurus fasciolaris",
+      "common":"scarlet shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River Basin. ",
+      "photo":"lythfasc",
+      "map":"lythfascrm"
+   },
+   {
+      "scientific":"Lythrurus lirus",
+      "common":"mountain shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee and Coosa River basins.",
+      "photo":"lythliru",
+      "map":"lythlirurm"
+   },
+   {
+      "scientific":"Macrhybopsis sp. cf M. aestivalis",
+      "common":"Coosa chub (fall line chub complex)",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"macrspae",
+      "map":"macrspaerm"
+   },
+   {
+      "scientific":"Macrhybopsis storeriana",
+      "common":"silver chub",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa River basin",
+      "photo":"macrstor",
+      "map":"macrstorrm"
+   },
+   {
+      "scientific":"Nocomis leptocephalus",
+      "common":"bluehead chub",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa, Tallapoosa, Chattahoochee, Flint, Ocmulgee, Oconee, Ogeechee, and Savannah River basins.",
+      "photo":"nocolept",
+      "map":"nocoleptrm"
+   },
+   {
+      "scientific":"Nocomis micropogon",
+      "common":"river chub",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occur in the Tennessee, Coosa, and Savannah River basins.",
+      "photo":"nocomicr",
+      "map":"nocomicrrm"
+   },
+   {
+      "scientific":"Notemigonus crysoleucas",
+      "common":"golden shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in all major river basins.",
+      "photo":"notecrys",
+      "map":"notecrysrm"
+   },
+   {
+      "scientific":"Notropis altipinnis",
+      "common":"highfin shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Savannah River Basin.",
+      "photo":"notralti",
+      "map":"notraltirm"
+   },
+   {
+      "scientific":"Notropis amplamala",
+      "common":"longjaw minnow",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ocmulgee, and Oconee River Basins.",
+      "photo":"ericbucc",
+      "map":"ericbuccrm"
+   },
+   {
+      "scientific":"Notropis ariommus",
+      "common":"popeye shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "photo":"notrario",
+      "map":"notrariorm"
+   },
+   {
+      "scientific":"Notropis asperifrons",
+      "common":"burrhead shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa River basin.",
+      "photo":"notraspe",
+      "map":"notrasperm"
+   },
+   {
+      "scientific":"Notropis atherinoides",
+      "common":"emerald shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "photo":"notrathe",
+      "map":"notratherm"
+   },
+   {
+      "scientific":"Notropis baileyi",
+      "common":"rough shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee River Basin.",
+      "photo":"notrbail",
+      "map":"notrbailrm"
+   },
+   {
+      "scientific":"Notropis chrosomus",
+      "common":"rainbow shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "photo":"notrchro",
+      "map":"notrchrorm"
+   },
+   {
+      "scientific":"Notropis cummingsae",
+      "common":"dusky shiner",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"notrcumm",
+      "map":"notrcummrm"
+   },
+   {
+      "scientific":"Notropis harperi",
+      "common":"redeye chub",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint and Ocmulgee River Basins below the Fall Line.",
+      "photo":"notrharp",
+      "map":"notrharprm"
+   },
+   {
+      "scientific":"Notropis hudsonius",
+      "common":"spottail shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurrs in the Chattahoochee, Flint, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins.",
+      "photo":"notrhuds",
+      "map":"notrhudsrm"
+   },
+   {
+      "scientific":"Notropis hypsilepis",
+      "common":"highscale shiner",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"notrhyps",
+      "map":"notrhypsrm"
+   },
+   {
+      "scientific":"Notropis leuciodus",
+      "common":"Tennessee shiner",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"notrleuc",
+      "map":"notrleucrm"
+   },
+   {
+      "scientific":"Notropis longirostris",
+      "common":"longnose shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ocmulgee, and Oconee River Basins.",
+      "photo":"notrlong",
+      "map":"notrlongrm"
+   },
+   {
+      "scientific":"Notropis lutipinnis",
+      "common":"yellowfin shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, Flint, Ocmulgee, Oconee, Ogeechee, and Savannah River basins.",
+      "photo":"notrluti",
+      "map":"notrlutirm"
+   },
+   {
+      "scientific":"Notropis maculatus",
+      "common":"taillight shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, St. Mary's, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins primarily below the Fall Line.",
+      "photo":"notrmacu",
+      "map":"notrmacurm"
+   },
+   {
+      "scientific":"Notropis petersoni",
+      "common":"coastal shiner",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"notrpete",
+      "map":"notrpeterm"
+   },
+   {
+      "scientific":"Notropis photogenis",
+      "common":"silver shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "photo":"notrphot",
+      "map":"notrphotrm"
+   },
+   {
+      "scientific":"Notropis scepticus",
+      "common":"sandbar shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Savannah River Basin.",
+      "photo":"notrscep",
+      "map":"notrsceprm"
+   },
+   {
+      "scientific":"Notropis spectrunculus",
+      "common":"mirror shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee and Savannah River Basins.",
+      "photo":"notrspec",
+      "map":"notrspecrm"
+   },
+   {
+      "scientific":"Pteronotropis stonei",
+      "common":"lowland shiner",
+      "marine":"",
+      "distribution":"In Georgia, occurs in the Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"pterston",
+      "map":"pterstonrm"
+   },
+   {
+      "scientific":"Notropis texanus",
+      "common":"weed shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwanee, Ocmulgee ad Oconee River Basins",
+      "photo":"notrtexa",
+      "map":"notrtexarm"
+   },
+   {
+      "scientific":"Notropis volucellus",
+      "common":"mimic shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "photo":"notrvolu",
+      "map":"notrvolurm"
+   },
+   {
+      "scientific":"Notropis xaenocephalus",
+      "common":"Coosa shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa, Tallapoosa, and Chattahoochee River Basins.",
+      "photo":"notrxaen",
+      "map":"notrxaenrm"
+   },
+   {
+      "scientific":"Opsopoeodus emiliae",
+      "common":"pugnose minnow",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"opsoemil",
+      "map":"opsoemilrm"
+   },
+   {
+      "scientific":"Phenacobius catostomus",
+      "common":"riffle minnow",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa and Tallapoosa River Basins.",
+      "photo":"phencato",
+      "map":"phencatorm"
+   },
+   {
+      "scientific":"Phenacobius crassilabrum",
+      "common":"fatlips minnow",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "photo":"phencras",
+      "map":"phencrasrm"
+   },
+   {
+      "scientific":"Phenacobius uranops",
+      "common":"stargazing minnow",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "photo":"phenuran",
+      "map":"phenuranrm"
+   },
+   {
+      "scientific":"Phoxinus tennesseensis",
+      "common":"Tennessee dace",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "photo":"phoxtenn",
+      "map":"phoxtennrm"
+   },
+   {
+      "scientific":"Pimephales notatus",
+      "common":"bluntnose minnow",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "photo":"pimenota",
+      "map":"pimenotarm"
+   },
+   {
+      "scientific":"Pimephales vigilax",
+      "common":"bullhead minnow",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "photo":"pimevigi",
+      "map":"pimevigirm"
+   },
+   {
+      "scientific":"Pteronotropis euryzonus",
+      "common":"broadstripe shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee River basin.",
+      "photo":"ptereury",
+      "map":"ptereuryrm"
+   },
+   {
+      "scientific":"Pteronotropis grandipinnis",
+      "common":"Apalachee shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint, and Apalachicola River basins.",
+      "photo":"ptergran",
+      "map":"ptergranrm"
+   },
+   {
+      "scientific":"Pteronotropis sp. cf. P. hypselopterus metallicus",
+      "common":"metallic shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Ochlockonee and Suwannee River basins.",
+      "photo":"ptermeta",
+      "map":"ptermetarm"
+   },
+   {
+      "scientific":"Pteronotropis welaka",
+      "common":"bluenose shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Flint River basin.",
+      "photo":"pterwela",
+      "map":"pterwelarm"
+   },
+   {
+      "scientific":"Rhinichthys cataractae",
+      "common":"longnose dace",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee and Savannah River basins.",
+      "photo":"rhincata",
+      "map":"rhincatarm"
+   },
+   {
+      "scientific":"Rhinichthys obtusus",
+      "common":"western blacknose dace",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa River and Savannah River Basins.",
+      "photo":"rhinobtu",
+      "map":"rhinobturm"
+   },
+   {
+      "scientific":"Semotilus atromaculatus",
+      "common":"creek chub",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"semoatro",
+      "map":"semoatrorm"
+   },
+   {
+      "scientific":"Semotilus thoreauianus",
+      "common":"Dixie chub",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"semothor",
+      "map":"semothorrm"
+   },
+   {
+      "scientific":"Carpiodes carpio",
+      "common":"river carpsucker",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"carpcarp",
+      "map":"carpcarprm"
+   },
+   {
+      "scientific":"Carpiodes sp. cf. C. cyprinus",
+      "common":"quillbacks",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"carpcypr",
+      "map":"carpcyprrm"
+   },
+   {
+      "scientific":"Carpiodes sp. cf. C. velifer",
+      "common":"highfin carpsucker species",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"carpveli",
+      "map":"carpvelirm"
+   },
+   {
+      "scientific":"Catostomus commersoni",
+      "common":"white sucker",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, Ocmulgee, and Savannah River basins.",
+      "photo":"catocomm",
+      "map":"catocommrm"
+   },
+   {
+      "scientific":"Erimyzon oblongus",
+      "common":"creek chubsucker",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ocmulgee, Oconee, Altamaha, Ogeechee and Savannah River basins.",
+      "photo":"erimoblo",
+      "map":"erimoblorm"
+   },
+   {
+      "scientific":"Erimyzon sucetta",
+      "common":"lake chubsucker",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins.",
+      "photo":"erimsuce",
+      "map":"erimsucerm"
+   },
+   {
+      "scientific":"Hypentelium etowanum",
+      "common":"Alabama hog sucker",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa, Tallapoosa, Chattahoochee, and Flint River Basins.",
+      "photo":"hypeetow",
+      "map":"hypeetowrm"
+   },
+   {
+      "scientific":"Hypentelium nigricans",
+      "common":"northern hog sucker",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Oconee, and Savannah River basins.",
+      "photo":"hypenigr",
+      "map":"hypenigrrm"
+   },
+   {
+      "scientific":"Ictiobus bubalus",
+      "common":"smallmouth buffalo",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa River basin.",
+      "photo":"ictibuba",
+      "map":"ictibubarm"
+   },
+   {
+      "scientific":"Ictiobus niger",
+      "common":"black buffalo",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Chattahoochee, and Savannah River basins.",
+      "photo":"ictinige",
+      "map":"ictinigerm"
+   },
+   {
+      "scientific":"Minytrema melanops",
+      "common":"spotted sucker",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in all major river basins.",
+      "photo":"minymela",
+      "map":"minymelarm"
+   },
+   {
+      "scientific":"Moxostoma anisurum",
+      "common":"silver redhorse",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "photo":"moxoanis",
+      "map":"moxoanisrm"
+   },
+   {
+      "scientific":"Colosossoma spp.",
+      "common":"pacu species",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, Flint, Ochlockonee, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"piarspec",
+      "map":"piarspecrm"
+   },
+   {
+      "scientific":"Moxostoma carinatum",
+      "common":"river redhorse",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa and Tennessee River Basins.",
+      "photo":"moxocari",
+      "map":"moxocarirm"
+   },
+   {
+      "scientific":"Moxostoma collapsum",
+      "common":"notchlip redhorse",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins.",
+      "photo":"moxocoll",
+      "map":"moxocollrm"
+   },
+   {
+      "scientific":"Moxostoma duquesnei",
+      "common":"black redhorse",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, and Tallapoosa River Basins.",
+      "photo":"moxoduqu",
+      "map":"moxoduqurm"
+   },
+   {
+      "scientific":"Moxostoma erythrurum",
+      "common":"golden redhorse",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa, Tallapoosa, and Tennessee River Basins.",
+      "photo":"moxoeryt",
+      "map":"moxoerytrm"
+   },
+   {
+      "scientific":"Moxostoma lacerum",
+      "common":"harelip sucker",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurred in the Tennessee River Basin.",
+      "photo":"moxolace",
+      "map":"moxolacerm"
+   },
+   {
+      "scientific":"Moxostoma lachneri",
+      "common":"greater jumprock",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee and Flint River Basins.",
+      "photo":"scarlach",
+      "map":"scarlachrm"
+   },
+   {
+      "scientific":"Moxostoma poecilurum",
+      "common":"blacktail redhorse",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa and Tallapoosa River Basins.",
+      "photo":"moxopoec",
+      "map":"moxopoecrm"
+   },
+   {
+      "scientific":"Moxostoma robustum",
+      "common":"robust redhorse",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, Ogeechee, and Savannah River Basins.",
+      "photo":"moxorobu",
+      "map":"moxoroburm"
+   },
+   {
+      "scientific":"Moxostoma rupiscartes",
+      "common":"striped jumprock",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ocmulgee, Oconee, and Savannah River basins.",
+      "photo":"scarrupi",
+      "map":"scarrupirm"
+   },
+   {
+      "scientific":"Moxostoma sp. cf. M. lachneri ",
+      "common":"brassy jumprock",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, and Savannah River basins.",
+      "photo":"scarspla",
+      "map":"scarsplarm"
+   },
+   {
+      "scientific":"Moxostoma sp.",
+      "common":"sicklefin redhorse",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "photo":"moxospsi",
+      "map":"moxospsirm"
+   },
+   {
+      "scientific":"Moxostoma sp.",
+      "common":"Apalachicola redhorse",
+      "marine":"freshwater",
+      "distribution":"In Georgia, this occurs in the Chattahoochee and Flint River Basins.",
+      "photo":"moxogram",
+      "map":"moxogramrm"
+   },
+   {
+      "scientific":"Ameiurus brunneus",
+      "common":"snail bullhead",
+      "marine":"freshwater",
+      "distribution":"Occurs in the Tennessee, Coosa, Chattahoochee, Flint, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"ameibrun",
+      "map":"ameibrunrm"
+   },
+   {
+      "scientific":"Ameiurus catus",
+      "common":"white catfish",
+      "marine":"brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"ameicatu",
+      "map":"ameicaturm"
+   },
+   {
+      "scientific":"Ameiurus melas",
+      "common":"black bullhead",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"ameimela",
+      "map":"ameimelarm"
+   },
+   {
+      "scientific":"Ameiurus natalis",
+      "common":"yellow bullhead",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in all major river basins.",
+      "photo":"ameinata",
+      "map":"ameinatarm"
+   },
+   {
+      "scientific":"Ameiurus nebulosus",
+      "common":"brown bullhead",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in all major river basins.",
+      "photo":"ameinebu",
+      "map":"ameineburm"
+   },
+   {
+      "scientific":"Ameiurus platycephalus",
+      "common":"flat bullhead",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"ameiplat",
+      "map":"ameiplatrm"
+   },
+   {
+      "scientific":"Ameiurus serracanthus",
+      "common":"spotted bullhead",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, and Withlacoochee River systems.",
+      "photo":"ameiserr",
+      "map":"ameiserrrm"
+   },
+   {
+      "scientific":"Ictalurus furcatus",
+      "common":"blue catfish",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa, Chattahoochee, Flint, Ocmulgee, Oconee, Altamaha, Satilla, and Savannah River basins.",
+      "photo":"ictafurc",
+      "map":"ictafurcrm"
+   },
+   {
+      "scientific":"Ictalurus punctatus",
+      "common":"channel catfish",
+      "marine":"brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"ictapunc",
+      "map":"ictapuncrm"
+   },
+   {
+      "scientific":"Noturus eleutherus",
+      "common":"mountain madtom",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "photo":"notueleu",
+      "map":"notueleurm"
+   },
+   {
+      "scientific":"Noturus flavipinnis",
+      "common":"yellowfin madtom",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "photo":"notuflav",
+      "map":"notuflavrm"
+   },
+   {
+      "scientific":"Noturus funebris",
+      "common":"black madtom",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tallapoosa and Chattahoochee River basins.",
+      "photo":"notufune",
+      "map":"notufunerm"
+   },
+   {
+      "scientific":"Noturus gyrinus",
+      "common":"tadpole madtom",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"notugyri",
+      "map":"notugyrirm"
+   },
+   {
+      "scientific":"Noturus insignis",
+      "common":"margined madtom",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, and Savannah River basins.",
+      "photo":"notuinsi",
+      "map":"notuinsirm"
+   },
+   {
+      "scientific":"Noturus leptacanthus",
+      "common":"speckled madtom",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, St. Marys, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"notulept",
+      "map":"notuleptrm"
+   },
+   {
+      "scientific":"Noturus nocturnus",
+      "common":"freckled madtom",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"notunoct",
+      "map":"notunoctrm"
+   },
+   {
+      "scientific":"Noturus sp. cf. N. munitus",
+      "common":"Coosa madtom",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa River basin.",
+      "photo":"notuspmu",
+      "map":"notuspmurm"
+   },
+   {
+      "scientific":"Pylodictis olivaris",
+      "common":"flathead catfish",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, Flint, Satilla, Ocmulgee, Oconee, Altamaha, and Savannah River basins.",
+      "photo":"pylooliv",
+      "map":"pyloolivrm"
+   },
+   {
+      "scientific":"Ariopsis felis",
+      "common":"hardhead catfish",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Ogeechee River basin.",
+      "photo":"ariofeli",
+      "map":"ariofelirm"
+   },
+   {
+      "scientific":"Bagre marinus",
+      "common":"gafftopsail catfish",
+      "marine":"marine, brackish",
+      "distribution":"In Georgia, occurs in the Satilla, Ogeechee, and Savannah River basins.",
+      "photo":"bagrmari",
+      "map":"bagrmarirm"
+   },
+   {
+      "scientific":"Esox americanus",
+      "common":"redfin pickerel",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa, Chattahoochee, Flint, Ochlockonee, Suwanne, Satilla, St. Marys, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"esoxamer",
+      "map":"esoxamerrm"
+   },
+   {
+      "scientific":"Esox lucius",
+      "common":"northern pike",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Savannah River basin.",
+      "photo":"esoxluci",
+      "map":"esoxlucirm"
+   },
+   {
+      "scientific":"Esox masquinongy",
+      "common":"muskellunge",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "photo":"esoxmasq",
+      "map":"esoxmasqrm"
+   },
+   {
+      "scientific":"Esox niger",
+      "common":"chain pickerel",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa, Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, St. Marys, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"esoxnige",
+      "map":"esoxnigerm"
+   },
+   {
+      "scientific":"Umbra pygmaea",
+      "common":"eastern mudminnow",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Suwannee, Satilla, Ogeechee, and Savannah River Basins.",
+      "photo":"umbrpygm",
+      "map":"umbrpygmrm"
+   },
+   {
+      "scientific":"Oncorhynchus mykiss",
+      "common":"rainbow trout",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, and Savannah River basins.",
+      "photo":"oncomyki",
+      "map":"oncomykirm"
+   },
+   {
+      "scientific":"Salmo trutta",
+      "common":"brown trout",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, and Savannah River basins.",
+      "photo":"salmtrut",
+      "map":"salmtrutrm"
+   },
+   {
+      "scientific":"Salvelinus fontinalis",
+      "common":"brook trout",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, and Savannah River basins.",
+      "photo":"salvfont",
+      "map":"salvfontrm"
+   },
+   {
+      "scientific":"Aphredoderus sayanus",
+      "common":"pirate perch",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, St. Marys, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"aphrsaya",
+      "map":"aphrsayarm"
+   },
+   {
+      "scientific":"Chologaster cornuta",
+      "common":"swampfish",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Ocmulgee, Altamaha, Ogeechee, and Savannah River Basins.",
+      "photo":"cholcorn",
+      "map":"cholcornrm"
+   },
+   {
+      "scientific":"Typhlichthys subterraneus",
+      "common":"southern cavefish",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "photo":"typhsubt",
+      "map":"typhsubtrm"
+   },
+   {
+      "scientific":"Agonostomus monticola",
+      "common":"mountain mullet",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Savannah River basin.",
+      "photo":"agonmont",
+      "map":"agonmontrm"
+   },
+   {
+      "scientific":"Mugil cephalus",
+      "common":"striped mullet",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Flint, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"mugiceph",
+      "map":"mugicephrm"
+   },
+   {
+      "scientific":"Mugil curema",
+      "common":"white mullet",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Satilla, Ogeechee and Savannah River basins.",
+      "photo":"mugicure",
+      "map":"mugicurerm"
+   },
+   {
+      "scientific":"Labidesthes sicculus",
+      "common":"brook silverside",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Chattahoochee, Flint, Apalachicola, Ochlockonee, Suwannee, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"labisicc",
+      "map":"labisiccrm"
+   },
+   {
+      "scientific":"Membras martinica",
+      "common":"rough silverside",
+      "marine":"marine, brackish",
+      "distribution":"In Georgia, occurs in the Satilla, Ogeechee, and Savannah River basins.",
+      "photo":"membmart",
+      "map":"membmartrm"
+   },
+   {
+      "scientific":"Menidia beryllina",
+      "common":"inland silverside",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the St. Marys, Ogeechee, and Savannah River basins.",
+      "photo":"menibery",
+      "map":"meniberyrm"
+   },
+   {
+      "scientific":"Menidia menidia",
+      "common":"Atlantic silverside",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Satilla and Ogeechee River basins.",
+      "photo":"menimeni",
+      "map":"menimenirm"
+   },
+   {
+      "scientific":"Strongylura marina",
+      "common":"Atlantic needlefish",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ocmulgee, Altamaha, Ogeechee, and Savannah River Basins.",
+      "photo":"stromari",
+      "map":"stromarirm"
+   },
+   {
+      "scientific":"Fundulus bifax",
+      "common":"stippled studfish",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tallapoosa River basin.",
+      "photo":"fundbifa",
+      "map":"fundbifarm"
+   },
+   {
+      "scientific":"Fundulus catenatus",
+      "common":"northern studfish",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "photo":"fundcate",
+      "map":"fundcaterm"
+   },
+   {
+      "scientific":"Fundulus chrysotus",
+      "common":"golden topminnow",
+      "marine":"brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Ogeechee, and Savannah River Basins.",
+      "photo":"fundchry",
+      "map":"fundchryrm"
+   },
+   {
+      "scientific":"Fundulus cingulatus",
+      "common":"banded topminnow",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Flint River basin.",
+      "photo":"fundcing",
+      "map":"fundcingrm"
+   },
+   {
+      "scientific":"Fundulus confluentus",
+      "common":"marsh killifish",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Satilla, Ogeechee, and Savannah River basins.",
+      "photo":"fundconf",
+      "map":"fundconfrm"
+   },
+   {
+      "scientific":"Fundulus escambiae",
+      "common":"russetfin topminnow",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"fundesca",
+      "map":"fundescarm"
+   },
+   {
+      "scientific":"Fundulus heteroclitus",
+      "common":"mummichog",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the St. Marys, Satilla, Ogeechee and Savannah River basins.",
+      "photo":"fundhete",
+      "map":"fundheterm"
+   },
+   {
+      "scientific":"Fundulus lineolatus",
+      "common":"lined topminnow",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"fundline",
+      "map":"fundlinerm"
+   },
+   {
+      "scientific":"Fundulus luciae",
+      "common":"spotfin killifish",
+      "marine":"marine, brackish",
+      "distribution":"In Georgia, occurs in the Ogeechee River basin.",
+      "photo":"fundluci",
+      "map":"fundlucirm"
+   },
+   {
+      "scientific":"Fundulus majalis",
+      "common":"striped killifish",
+      "marine":"marine, brackish",
+      "distribution":"In Georgia, occurs in the Satilla and Ogeechee River basins.",
+      "photo":"fundmaja",
+      "map":"fundmajarm"
+   },
+   {
+      "scientific":"Fundulus olivaceus",
+      "common":"blackspotted topminnow",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, and Chattahoochee River basins.",
+      "photo":"fundoliv",
+      "map":"fundolivrm"
+   },
+   {
+      "scientific":"Syngnathus louisianae",
+      "common":"chain pipefish",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Ogeechee and Savannah River basins.",
+      "photo":"syngloui",
+      "map":"synglouirm"
+   },
+   {
+      "scientific":"Syngnathus fuscus",
+      "common":"northern pipefish",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Ogeechee River basin.",
+      "photo":"syngfusc",
+      "map":"syngfuscrm"
+   },
+   {
+      "scientific":"Fundulus stellifer",
+      "common":"southern studfish",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa and Chattahoochee River basin.",
+      "photo":"fundstel",
+      "map":"fundstelrm"
+   },
+   {
+      "scientific":"Leptolucania ommata",
+      "common":"pygmy killifish",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Flint, Suwannee, St. Marys, Satilla, and Ogeechee River basins.",
+      "photo":"leptomma",
+      "map":"leptommarm"
+   },
+   {
+      "scientific":"Lucania goodei",
+      "common":"bluefin killifish",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Flint and Ogeechee River basin.",
+      "photo":"lucagood",
+      "map":"lucagoodrm"
+   },
+   {
+      "scientific":"Lucania parva",
+      "common":"rainwater killifish",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Suwannee and Savannah River basins.",
+      "photo":"lucaparv",
+      "map":"lucaparvrm"
+   },
+   {
+      "scientific":"Gambusia affinis and Gambusia holbrooki",
+      "common":"western and eastern mosquitofish",
+      "marine":"brackish, freshwater",
+      "distribution":"Occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"gambusia",
+      "map":"gambusiarm"
+   },
+   {
+      "scientific":"Heterandria formosa",
+      "common":"least killifish",
+      "marine":"brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Suwannee, St. Marys, Satilla, Altamaha, Ogeechee and Savannah River Basins.",
+      "photo":"heteform",
+      "map":"heteformrm"
+   },
+   {
+      "scientific":"Poecilia latipinna",
+      "common":"sailfin molly",
+      "marine":"brackish, freshwater",
+      "distribution":"In Georgia, occurs in the St. Marys and Ogeechee River basins.",
+      "photo":"poeclati",
+      "map":"poeclatirm"
+   },
+   {
+      "scientific":"Cyprinodon variegatus",
+      "common":"sheepshead minnow",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Satilla, Ogeecheen and Savannah River basins. ",
+      "photo":"cyprvari",
+      "map":"cyprvarirm"
+   },
+   {
+      "scientific":"Syngnathus scovelli",
+      "common":"Gulf pipefish",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Ogeechee and Savannah River systems.",
+      "photo":"syngscov",
+      "map":"syngscovrm"
+   },
+   {
+      "scientific":"Monopterus sp. cf. M. albus",
+      "common":"swamp eel",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee River Basin.",
+      "photo":"monoalbu",
+      "map":"monoalburm"
+   },
+   {
+      "scientific":"Cottus sp. cf. C. bairdi",
+      "common":"Savannah sculpin",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"cottsava",
+      "map":"cottsavarm"
+   },
+   {
+      "scientific":"Cottus carolinae",
+      "common":"banded sculpin",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"cottcaro",
+      "map":"cottcarorm"
+   },
+   {
+      "scientific":"Cottus carolinae zopherus",
+      "common":"Coosa banded sculpin",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"cottzoph",
+      "map":"cottzophrm"
+   },
+   {
+      "scientific":"Cottus chattahoochee",
+      "common":"Chattahoochee sculpin",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"cottchat",
+      "map":"cottchatrm"
+   },
+   {
+      "scientific":"Cottus sp. cf. C. carolinae",
+      "common":"banded sculpin species",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"cottspca",
+      "map":"cottspcarm"
+   },
+   {
+      "scientific":"Cottus tallapoosae",
+      "common":"Tallapoosa sculpin",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tallapoosa River Basin.",
+      "photo":"cottttal",
+      "map":"cottttalrm"
+   },
+   {
+      "scientific":"Centropomus undecimalis",
+      "common":"common snook",
+      "marine":"marine, brackish",
+      "distribution":"In Georgia, occurs in the Ogeechee River basin. ",
+      "photo":"centunde",
+      "map":"centunderm"
+   },
+   {
+      "scientific":"Morone americana",
+      "common":"white perch",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Savannah River basin.",
+      "photo":"moroamer",
+      "map":"moroamerrm"
+   },
+   {
+      "scientific":"Morone chrysops X M. saxatilis",
+      "common":"white bass X striped bass hybrid",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, Flint, Ocmulgee, Oconee, Altamaha, and Savannah River basins.",
+      "photo":"morochsa",
+      "map":"morochsarm"
+   },
+   {
+      "scientific":"Morone mississippiensis",
+      "common":"yellow bass",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa River basin.",
+      "photo":"moromiss",
+      "map":"moromissrm"
+   },
+   {
+      "scientific":"Morone saxatilis",
+      "common":"striped bass",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, Flint, Ochlockonee, St. Marys, Ocmulgee, Oconee, Ogeechee, and Savannah River basins.",
+      "photo":"morosaxa",
+      "map":"morosaxarm"
+   },
+   {
+      "scientific":"Acantharchus pomotis",
+      "common":"mud sunfish",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"acanpomo",
+      "map":"acanpomorm"
+   },
+   {
+      "scientific":"Ambloplites ariommus",
+      "common":"shadow bass",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa, Tallapoosa, Chattahoochee, and Flint River basins.",
+      "photo":"amblario",
+      "map":"amblariorm"
+   },
+   {
+      "scientific":"Ambloplites rupestris",
+      "common":"rock bass",
+      "marine":"freshwater",
+      "distribution":"In Georgia occurs in the Tennessee, Chattahoochee, and Savannah River basins.",
+      "photo":"amblrupe",
+      "map":"amblruperm"
+   },
+   {
+      "scientific":"Centrarchus macropterus",
+      "common":"flier",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"centmacr",
+      "map":"centmacrrm"
+   },
+   {
+      "scientific":"Enneacanthus chaetodon",
+      "common":"blackbanded sunfish",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Ochlockonee, Suwannee and Savannah River Basins.",
+      "photo":"ennechae",
+      "map":"ennechaerm"
+   },
+   {
+      "scientific":"Enneacanthus gloriosus",
+      "common":"bluespotted sunfish",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins.",
+      "photo":"enneglor",
+      "map":"enneglorrm"
+   },
+   {
+      "scientific":"Enneacanthus obesus",
+      "common":"banded sunfish",
+      "marine":"brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Suwannee, St. Marys, Satilla, Oconee, Ogeechee, and Savannah River basins.",
+      "photo":"enneobes",
+      "map":"enneobesrm"
+   },
+   {
+      "scientific":"Lepomis auritus",
+      "common":"redbreast sunfish",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, St. Marys, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"lepoauri",
+      "map":"lepoaurirm"
+   },
+   {
+      "scientific":"Lepomis cyanellus",
+      "common":"green sunfish",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"lepocyan",
+      "map":"lepocyanrm"
+   },
+   {
+      "scientific":"Lepomis gibbosus",
+      "common":"pumpkinseed",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Savannah River basin.",
+      "photo":"lepogibb",
+      "map":"lepogibbrm"
+   },
+   {
+      "scientific":"Lepomis gulosus",
+      "common":"warmouth",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"lepogulo",
+      "map":"lepogulorm"
+   },
+   {
+      "scientific":"Lepomis humilis",
+      "common":"orangespotted sunfish",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee and Flint River basins.",
+      "photo":"lepohumi",
+      "map":"lepohumirm"
+   },
+   {
+      "scientific":"Lepomis marginatus",
+      "common":"dollar sunfish",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"lepomarg",
+      "map":"lepomargrm"
+   },
+   {
+      "scientific":"Lepomis megalotis",
+      "common":"longear sunfish",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"lepomega",
+      "map":"lepomegarm"
+   },
+   {
+      "scientific":"Lepomis miniatus X L. punctatus integrade",
+      "common":"spotted sunfish integrade",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Upper Coosa, Tallapoosa, Chattahoochee, and Flint River basins. ",
+      "photo":"lepomipu",
+      "map":"lepomipurm"
+   },
+   {
+      "scientific":"Lepomis punctatus",
+      "common":"spotted sunfish",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"lepopunc",
+      "map":"lepopuncrm"
+   },
+   {
+      "scientific":"Micropterus cataractae",
+      "common":"shoal bass",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint and Ocmulgee River systems.",
+      "photo":"micrcata",
+      "map":"micrcatarm"
+   },
+   {
+      "scientific":"Micropterus coosae",
+      "common":"redeye bass",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"micrcoos",
+      "map":"micrcoosrm"
+   },
+   {
+      "scientific":"Micropterus dolomieu",
+      "common":"smallmouth bass",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"micrdolo",
+      "map":"micrdolorm"
+   },
+   {
+      "scientific":"Micropterus notius",
+      "common":"Suwannee bass",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Ochlockonee and Suwannee River basins.",
+      "photo":"micrnoti",
+      "map":"micrnotirm"
+   },
+   {
+      "scientific":"Micropterus punctulatus",
+      "common":"spotted bass",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"micrpunc",
+      "map":"micrpuncrm"
+   },
+   {
+      "scientific":"Micropterus salmoides",
+      "common":"largemouth bass",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, St. Marys, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"micrsalm",
+      "map":"micrsalmrm"
+   },
+   {
+      "scientific":"Micropterus sp. cf. M. coosae",
+      "common":"Bartram's bass",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Savannah River basin.",
+      "photo":"micrbart",
+      "map":"micrbartrm"
+   },
+   {
+      "scientific":"Pomoxis annularis",
+      "common":"white crappie",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ocmulgee, Oconee, and Savannah River basins.",
+      "photo":"pomoannu",
+      "map":"pomoannurm"
+   },
+   {
+      "scientific":"Pomoxis nigromaculatus",
+      "common":"black crappie",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, St. Marys, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"pomonigr",
+      "map":"pomonigrrm"
+   },
+   {
+      "scientific":"Oreochromis, Sarotherodon, and Tilapia spp.",
+      "common":"tilapia species",
+      "marine":"brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Satilla, and Savannah River basins.",
+      "photo":"oreospec",
+      "map":"oreospecrm"
+   },
+   {
+      "scientific":"Notropis sp. cf N. longirostris",
+      "common":"longnose shiner species",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "photo":"notrsplo",
+      "map":"notrsplorm"
+   },
+   {
+      "scientific":"Etheostoma caeruleum",
+      "common":"rainbow darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "photo":"ethecaer",
+      "map":"ethecaerrm"
+   },
+   {
+      "scientific":"Etheostoma chuckwachatte",
+      "common":"lipstick darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tallapoosa River Basin.",
+      "photo":"ethechuc",
+      "map":"ethechucrm"
+   },
+   {
+      "scientific":"Etheostoma cinereum",
+      "common":"ashy darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurred in the Tennessee River Basin.",
+      "photo":"ethecine",
+      "map":"ethecinerm"
+   },
+   {
+      "scientific":"Etheostoma coosae",
+      "common":"Coosa darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa River basin.",
+      "photo":"ethecoos",
+      "map":"ethecoosrm"
+   },
+   {
+      "scientific":"Etheostoma ditrema",
+      "common":"coldwater darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "photo":"etheditr",
+      "map":"etheditrrm"
+   },
+   {
+      "scientific":"Etheostoma duryi",
+      "common":"black darter",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"ethedury",
+      "map":"etheduryrm"
+   },
+   {
+      "scientific":"Etheostoma edwini",
+      "common":"brown darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint and Ochlockonee River Basins, below the Fall Line.",
+      "photo":"etheedwi",
+      "map":"etheedwirm"
+   },
+   {
+      "scientific":"Etheostoma etowahae",
+      "common":"Etowah darter",
+      "marine":"freshwater",
+      "distribution":"Occurs in the Etowah River basin.",
+      "photo":"etheetow",
+      "map":"etheetowrm"
+   },
+   {
+      "scientific":"Etheostoma fricksium",
+      "common":"Savannah darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Savannah River basin.",
+      "photo":"ethefric",
+      "map":"ethefricrm"
+   },
+   {
+      "scientific":"Etheostoma fusiforme",
+      "common":"swamp darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, Ocmulgee, Oconee, Altamaha, Savannah and Ogeechee River Basins.",
+      "photo":"ethefusi",
+      "map":"ethefusirm"
+   },
+   {
+      "scientific":"Etheostoma gutselli",
+      "common":"Tuckasegee darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "photo":"etheguts",
+      "map":"ethegutsrm"
+   },
+   {
+      "scientific":"Etheostoma hopkinsi",
+      "common":"Christmas darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins.",
+      "photo":"ethehopk",
+      "map":"ethehopkrm"
+   },
+   {
+      "scientific":"Etheostoma inscriptum",
+      "common":"turquoise darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, Ogeechee, and Savannah River basins.",
+      "photo":"etheinsc",
+      "map":"etheinscrm"
+   },
+   {
+      "scientific":"Etheostoma jessiae",
+      "common":"blueside darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "photo":"ethejess",
+      "map":"ethejessrm"
+   },
+   {
+      "scientific":"Etheostoma jordani",
+      "common":"greenbreast darter",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"ethejord",
+      "map":"ethejordrm"
+   },
+   {
+      "scientific":"Etheostoma olmstedi",
+      "common":"tessellated darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins.",
+      "photo":"etheolms",
+      "map":"etheolmsrm"
+   },
+   {
+      "scientific":"Etheostoma parvipinne",
+      "common":"goldstripe darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ocmulgee, and Oconee River Basins.",
+      "photo":"etheparv",
+      "map":"etheparvrm"
+   },
+   {
+      "scientific":"Etheostoma sp. cf. E. rufilineatum",
+      "common":"redline darter species",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "photo":"ethespru",
+      "map":"ethesprurm"
+   },
+   {
+      "scientific":"Etheostoma scotti",
+      "common":"Cherokee darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "photo":"ethescot",
+      "map":"ethescotrm"
+   },
+   {
+      "scientific":"Etheostoma serrifer",
+      "common":"sawcheek darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Ocmulgee, Ogeechee, and Savannah River basins.",
+      "photo":"etheserr",
+      "map":"etheserrrm"
+   },
+   {
+      "scientific":"Etheostoma tennesseense",
+      "common":"Tennessee darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "photo":"ethetenn",
+      "map":"ethetennrm"
+   },
+   {
+      "scientific":"Etheostoma vulneratum",
+      "common":"wounded darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "photo":"ethevuln",
+      "map":"ethevulnrm"
+   },
+   {
+      "scientific":"Etheostoma stigmaeum",
+      "common":"speckled darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa, and Tallapoosa River Basins.",
+      "photo":"ethestig",
+      "map":"ethestigrm"
+   },
+   {
+      "scientific":"Etheostoma tallapoosae",
+      "common":"Tallapoosa darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tallapoosa River Basin.",
+      "photo":"ethetall",
+      "map":"ethetallrm"
+   },
+   {
+      "scientific":"Etheostoma rufilineatum",
+      "common":"redline darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "photo":"etherufi",
+      "map":"etherufirm"
+   },
+   {
+      "scientific":"Etheostoma trisella",
+      "common":"trispot darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "photo":"ethetris",
+      "map":"ethetrisrm"
+   },
+   {
+      "scientific":"Etheostoma zonifer",
+      "common":"backwater darter",
+      "marine":"freshwater",
+      "distribution":"Occurs in the Chattahoochee River basin.",
+      "photo":"ethezoni",
+      "map":"ethezonirm"
+   },
+   {
+      "scientific":"Perca flavescens",
+      "common":"yellow perch",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ocmulgee, Oconee, Altamaha, and Savannah River Basins.",
+      "photo":"percflav",
+      "map":"percflavrm"
+   },
+   {
+      "scientific":"Percina antesella",
+      "common":"amber darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "photo":"percante",
+      "map":"percanterm"
+   },
+   {
+      "scientific":"Percina aurolineata",
+      "common":"goldline darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "photo":"percauro",
+      "map":"percaurorm"
+   },
+   {
+      "scientific":"Percina caprodes",
+      "common":"logperch",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "photo":"perccapr",
+      "map":"perccaprrm"
+   },
+   {
+      "scientific":"Percina evides",
+      "common":"gilt darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "photo":"percevid",
+      "map":"percevidrm"
+   },
+   {
+      "scientific":"Percina jenkinsi",
+      "common":"Conasauga logperch",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "photo":"percjenk",
+      "map":"percjenkrm"
+   },
+   {
+      "scientific":"Percina kathae",
+      "common":"Mobile logperch",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa and Tallapoosa River Basins.",
+      "photo":"perckath",
+      "map":"perckathrm"
+   },
+   {
+      "scientific":"Percina kusha",
+      "common":"bridled darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "photo":"perckush",
+      "map":"perckushrm"
+   },
+   {
+      "scientific":"Percina lenticula",
+      "common":"freckled darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "photo":"perclent",
+      "map":"perclentrm"
+   },
+   {
+      "scientific":"Eucinostomus gula",
+      "common":"silver jenny",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the St. Marys, Ogeechee, and Savannah River basins.",
+      "photo":"eucigula",
+      "map":"eucigularm"
+   },
+   {
+      "scientific":"Percina nigrofasciata",
+      "common":"blackbanded darter",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"percnigr",
+      "map":"percnigrrm"
+   },
+   {
+      "scientific":"Percina palmaris",
+      "common":"bronze darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa and Tallapoosa River Basins.",
+      "photo":"percpalm",
+      "map":"percpalmrm"
+   },
+   {
+      "scientific":"Percina sciera",
+      "common":"dusky darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "photo":"percscie",
+      "map":"percscierm"
+   },
+   {
+      "scientific":"Percina shumardi",
+      "common":"river darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurred in the Coosa River basin.",
+      "photo":"percshum",
+      "map":"percshumrm"
+   },
+   {
+      "scientific":"Percina smithvanizi",
+      "common":"Muscadine darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tallapoosa River Basin.",
+      "photo":"percsmit",
+      "map":"percsmitrm"
+   },
+   {
+      "scientific":"Percina crypta",
+      "common":"Halloween darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee and Flint River Basins.",
+      "photo":"perccryp",
+      "map":"perccryprm"
+   },
+   {
+      "scientific":"Percina squamata",
+      "common":"olive darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River Basins.",
+      "photo":"percsqua",
+      "map":"percsquarm"
+   },
+   {
+      "scientific":"Percina tanasi",
+      "common":"snail darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "photo":"perctana",
+      "map":"perctanarm"
+   },
+   {
+      "scientific":"Sander canadensis",
+      "common":"sauger",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Chattahoochee, Flint, and Savannah River basins.",
+      "photo":"stizcana",
+      "map":"stizcanarm"
+   },
+   {
+      "scientific":"Sander vitreus",
+      "common":"walleye",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, and Savannah River basins.",
+      "photo":"stizvitr",
+      "map":"stizvitrrm"
+   },
+   {
+      "scientific":"Caranx hippos",
+      "common":"crevalle jack",
+      "marine":"marine, brackish",
+      "distribution":"In Georgia, occurs in the Ogeechee and Savannah River basins.",
+      "photo":"carahipp",
+      "map":"carahipprm"
+   },
+   {
+      "scientific":"Eugerres plumieri",
+      "common":"striped mojarra",
+      "marine":"marine, brackish",
+      "distribution":"In Georgia, occurs in the Savannah River basin.",
+      "photo":"eugeplum",
+      "map":"eugeplumrm"
+   },
+   {
+      "scientific":"Eucinostomus argenteus",
+      "common":"spotfin mojarra",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Altamaha and Ogeechee River basins.",
+      "photo":"euciarge",
+      "map":"euciargerm"
+   },
+   {
+      "scientific":"Archosargus probatocephalus",
+      "common":"sheepshead",
+      "marine":"marine, brackish",
+      "distribution":"In Georgia, occurs in the Ogeechee River basin.",
+      "photo":"archprob",
+      "map":"archprobrm"
+   },
+   {
+      "scientific":"Lagodon rhomboides",
+      "common":"pinfish",
+      "marine":"marine, brackish",
+      "distribution":"In Georgia, occurs in the Ogeechee River basin.",
+      "photo":"lagorhom",
+      "map":"lagorhomrm"
+   },
+   {
+      "scientific":"Aplodinotus grunniens",
+      "common":"freshwater drum",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee and Coosa River basins.",
+      "photo":"aplogrun",
+      "map":"aplogrunrm"
+   },
+   {
+      "scientific":"Bairdiella chrysoura",
+      "common":"silver perch",
+      "marine":"marine, brackish",
+      "distribution":"In Georgia, occurs in the Satilla and Ogeechee River basins.",
+      "photo":"bairchry",
+      "map":"bairchryrm"
+   },
+   {
+      "scientific":"Cynoscion nebulosus",
+      "common":"spotted seatrout",
+      "marine":"marine, brackish",
+      "distribution":"In Georgia, occurs in the Ogeechee and Savannah HUC 8 basins.",
+      "photo":"cynonebu",
+      "map":"cynoneburm"
+   },
+   {
+      "scientific":"Leiostomus xanthurus",
+      "common":"spot",
+      "marine":"marine, brackish",
+      "distribution":"In Georgia, occurs in the Satilla and Ogeechee River basins.",
+      "photo":"leioxant",
+      "map":"leioxantrm"
+   },
+   {
+      "scientific":"Micropogonias undulatus",
+      "common":"Atlantic croaker",
+      "marine":"marine, brackish",
+      "distribution":"In Georgia, occurs in the Satilla, Ogeechee, and Savannah River basins.",
+      "photo":"micrundu",
+      "map":"micrundurm"
+   },
+   {
+      "scientific":"Sciaenops ocellatus",
+      "common":"red drum",
+      "marine":"marine, brackish",
+      "distribution":"In Georgia, occurs in the Ogeechee River basin.",
+      "photo":"sciaocel",
+      "map":"sciaocelrm"
+   },
+   {
+      "scientific":"Elassoma evergladei",
+      "common":"Everglades pygmy sunfish",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"elasever",
+      "map":"elaseverrm"
+   },
+   {
+      "scientific":"Elassoma okefenokee",
+      "common":"Okefenokee pygmy sunfish",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Suwannee, St. Marys, Satilla, and Ocmulgee River basins.",
+      "photo":"elasokef",
+      "map":"elasokefrm"
+   },
+   {
+      "scientific":"Elassoma gilberti",
+      "common":"Gulf coast pygmy sunfish",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Flint and Ochlockonee River Basins.",
+      "photo":"elasgilb",
+      "map":"elasgilbrm"
+   },
+   {
+      "scientific":"Elassoma zonatum",
+      "common":"banded pygmy sunfish",
+      "marine":"freshwater",
+      "distribution":"Occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins. ",
+      "photo":"elaszona",
+      "map":"elaszonarm"
+   },
+   {
+      "scientific":"Dormitator maculatus",
+      "common":"fat sleeper",
+      "marine":"brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Ogeechee River basin. ",
+      "photo":"dormmacu",
+      "map":"dormmacurm"
+   },
+   {
+      "scientific":"Ctenogobius boleosoma",
+      "common":"darter goby",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in Ogeechee and Savannah River basin.",
+      "photo":"ctenbole",
+      "map":"ctenbolerm"
+   },
+   {
+      "scientific":"Ctenogobius shufeldti",
+      "common":"freshwater goby",
+      "marine":"brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"ctenshuf",
+      "map":"ctenshufrm"
+   },
+   {
+      "scientific":"Gobiosoma bosc",
+      "common":"naked goby",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Ogeechee River basin.",
+      "photo":"gobibosc",
+      "map":"gobiboscrm"
+   },
+   {
+      "scientific":"Chaetodipterus faber",
+      "common":"Atlantic spadefish",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Ogeechee and Savannah River basins.",
+      "photo":"chaefabe",
+      "map":"chaefaberm"
+   },
+   {
+      "scientific":"Citharichthys spilopterus",
+      "common":"bay whiff",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Ogeechee River basin.",
+      "photo":"cithspil",
+      "map":"cithspilrm"
+   },
+   {
+      "scientific":"Paralichthys dentatus",
+      "common":"summer flounder",
+      "marine":"marine, brackish",
+      "distribution":"In Georgia, occurs in the Ogeechee and Savannah River basins.",
+      "photo":"paradent",
+      "map":"paradentrm"
+   },
+   {
+      "scientific":"Paralichthys lethostigma",
+      "common":"southern flounder",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"paraleth",
+      "map":"paralethrm"
+   },
+   {
+      "scientific":"Trinectes maculatus",
+      "common":"hogchoker",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Flint, Ocmulgee, Altamaha, Ogeechee, and Savannah River Basins below the Fall Line.",
+      "photo":"trinmacu",
+      "map":"trinmacurm"
+   },
+   {
+      "scientific":"Cyprinella caerulea",
+      "common":"blue shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "photo":"cyprcaer",
+      "map":"cyprcaerrm"
+   },
+   {
+      "scientific":"Cyprinella callisema",
+      "common":"Ocmulgee shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Ocmulgee and Oconee River basins.",
+      "photo":"ccallise",
+      "map":"ccalliserm"
+   },
+   {
+      "scientific":"Cyprinella callistia",
+      "common":"Alabama shiner",
+      "marine":"freshwater",
+      "distribution":"In Geoergia, occurs in the Coosa and Tallapoosa River Basins.",
+      "photo":"cyprcall",
+      "map":"cyprcallrm"
+   },
+   {
+      "scientific":"Hybopsis amblops",
+      "common":"bigeye chub",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "photo":"hyboambl",
+      "map":"hyboamblrm"
+   },
+   {
+      "scientific":"Notropis chalybaeus",
+      "common":"ironcolor shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs primarily below the Fall Line in the Flint, Ochlockonee, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins.",
+      "photo":"notrchal",
+      "map":"notrchalrm"
+   },
+   {
+      "scientific":"Notropis stilbius",
+      "common":"silverstripe shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occus in the Coosa and Tallapoosa River basins.",
+      "photo":"notrstil",
+      "map":"notrstilrm"
+   },
+   {
+      "scientific":"Notropis telescopus",
+      "common":"telescope shiner",
+      "marine":"freshwater",
+      "distribution":"In Georgia occurs in the Tennessee River Basin.",
+      "photo":"notrtele",
+      "map":"notrtelerm"
+   },
+   {
+      "scientific":"Fundulus diaphanus",
+      "common":"banded killifish",
+      "marine":"brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Savannah River Basin.",
+      "photo":"funddiap",
+      "map":"funddiaprm"
+   },
+   {
+      "scientific":"Cottus sp. cf. C. bairdi",
+      "common":"smoky sculpin",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"cottsmok",
+      "map":"cottsmokrm"
+   },
+   {
+      "scientific":"Morone chrysops",
+      "common":"white bass",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, Flint, Ocmulgee, Oconee, and Savannah River basins.",
+      "photo":"morochry",
+      "map":"morochryrm"
+   },
+   {
+      "scientific":"Lepomis macrochirus",
+      "common":"bluegill",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "photo":"lepomacr",
+      "map":"lepomacrrm"
+   },
+   {
+      "scientific":"Lepomis microlophus",
+      "common":"redear sunfish",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in all major river basins.",
+      "photo":"lepomicr",
+      "map":"lepomicrrm"
+   },
+   {
+      "scientific":"Fundulus rubrifrons",
+      "common":"redface topminnow",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Suwannee and St. Marys River basins.",
+      "photo":"fundrubr",
+      "map":"fundrubrrm"
+   },
+   {
+      "scientific":"Etheostoma blennioides",
+      "common":"greenside darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "photo":"ethebled",
+      "map":"ethebledrm"
+   },
+   {
+      "scientific":"Etheostoma chlorobranchium",
+      "common":"greenfin darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "photo":"ethechbr",
+      "map":"ethechbrrm"
+   },
+   {
+      "scientific":"Etheostoma zonale",
+      "common":"banded darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "photo":"ethezona",
+      "map":"ethezonarm"
+   },
+   {
+      "scientific":"Etheostoma rupestre",
+      "common":"rock darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "photo":"etherupe",
+      "map":"etheruperm"
+   },
+   {
+      "scientific":"Etheostoma sp. cf. E. brevirostrum",
+      "common":"holiday darter complex",
+      "marine":"freshwater",
+      "distribution":"In Georgia occurs in the Coosa River Basin.",
+      "photo":"ethespbr",
+      "map":"ethespbrrm"
+   },
+   {
+      "scientific":"Etheostoma swaini",
+      "common":"gulf darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee, Flint, and Ochlockonee River basins.",
+      "photo":"etheswai",
+      "map":"etheswairm"
+   },
+   {
+      "scientific":"Percina aurantiaca",
+      "common":"tangerine darter",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "photo":"percaura",
+      "map":"percaurarm"
+   },
+   {
+      "scientific":"Elassoma okatie",
+      "common":"bluebarred pygmy sunfish",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Savannah River basin.",
+      "photo":"elasokat",
+      "map":"elasokatrm"
+   },
+   {
+      "scientific":"Pimephales promelas",
+      "common":"fathead minnow",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"pimeprom",
+      "map":"pimepromrm"
+   },
+   {
+      "scientific":"Micropterus sp. cf. M. coosae",
+      "common":"redeye bass (Chattahoochee)",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Chattahoochee and Flint River basins.",
+      "photo":"micrspch",
+      "map":"micrspchrm"
+   },
+   {
+      "scientific":"Micropterus sp. cf. M. coosae",
+      "common":"redeye bass (Altamaha \/ Ogeechee)",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, and Ogeechee River basins.",
+      "photo":"micrspao",
+      "map":"micrspaorm"
+   },
+   {
+      "scientific":"Astronotus ocellatus",
+      "common":"oscar",
+      "marine":"freshwater",
+      "distribution":"In Georgia, records have occured in the Coosa, Chattahoochee, Flint, and Ocmulgee River basins.",
+      "photo":"astrocel",
+      "map":"astrocelrm"
+   },
+   {
+      "scientific":"Hybopsis sp. cf. H. winchelli",
+      "common":"Etowah chub",
+      "marine":"freshwater",
+      "distribution":"In Georgia occurs in the Coosa River system.",
+      "photo":"hybospwi",
+      "map":"hybospwirm"
+   },
+   {
+      "scientific":"Polyodon spathula",
+      "common":"paddlefish",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Flint River basin.",
+      "photo":"polyspat",
+      "map":"polyspatrm"
+   },
+   {
+      "scientific":"Cynoscion regalis",
+      "common":"weakfish",
+      "marine":"marine, brackish",
+      "distribution":"In Georgia, occurs in the Ogeechee and Savannah River basins.",
+      "photo":"cynorega",
+      "map":"cynoregarm"
+   },
+   {
+      "scientific":"Cynoscion nothus",
+      "common":"silver seatrout",
+      "marine":"marine, brackish",
+      "distribution":"In Georgia, occurs in the Ogeechee River basin.",
+      "photo":"cynonoth",
+      "map":"cynonothrm"
+   },
+   {
+      "scientific":"Micropterus henshalli",
+      "common":"Alabama bass",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"micrhens",
+      "map":"micrhensrm"
+   },
+   {
+      "scientific":"Microphis brachyurus",
+      "common":"opossum pipefish",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Satilla and Savannah River basins.",
+      "photo":"micrbrac",
+      "map":"micrbracrm"
+   },
+   {
+      "scientific":"Cottus sp. cf. C. bairdi",
+      "common":"Ridge and Valley sculpin",
+      "marine":"freshwater",
+      "distribution":"Distribution map under review.",
+      "photo":"cottrvsc",
+      "map":"cottrvscrm"
+   },
+   {
+      "scientific":"Tanichthys albonubes",
+      "common":"white cloud mountain minnow",
+      "marine":"freshwater",
+      "distribution":"In Georgia, occurs in the Savannah River basin.",
+      "photo":"tanialbo",
+      "map":"tanialborm"
+   },
+   {
+      "scientific":"Alosa pseudoharengus",
+      "common":"alewife",
+      "marine":"marine, brackish, freshwater",
+      "distribution":"In Georgia, occurs in the Coosa River basins.",
+      "photo":"alospseu",
+      "map":"alospseurm"
+   }
 ]

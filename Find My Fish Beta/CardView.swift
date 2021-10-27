@@ -51,11 +51,19 @@ struct CardView: View {
                                     Spacer()
                                         .frame(height: geo.size.height/20)
                                     
-                                    Image("name" + String(num))
-                                        .resizable()
-                                        .aspectRatio(contentMode: .fit)
-                                        .cornerRadius(10)
-                                        .shadow(color: .black, radius: 5, x: 4, y: 8)
+                                    ZStack {
+                                        Image("NotFound")
+                                            .resizable()
+                                            .aspectRatio(contentMode: .fit)
+                                            .frame(maxHeight: 200)
+                                        
+                                        Image(fish.photo)
+                                            .resizable()
+                                            .aspectRatio(contentMode: .fit)
+                                            .cornerRadius(10)
+                                            .padding(5)
+                                            .shadow(color: .black, radius: 5, x: 4, y: 8)
+                                    }
                                     
                                     // Spacer for resizable positioning
                                     Spacer()
@@ -81,37 +89,44 @@ struct CardView: View {
                                     
                                     // image that shrinks and darkens when paused
                                     // Image("map" + String(Int.random(in: 1..<5)))
-                                    Image("namemap" + String(num))
-                                        .resizable()
-                                        .aspectRatio(contentMode: .fill)
-                                        .cornerRadius(10)
-                                        .shadow(color: .black, radius: 5, x: 4, y: 8)
-                                        .padding(16)
+                                    ZStack {
+                                        Image("NotFound")
+                                            .resizable()
+                                            .aspectRatio(contentMode: .fit)
+                                            .frame(maxHeight: 200)
+                                        
+                                        Image(fish.map)
+                                            .resizable()
+                                            .aspectRatio(contentMode: .fit)
+                                            .cornerRadius(10)
+                                            .padding(5)
+                                            .shadow(color: .black, radius: 5, x: 4, y: 4)
+                                    }
                                 }
                             }
                         }
                     }
                 }
-                .edgesIgnoringSafeArea(.top) // because of custom nav button
-                .navigationBarBackButtonHidden(true)
+                    .edgesIgnoringSafeArea(.top) // because of custom nav button
+                    .navigationBarBackButtonHidden(true)
                 // the custom back button
-                .navigationBarItems(leading:
-                                        Button(action: {
-                                            self.presentationMode.wrappedValue.dismiss()
-                                        }, label: {
-                                            Image(systemName: "chevron.left.circle.fill")
-                                                .font(.title)
-                                                .foregroundColor(Color ("Blueish").opacity(0.9))
-                                                .shadow(color: /*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/, radius: 3.3, x: 0, y: 0)
-                                            
-                                        })
-                )
+                    .navigationBarItems(leading:
+                                            Button(action: {
+                                                self.presentationMode.wrappedValue.dismiss()
+                                            }, label: {
+                                                Image(systemName: "chevron.left.circle.fill")
+                                                    .font(.title)
+                                                    .foregroundColor(Color ("Blueish").opacity(0.9))
+                                                    .shadow(color: /*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/, radius: 3.3, x: 0, y: 0)
+                                                
+                                            })
+                                       )
             )
     }
 }
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView(fish: ReadData().fishes[1], num: 1)
+        CardView(fish: ReadData().fishes[32], num: 1)
     }
 }
