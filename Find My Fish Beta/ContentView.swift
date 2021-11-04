@@ -91,7 +91,7 @@ struct ButtonView: View {
         .background(LinearGradient(gradient: Gradient(colors: [Color ("Greenish"), Color("Blueish")]), startPoint: .leading, endPoint: .trailing))
         .cornerRadius(40)
         .padding(.horizontal, 40)
-        .shadow(color: .black, radius: 24, x: 8.0, y: 6.0)
+        .shadow(color: .black, radius: 12, x: 8.0, y: 6.0)
     }
 }
 
