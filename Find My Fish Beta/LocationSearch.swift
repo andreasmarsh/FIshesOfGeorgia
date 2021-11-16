@@ -453,14 +453,8 @@ struct LocationSearch: View, CustomPicker {
                 }
                     .onRotate { newOrientation in
                         orientation = newOrientation
-                        
-                        if !orientation.isLandscape{
-                            screenWidth = UIScreen.main.bounds.size.width
-                            screenHeight = UIScreen.main.bounds.size.height
-                        } else {
-                            screenHeight = UIScreen.main.bounds.size.width
-                            screenWidth = UIScreen.main.bounds.size.height
-                        }
+                        screenWidth = UIScreen.main.bounds.size.width
+                        screenHeight = UIScreen.main.bounds.size.height
                     }
                     .edgesIgnoringSafeArea(.top) // because of custom nav button
                     .navigationBarBackButtonHidden(true)
