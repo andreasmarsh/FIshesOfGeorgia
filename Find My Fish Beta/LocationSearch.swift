@@ -17,9 +17,13 @@ struct LocationSearch: View, CustomPicker {
     @GestureState private var dragOffset = CGSize.zero // for attempt at back gesture
     
     @ObservedObject var datas: ReadData // gets fish data
-
+    
     @State private var hucMap = false // for popup map
-
+    
+    @State private var orientation = UIDeviceOrientation.unknown // for orientation
+    @State private var screenWidth = UIScreen.main.bounds.size.width // screen width
+    @State private var screenHeight = UIScreen.main.bounds.size.height // screen height
+    
     // used for pulling up picker
     @State private var presentPicker = false
     @State private var tag: Int = 0
@@ -334,121 +338,130 @@ struct LocationSearch: View, CustomPicker {
             .edgesIgnoringSafeArea(.all)
             .overlay(
                 ZStack (alignment: .center) {
-                    GeometryReader { geo in // for resizable elements
-                        ZStack() {
-                            VStack(alignment: .center)
-                            {
-                                // Spacer for resizable positioning
-                                Spacer()
-                                    .frame(height: geo.size.height/5)
+                    ZStack() {
+                        VStack(alignment: .center)
+                        {
+                            // Spacer for resizable positioning
+                            Spacer()
+                                .frame(height: screenHeight/5)
+                            
+                            // header
+                            Text("Location Search")
+                                .font(Font.custom("Montserrat-SemiBold", size: screenHeight > screenWidth ? screenWidth * 0.1: screenHeight * 0.09))
+                                .multilineTextAlignment(.center)
+                                .padding(20)
+                                .foregroundColor(Color ("BW"))
+                            
+                            // sub-header
+                            Text("select a location and marine")
+                                .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.04: screenHeight * 0.06))
+                                .multilineTextAlignment(.center)
+                                .padding(.bottom, -5)
+                                .frame(width: screenWidth/1.1, height: 40)
+                                .foregroundColor(Color ("BW"))
+                            
+                            HStack {
+                                // picker for huc map
+                                CustomPickerTextView(presentPicker: $presentPicker,
+                                                     fieldString: $huc,
+                                                     width: screenWidth,
+                                                     placeholder: Text("Select a Hydrologic Unit Location.")
+                                                        .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.04: screenHeight * 0.04))
+                                                     ,
+                                                     tag: $tag,
+                                                     selectedTag: 2)
                                 
-                                // header
-                                Text("Location Search")
-                                    .font(Font.custom("Montserrat-SemiBold", size: geo.size.height > geo.size.width ? geo.size.width * 0.1: geo.size.height * 0.09))
-                                    .multilineTextAlignment(.center)
-                                    .padding(20)
-                                    .foregroundColor(Color ("BW"))
-                                
-                                // sub-header
-                                Text("select a location and marine")
-                                    .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.06))
-                                    .multilineTextAlignment(.center)
-                                    .padding(.bottom, -5)
-                                    .frame(width: geo.size.width/1.1, height: 40)
-                                    .foregroundColor(Color ("BW"))
-                                
-                                HStack {
-                                    // picker for huc map
-                                    CustomPickerTextView(presentPicker: $presentPicker,
-                                                         fieldString: $huc,
-                                                         width: geo.size.width,
-                                                         placeholder: Text("Select a Hydrologic Unit Location.")
-                                                            .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.04))
-                                                         ,
-                                                         tag: $tag,
-                                                         selectedTag: 2)
-                                    
-                                    // button for huc map pop-up
-                                    Button(action: {
-                                        hucMap = !hucMap
-                                    }) {
-                                        if (hucMap == false) {
-                                            Image(systemName: "questionmark.circle")
-                                                .font(.largeTitle)
-                                                .foregroundColor(Color ("BW"))
-                                        } else {
-                                            Image(systemName: "questionmark.circle.fill")
-                                                .font(.largeTitle)
-                                                .foregroundColor(Color ("BW"))
-                                        }
-                                    }
-                                    .sheet(isPresented: $hucMap) {
-                                        hucLauncher(exit: self.$hucMap)
+                                // button for huc map pop-up
+                                Button(action: {
+                                    hucMap = !hucMap
+                                }) {
+                                    if (hucMap == false) {
+                                        Image(systemName: "questionmark.circle")
+                                            .font(.largeTitle)
+                                            .foregroundColor(Color ("BW"))
+                                    } else {
+                                        Image(systemName: "questionmark.circle.fill")
+                                            .font(.largeTitle)
+                                            .foregroundColor(Color ("BW"))
                                     }
                                 }
-                                .frame(width: geo.size.width / 1.5)
-                                .padding(6)
-                                .onChange(of: huc) { newValue in
-                                    filter2 = pickedHuc[hucPicked]
+                                .sheet(isPresented: $hucMap) {
+                                    hucLauncher(exit: self.$hucMap)
                                 }
-                                
-                                VStack {
-                                    // picker for marine
-                                    CustomPickerTextView(presentPicker: $presentPicker,
-                                                         fieldString: $marine,
-                                                         width: geo.size.width,
-                                                         placeholder: Text("Select a fish marine.")
-                                                            .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.04))
-                                                         ,
-                                                         tag: $tag,
-                                                         selectedTag: 1)
-                                }
-                                .frame(width: geo.size.width / 1.5)
-                                .padding(6)
-                                .onChange(of: marine) { newValue in
-                                    filter = pickedMarine[marinePicked]
-                                }
-                                
-                                // resizable spacer
-                                Spacer()
-                                    .frame(height: geo.size.height/10)
-                                
-                                // takes user to dynamicFilteredList using filtered list
-                                NavigationLink(destination:  DynamicFilteredList(filteredFish: refilteredFish.sorted())) {
-                                    ButtonView(image: "magnifyingglass", title: "Search", wid: geo.size.width)
-                                }
-                                
-                                // resizable spacer
-                                Spacer()
-                                    .frame(height: geo.size.height/6)
                             }
-                        }.frame(width: geo.size.width, height: geo.size.height, alignment: .center)
-                        // centers the things in geo reader ^
-                        
-                        // handles which picker to present
-                        if presentPicker {
-                            if tag == 1 {
-                                CustomPickerView(items: marines.sorted(),
-                                                 pickerField: $marine,
-                                                 presentPicker: $presentPicker,
-                                                 val: $marinePicked,
-                                                 fieldList: marines,
-                                                 width: geo.size.width,
-                                                 height: geo.size.height)
-                                    .zIndex(2.0)
-                            } else {
-                                CustomPickerView(items: HUCs.sorted(),
-                                                 pickerField: $huc,
-                                                 presentPicker: $presentPicker,
-                                                 val: $hucPicked,
-                                                 fieldList: HUCs,
-                                                 width: geo.size.width,
-                                                 height: geo.size.height)
-                                    .zIndex(2.0)
+                            .frame(width: screenWidth / 1.5)
+                            .padding(6)
+                            .onChange(of: huc) { newValue in
+                                filter2 = pickedHuc[hucPicked]
                             }
+                            
+                            VStack {
+                                // picker for marine
+                                CustomPickerTextView(presentPicker: $presentPicker,
+                                                     fieldString: $marine,
+                                                     width: screenWidth,
+                                                     placeholder: Text("Select a fish marine.")
+                                                        .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.04: screenHeight * 0.04))
+                                                     ,
+                                                     tag: $tag,
+                                                     selectedTag: 1)
+                            }
+                            .frame(width: screenWidth / 1.5)
+                            .padding(6)
+                            .onChange(of: marine) { newValue in
+                                filter = pickedMarine[marinePicked]
+                            }
+                            
+                            // resizable spacer
+                            Spacer()
+                                .frame(height: screenHeight/10)
+                            
+                            // takes user to dynamicFilteredList using filtered list
+                            NavigationLink(destination:  DynamicFilteredList(filteredFish: refilteredFish.sorted())) {
+                                ButtonView(image: "magnifyingglass", title: "Search", wid: screenWidth)
+                            }
+                            
+                            // resizable spacer
+                            Spacer()
+                                .frame(height: screenHeight/6)
+                        }
+                    }.frame(width: screenWidth, height: screenHeight, alignment: .center)
+                    // centers the things in geo reader ^
+                    
+                    // handles which picker to present
+                    if presentPicker {
+                        if tag == 1 {
+                            CustomPickerView(items: marines.sorted(),
+                                             pickerField: $marine,
+                                             presentPicker: $presentPicker,
+                                             val: $marinePicked,
+                                             fieldList: marines,
+                                             width: screenWidth,
+                                             height: screenHeight)
+                                .zIndex(2.0)
+                        } else {
+                            CustomPickerView(items: HUCs.sorted(),
+                                             pickerField: $huc,
+                                             presentPicker: $presentPicker,
+                                             val: $hucPicked,
+                                             fieldList: HUCs,
+                                             width: screenWidth,
+                                             height: screenHeight)
+                                .zIndex(2.0)
                         }
                     }
                 }
+                    .onRotate { newOrientation in
+                        orientation = newOrientation
+                        
+                        if !orientation.isLandscape{
+                            screenWidth = UIScreen.main.bounds.size.width
+                            screenHeight = UIScreen.main.bounds.size.height
+                        } else {
+                            screenHeight = UIScreen.main.bounds.size.width
+                            screenWidth = UIScreen.main.bounds.size.height
+                        }
+                    }
                     .edgesIgnoringSafeArea(.top) // because of custom nav button
                     .navigationBarBackButtonHidden(true)
                     .navigationBarItems(leading:

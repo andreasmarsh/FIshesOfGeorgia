@@ -43,6 +43,7 @@ struct CustomPickerView: View {
         return ZStack {
             Color.black.opacity(0.4) // to dampen current view
             VStack {
+                Spacer().frame(height: height / 12)
                 VStack(alignment: .leading, spacing: 5) {
                     HStack {
                         Button(action: {
@@ -125,7 +126,7 @@ struct CustomPickerView: View {
     // adjusts height based on filtered data
     fileprivate func setHeight() {
         withAnimation {
-            if filteredItems.count > 9 {
+            if filteredItems.count > 5 {
                 frameHeight = height / 1.55
             } else if filteredItems.count == 0 {
                 frameHeight = height / 8

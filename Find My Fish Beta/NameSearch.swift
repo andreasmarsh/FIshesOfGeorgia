@@ -28,6 +28,9 @@ struct NameSearch: View, CustomPicker {
     @State private var tag: Int = 0
     @State private var menuUp: Bool = false
     
+    @State private var orientation = UIDeviceOrientation.unknown // for orientation
+    @State private var screenWidth = UIScreen.main.bounds.size.width // width
+    @State private var screenHeight = UIScreen.main.bounds.size.height // height
     
     var body: some View {
         // background gradient
@@ -35,105 +38,113 @@ struct NameSearch: View, CustomPicker {
             .edgesIgnoringSafeArea(.all)
             .overlay(
                 ZStack (alignment: .center) {
-                    GeometryReader { geo in // for resiable elements
-                        ZStack() {
-                            VStack(alignment: .center)
-                            {
-                                // Spacer for resizable positioning
-                                Spacer()
-                                    .frame(height: geo.size.height/6)
-                                
-                                // header
-                                Text("Name Search")
-                                    .font(Font.custom("Montserrat-SemiBold", size: geo.size.height > geo.size.width ? geo.size.width * 0.1: geo.size.height * 0.09))
-                                    .multilineTextAlignment(.center)
-                                    .foregroundColor(Color ("BW"))
-                                    .padding(5)
-                                
-                                // sub header
-                                Text("switch between searching by scientific or common name")
-                                    .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.06))
-                                    .multilineTextAlignment(.center)
-                                    .padding(5)
-                                    .frame(width: geo.size.width/1.1, height: 60)
-                                    .foregroundColor(Color ("BW"))
-                                    .minimumScaleFactor(0.5)
-                                
-                                // resiable spacer
-                                Spacer().frame(width: geo.size.width/1.5, height: 20)
-                                
-                                // the picker that affects which customPicker is disaplyed
-                                VStack {
-                                    HStack() {
-                                        Picker(selection: $tag, label: Text("")) {
-                                            ForEach(0..<commonSci.count) { //index in
-                                                Text(commonSci[$0])
-                                                    .foregroundColor(Color ("BW"))
-                                                    .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.06))
-                                            }}
-                                        .frame(width: geo.size.width/1.5, height: 40)
-                                        .clipped()
-                                        .onReceive(
-                                            [self.tag].publisher.first()){
-                                                (value) in
-                                            }.pickerStyle(.segmented)
-                                    }
-                                    .frame(width: geo.size.width/1.5, height: 20)
-                                    
-                                    Spacer().frame(width: geo.size.width/1.5, height: 20)
-                                    
-                                    // CustomPicker
-                                    CustomPickerTextView(presentPicker: $presentPicker,
-                                                         fieldString: $name,
-                                                         width: geo.size.width,
-                                                         placeholder: Text("Select a fish name.")
-                                                            .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.04)),
-                                                         tag: $tag,
-                                                         selectedTag: tag)
+                    ZStack() {
+                        VStack(alignment: .center)
+                        {
+                            // Spacer for resizable positioning
+                            Spacer()
+                                .frame(height: screenHeight/6)
+                            
+                            // header
+                            Text("Name Search")
+                                .font(Font.custom("Montserrat-SemiBold", size: screenHeight > screenWidth ? screenWidth * 0.1: screenHeight * 0.09))
+                                .multilineTextAlignment(.center)
+                                .foregroundColor(Color ("BW"))
+                                .padding(5)
+                            
+                            // sub header
+                            Text("switch between searching by scientific or common name")
+                                .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.04: screenHeight * 0.06))
+                                .multilineTextAlignment(.center)
+                                .padding(5)
+                                .frame(width: screenWidth/1.1, height: 60)
+                                .foregroundColor(Color ("BW"))
+                                .minimumScaleFactor(0.5)
+                            
+                            // resiable spacer
+                            Spacer().frame(width: screenWidth/1.5, height: 20)
+                            
+                            // the picker that affects which customPicker is disaplyed
+                            VStack {
+                                HStack() {
+                                    Picker(selection: $tag, label: Text("")) {
+                                        ForEach(0..<commonSci.count) { //index in
+                                            Text(commonSci[$0])
+                                                .foregroundColor(Color ("BW"))
+                                                .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.04: screenHeight * 0.06))
+                                        }}
+                                    .frame(width: screenWidth/1.5, height: 40)
+                                    .clipped()
+                                    .onReceive(
+                                        [self.tag].publisher.first()){
+                                            (value) in
+                                        }.pickerStyle(.segmented)
                                 }
-                                .frame(width: geo.size.width/1.5)
-                                .padding()
+                                .frame(width: screenWidth/1.5, height: 20)
                                 
-                                Spacer()
-                                    .frame(height: geo.size.height/10)
+                                Spacer().frame(width: screenWidth/1.5, height: 20)
                                 
-                                // Takes user to slected fish card view
-                                NavigationLink(destination:  CardView(fish: datas.fishes[namePicked])) {
-                                    ButtonView(image: "magnifyingglass", title: "Search", wid: geo.size.width)
-                                }
-                                
-                                Spacer()
-                                    .frame(height: geo.size.height/6)
+                                // CustomPicker
+                                CustomPickerTextView(presentPicker: $presentPicker,
+                                                     fieldString: $name,
+                                                     width: screenWidth,
+                                                     placeholder: Text("Select a fish name.")
+                                                        .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.04: screenHeight * 0.04)),
+                                                     tag: $tag,
+                                                     selectedTag: tag)
                             }
-                        }.frame(width: geo.size.width, height: geo.size.height, alignment: .center)
-                        // centers the things in geo reader ^
-                        
-                        
-                        // for handling which picker to display based on common or scientific selection
-                        if presentPicker {
-                            if tag == 0 {
-                                CustomPickerView(items: commonNames.sorted(),
-                                                 pickerField: $name,
-                                                 presentPicker: $presentPicker,
-                                                 val: $namePicked,
-                                                 fieldList: commonNames,
-                                                 width: geo.size.width,
-                                                 height: geo.size.height)
-                                    .zIndex(2.0)
-                            } else {
-                                CustomPickerView(items: scientificNames.sorted(),
-                                                 pickerField: $name,
-                                                 presentPicker: $presentPicker,
-                                                 val: $namePicked,
-                                                 fieldList: scientificNames,
-                                                 width: geo.size.width,
-                                                 height: geo.size.height)
-                                    .zIndex(2.0)
+                            .frame(width: screenWidth/1.5)
+                            .padding()
+                            
+                            Spacer()
+                                .frame(height: screenHeight/10)
+                            
+                            // Takes user to slected fish card view
+                            NavigationLink(destination:  CardView(fish: datas.fishes[namePicked])) {
+                                ButtonView(image: "magnifyingglass", title: "Search", wid: screenWidth)
                             }
+                            
+                            Spacer()
+                                .frame(height: screenHeight/6)
+                        }
+                    }.frame(width: screenWidth, height: screenHeight, alignment: .center)
+                    // centers the things in geo reader ^
+                    
+                    
+                    // for handling which picker to display based on common or scientific selection
+                    if presentPicker {
+                        if tag == 0 {
+                            CustomPickerView(items: commonNames.sorted(),
+                                             pickerField: $name,
+                                             presentPicker: $presentPicker,
+                                             val: $namePicked,
+                                             fieldList: commonNames,
+                                             width: screenWidth,
+                                             height: screenHeight)
+                                .zIndex(2.0)
+                        } else {
+                            CustomPickerView(items: scientificNames.sorted(),
+                                             pickerField: $name,
+                                             presentPicker: $presentPicker,
+                                             val: $namePicked,
+                                             fieldList: scientificNames,
+                                             width: screenWidth,
+                                             height: screenHeight)
+                                .zIndex(2.0)
                         }
                     }
-                    
                 }
+                    .onRotate { newOrientation in
+                        orientation = newOrientation
+                        
+                        if !orientation.isLandscape{
+                            screenWidth = UIScreen.main.bounds.size.width
+                            screenHeight = UIScreen.main.bounds.size.height
+                        } else {
+                            screenHeight = UIScreen.main.bounds.size.width
+                            screenWidth = UIScreen.main.bounds.size.height
+                        }
+                    }
                     .edgesIgnoringSafeArea(.top) // because of custom nav button
                     .navigationBarBackButtonHidden(true)
                     .navigationBarItems(leading:
