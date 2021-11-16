@@ -2,6 +2,8 @@
 //  NameSearch.swift
 //  Find My Fish Beta
 //
+//  Allows user to search using common or scientific name.
+//
 //  Created by NMI Capstone on 10/3/21.
 //
 
@@ -10,30 +12,30 @@ import SwiftUI
 struct NameSearch: View, CustomPicker {
     @Environment(\.presentationMode) var presentationMode // for custom back button
     
-    @ObservedObject var datas: ReadData
+    @ObservedObject var datas: ReadData // loads json data
     
-    @State private var counter = 0
+    @State private var name = "" // display name
+    @State private var namePicked = 0 // the value of where the selected fish appears in list
     
-    @State private var name = ""
-    @State private var namePicked = 0
+    @State var commonNames: [String] // list of all common names
+    @State var scientificNames: [String] // list of al scientific names
     
-    @State var commonNames: [String] // = allFish.map {$0.commonName}
-    @State var scientificNames: [String] // = allFish.map {$0.binomialNomenclature}
+    var commonSci = ["common", "scientific"] // for picking between the two
+    @State var searchType = 0; // usde for giving a value to selected serac type
     
-    var commonSci = ["common", "scientific"]
-    @State var searchType = 0;
-    
+    // used for displaying picker
     @State private var presentPicker = false
     @State private var tag: Int = 0
     @State private var menuUp: Bool = false
     
     
     var body: some View {
+        // background gradient
         LinearGradient(gradient: Gradient(colors: [Color ("Blueish"), Color("Greenish")]), startPoint: .topTrailing, endPoint: .bottomLeading)
             .edgesIgnoringSafeArea(.all)
             .overlay(
                 ZStack (alignment: .center) {
-                    GeometryReader { geo in
+                    GeometryReader { geo in // for resiable elements
                         ZStack() {
                             VStack(alignment: .center)
                             {
@@ -41,11 +43,14 @@ struct NameSearch: View, CustomPicker {
                                 Spacer()
                                     .frame(height: geo.size.height/6)
                                 
+                                // header
                                 Text("Name Search")
                                     .font(Font.custom("Montserrat-SemiBold", size: geo.size.height > geo.size.width ? geo.size.width * 0.1: geo.size.height * 0.09))
                                     .multilineTextAlignment(.center)
+                                    .foregroundColor(Color ("BW"))
                                     .padding(5)
                                 
+                                // sub header
                                 Text("switch between searching by scientific or common name")
                                     .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.04: geo.size.height * 0.06))
                                     .multilineTextAlignment(.center)
@@ -54,10 +59,11 @@ struct NameSearch: View, CustomPicker {
                                     .foregroundColor(Color ("BW"))
                                     .minimumScaleFactor(0.5)
                                 
+                                // resiable spacer
                                 Spacer().frame(width: geo.size.width/1.5, height: 20)
                                 
+                                // the picker that affects which customPicker is disaplyed
                                 VStack {
-                                    
                                     HStack() {
                                         Picker(selection: $tag, label: Text("")) {
                                             ForEach(0..<commonSci.count) { //index in
@@ -76,7 +82,7 @@ struct NameSearch: View, CustomPicker {
                                     
                                     Spacer().frame(width: geo.size.width/1.5, height: 20)
                                     
-                                    
+                                    // CustomPicker
                                     CustomPickerTextView(presentPicker: $presentPicker,
                                                          fieldString: $name,
                                                          width: geo.size.width,
@@ -91,8 +97,8 @@ struct NameSearch: View, CustomPicker {
                                 Spacer()
                                     .frame(height: geo.size.height/10)
                                 
-                                // Takes user to relevant genre CardView
-                                NavigationLink(destination:  CardView(fish: datas.fishes[namePicked], num: tag)) {
+                                // Takes user to slected fish card view
+                                NavigationLink(destination:  CardView(fish: datas.fishes[namePicked])) {
                                     ButtonView(image: "magnifyingglass", title: "Search", wid: geo.size.width)
                                 }
                                 
@@ -101,22 +107,29 @@ struct NameSearch: View, CustomPicker {
                             }
                         }.frame(width: geo.size.width, height: geo.size.height, alignment: .center)
                         // centers the things in geo reader ^
-                    }
-                    if presentPicker {
-                        if tag == 0 {
-                            CustomPickerView(items: commonNames.sorted(),
-                                             pickerField: $name,
-                                             presentPicker: $presentPicker,
-                                             val: $namePicked,
-                                             fieldList: commonNames)
-                                .zIndex(2.0)
-                        } else {
-                            CustomPickerView(items: scientificNames.sorted(),
-                                             pickerField: $name,
-                                             presentPicker: $presentPicker,
-                                             val: $namePicked,
-                                             fieldList: scientificNames)
-                                .zIndex(2.0)
+                        
+                        
+                        // for handling which picker to display based on common or scientific selection
+                        if presentPicker {
+                            if tag == 0 {
+                                CustomPickerView(items: commonNames.sorted(),
+                                                 pickerField: $name,
+                                                 presentPicker: $presentPicker,
+                                                 val: $namePicked,
+                                                 fieldList: commonNames,
+                                                 width: geo.size.width,
+                                                 height: geo.size.height)
+                                    .zIndex(2.0)
+                            } else {
+                                CustomPickerView(items: scientificNames.sorted(),
+                                                 pickerField: $name,
+                                                 presentPicker: $presentPicker,
+                                                 val: $namePicked,
+                                                 fieldList: scientificNames,
+                                                 width: geo.size.width,
+                                                 height: geo.size.height)
+                                    .zIndex(2.0)
+                            }
                         }
                     }
                     
@@ -143,6 +156,7 @@ struct NameSearch: View, CustomPicker {
     }
 }
 
+// preview for testing
 struct NameSearch_Previews: PreviewProvider {
     static var previews: some View {
         NameSearch(datas: ReadData(), commonNames: ReadData().fishes.map {$0.common}, scientificNames: ReadData().fishes.map {$0.scientific})

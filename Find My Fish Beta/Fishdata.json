@@ -4,6 +4,7 @@
       "common":"Ohio lamprey",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "huc8":"Occurs in the Chickamauga Creek HUC 8 basins.",
       "photo":"ichtbdel",
       "map":"ichtbdelrm"
    },
@@ -12,6 +13,7 @@
       "common":"chestnut lamprey",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee and Coosa River basins.",
+      "huc8":"Occurs in the Little Tennessee, Hiawassee, Toccoa, Chickamauga, Conasauga, Coosawattee, Oostanaula, Etowah, and Upper Coosa HUC 8 basins.",
       "photo":"ichtcast",
       "map":"ichtcastrm"
    },
@@ -20,6 +22,7 @@
       "common":"southern brook lamprey",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa, Tallapoosa, Chattanooga, Flint and Ochlockonee River Basins.",
+      "huc8":"Occurs in the Consauga, Coosawattee, Oostanaula, Etowah, Upper Coosa River, Upper Tallapoosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee-Muckalee, Ichawaynochaway Creek, Spring Creek, Apalachicola, Ochlockonee, Lower Ochlockonee HUC 8 basins.",
       "photo":"ichtgage",
       "map":"ichtgagerm"
    },
@@ -28,6 +31,7 @@
       "common":"mountain brook lamprey",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "huc8":"Occurs in the Little Tennessee, Hiawassee, and Toccoa HUC 8 basins.",
       "photo":"ichtgree",
       "map":"ichtgreerm"
    },
@@ -36,6 +40,7 @@
       "common":"least brook lamprey",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa River basin.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Oostanaula, Etowah, and Upper Coosa HUC 8 basins.",
       "photo":"lampaepy",
       "map":"lampaepyrm"
    },
@@ -44,6 +49,7 @@
       "common":"American brook lamprey",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "huc8":"Occurs in the Chickamauga HUC 8 basin.",
       "photo":"lampappe",
       "map":"lampapperm"
    },
@@ -52,6 +58,7 @@
       "common":"sea lamprey",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Ocmulgee, Altamaha, and Savannah River basins.",
+      "huc8":"Occurs in the Lower Ocmulgee, Altamaha, and Lower Savannah HUC 8 basins.",
       "photo":"petrmari",
       "map":"petrmarirm"
    },
@@ -60,6 +67,7 @@
       "common":"Atlantic stingray",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Ogeechee River basin.",
+      "huc8":"Occurs in the Ogeechee River Coastal HUC 8 basin.",
       "photo":"dasysabi",
       "map":"dasysabirm"
    },
@@ -68,6 +76,7 @@
       "common":"shortnose sturgeon",
       "marine":"brackish, freshwater",
       "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, Altamaha, Ogeechee and Savannah River Basin",
+      "huc8":"Occurs in the Lower Ocmulgee, Lower Oconee, Altamaha, Canoochee, Lower Ogeechee, Ogeechee River Coastal, Middle Savannah and Lower Savannah HUC 8 basins. ",
       "photo":"acipbrev",
       "map":"acipbrevrm"
    },
@@ -76,6 +85,7 @@
       "common":"lake sturgeon",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa River basin.",
+      "huc8":"Occurs in the Conasauga, Oostanaula, Etowah and Upper Coosa HUC 8 basins.",
       "photo":"acipfulv",
       "map":"acipfulvrm"
    },
@@ -84,6 +94,7 @@
       "common":"Gulf sturgeon",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia occured in the Chattahoochee and Flint River Basins.",
+      "huc8":"Occured in the Middle Chattahoochee - Walter F. George Reservoir, Middle Flint and Lower Flint HUC 8 basins. ",
       "photo":"acipdeso",
       "map":"acipdesorm"
    },
@@ -92,6 +103,7 @@
       "common":"Atlantic sturgeon",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins.",
+      "huc8":"Occurs in the Satilla, Upper Ocmulgee, Lower Ocmulgee, Lower Oconee, Altamaha, Canoochee, Lower Ogeechee, Ogeechee River Coastal, Middle Savannah, and Lower Savannah HUC 8 basins. ",
       "photo":"acipoxyr",
       "map":"acipoxyrrm"
    },
@@ -100,6 +112,7 @@
       "common":"spotted gar",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, and Flint River basins.",
+      "huc8":"Occurs in the Upper Coosa, Chickamauga Creek, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Ichawaynochaway, Spring Creek, and Lower Flint HUC 8 basins.",
       "photo":"lepiocul",
       "map":"lepioculrm"
    },
@@ -108,6 +121,7 @@
       "common":"longnose gar",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia occurs in the Tennessee, Coosa, Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, St. Marys, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Hiawassee, Chickamauga, Conasauga, Coosawattee, Oostanaula, Etowah, Upper Coosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Ichawaynochaway, Spring Creek, Lower Flint, Upper Ochlockonee, Lower Ochlockonee, Little River - Withlacoochee, Withlacoochee, St. Marys, Satilla, Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Ohoopee, Canoochee, Upper Ogeechee, Lower Ogeechee, Ogeechee River Coastal, Tugaloo, Upper Savannah, Broad, Middle Savannah, and Lower Savannah HUC 8 basins.",
       "photo":"lepiosse",
       "map":"lepiosserm"
    },
@@ -116,6 +130,7 @@
       "common":"Florida gar",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Suwannee, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basisn.",
+      "huc8":"Occurs in the Little River - Withlacoochee, Upper Suwannee, Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Lower Oconee, Altamaha, Ohoopee, Upper Ogeechee, Lower Ogeechee, Middle Savannah, and Lower Savannah HUC 8 basins.",
       "photo":"lepiplat",
       "map":"lepiplatrm"
    },
@@ -124,6 +139,7 @@
       "common":"bowfin",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins.",
+      "huc8":"Occurs in the Upper Tallapoosa, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee-Muckalee, Ichawaynochaway, Spring Creek, Lower Flint, Lower Ochlockonee, Little River - Withlacoochee, Aucilla, Alapaha, Withlacoochee, Upper Suwannee, Satilla, Little Satilla, Upper Ocmulgee, Lower Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Ohoopee, Upper Ogeechee, Lower Ogeechee, Brier Creek, and Middle Savannah HUC 8 basins. ",
       "photo":"amiacalv",
       "map":"amiacalvrm"
    },
@@ -132,6 +148,7 @@
       "common":"mooneye",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Etowah, Oostanaula, and Upper Coosa HUC 8 basins.",
       "photo":"hiodterg",
       "map":"hiodtergrm"
    },
@@ -140,6 +157,7 @@
       "common":"ladyfish",
       "marine":"marine, brackish",
       "distribution":"In Georgia, occurs in the Ogeechee and Savannah River basins.",
+      "huc8":"Occurs in the Lower Ogeechee, Ogeechee River Coastal, and Lower Savannah HUC 8 basins.",
       "photo":"elopsaur",
       "map":"elopsaurrm"
    },
@@ -148,6 +166,7 @@
       "common":"tarpon",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Altamaha, Ogeechee River Coastal, Middle Savannah, and Lower Savannah River HUC 8 basins.",
       "photo":"megaatla",
       "map":"megaatlarm"
    },
@@ -156,6 +175,7 @@
       "common":"American eel",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins.",
+      "huc8":"Occurs in the Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Kinchafoonee-Muckalee, Ichawaynochaway, Lower Flint, Spring Creek, Apalachicola, Upper Ochlockonee, Little River - Withlachoochee, Alapaha, Satilla, St. Marys, Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Ohoopee. Upper Ogeechee, Lower Ogeechee, Ogeechee River Coastal, Broad, Brier, Middle Savannah, and Lower Savannah HUC 8 basins. ",
       "photo":"angurost",
       "map":"angurostrm"
    },
@@ -164,6 +184,7 @@
       "common":"speckled worm eel",
       "marine":"marine, brackish",
       "distribution":"In Georgia, occurs in the Ogeechee and Savannah River basins.",
+      "huc8":"Occurs in the Lower Ogeechee, Ogeechee River Coastal, and Lower Savannah River HUC 8 basins.",
       "photo":"myropunc",
       "map":"myropuncrm"
    },
@@ -172,6 +193,7 @@
       "common":"bay anchovy",
       "marine":"marine, brackish",
       "distribution":"In Georgia, occurs in the Satilla, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Cumberland - St. Simons, Lower Ogeechee, Ogeechee River Coastal, and Lower Savannah River HUC 8 basins.",
       "photo":"anchmitc",
       "map":"anchmitcrm"
    },
@@ -180,6 +202,7 @@
       "common":"blueback herring",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Chattahoochee, Ocmulgee, Altamaha, and Savannah River basins.",
+      "huc8":"Occurs in the Hiawassee, Toccoa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Upper Ocmulgee, Altamaha, Tugaloo, Upper Savannah, Little River - Savannah, Middle Savannah, and Lower Savannah HUC 8 basins.",
       "photo":"alosaest",
       "map":"alosaestrm"
    },
@@ -188,6 +211,7 @@
       "common":"Alabama shad",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint, and Suwannee River basins.",
+      "huc8":"Occurs in the Lower Chattahoochee, Ichawaynochaway Creek, Spring Creek, Lower Flint, Little River - Withlacoochee, and Withlacoochee HUC 8 basins.",
       "photo":"alosalab",
       "map":"alosalabrm"
    },
@@ -196,6 +220,7 @@
       "common":"skipjack herring",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee and Flint River basins.",
+      "huc8":"Occurs in the Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, and Lower Flint HUC 8 basins. ",
       "photo":"aloschry",
       "map":"aloschryrm"
    },
@@ -204,6 +229,7 @@
       "common":"hickory shad",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Ocmulgee, Altamaha Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Lower Ocmulgee, Altamaha, Upper Ogeechee, Lower Ogeechee, Tugaloo, Upper Savannah, Middle Savannah, and Lower Savannah HUC 8 basins.",
       "photo":"alosmedi",
       "map":"alosmedirm"
    },
@@ -212,6 +238,7 @@
       "common":"American shad",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the St. Marys, Satilla, Upper Ocmulgee, Lower Ocmulgee, Lower Oconee, Altamaha, Ohoopee, Upper Ogeechee, Lower Ogeechee, Ogeechee River Coastal, Middle Savannah, and Lower Savannah HUC 8 basins.",
       "photo":"alossapi",
       "map":"alossapirm"
    },
@@ -220,6 +247,7 @@
       "common":"yellowfin menhaden",
       "marine":"marine, brackish",
       "distribution":"In Georgia, occurs in the Ogeechee River basin.",
+      "huc8":"Occurs in the Ogeechee River Coastal HUC 8 basin.",
       "photo":"brevsmit",
       "map":"brevsmitrm"
    },
@@ -228,6 +256,7 @@
       "common":"Atlantic menhaden",
       "marine":"marine, brackish",
       "distribution":"In Georgia, occurs in the Satilla, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Satilla, Lower Ogeechee, Ogeechee River Coastal, and Lower Savannah River HUC 8 basins.",
       "photo":"brevtyra",
       "map":"brevtyrarm"
    },
@@ -236,6 +265,7 @@
       "common":"gizzard shad",
       "marine":"brackish, freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Hiawassee, Toccoa, Chickamauga, Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, Upper Tallapoosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Spring Creek, Lower Flint, Upper Ochlockonee, Lower Ocklockonee, Satilla, Upper Ocmulgee, Lower Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Upper Ogeechee, Ogeechee River Coastal, Tugaloo, Upper Savannah, Broad, Little River - Savannah, and Middle Savannah HUC 8 basins.",
       "photo":"dorocepe",
       "map":"doroceperm"
    },
@@ -244,6 +274,7 @@
       "common":"threadfin shad",
       "marine":"brackish, freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, Flint, Suwannee, Satilla, Ocmulgee, Oconee, Altamaha, and Savannah River basins.",
+      "huc8":"Occurs in the Hiawassee, Coosawattee, Oostanaula, Etowah, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Lower Flint, Spring Creek, Little River - Withlacoochee, Satilla, Upper Ocmulgee, Lower Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Tugaloo, Upper Savannah, Broad, Little River - Savannah, and Middle Savannah HUC 8 basins.",
       "photo":"doropete",
       "map":"doropeterm"
    },
@@ -252,6 +283,7 @@
       "common":"Atlantic thread herring",
       "marine":"marine, brackish",
       "distribution":"In Georgia, occurs in the Satilla, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Satilla, Ogeechee River Coastal, and Lower Savannah River HUC 8 basins.",
       "photo":"opisogli",
       "map":"opisoglirm"
    },
@@ -260,6 +292,7 @@
       "common":"central stoneroller",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"campanom",
       "map":"campanomrm"
    },
@@ -268,6 +301,7 @@
       "common":"largescale stoneroller",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"campolig",
       "map":"campoligrm"
    },
@@ -276,6 +310,7 @@
       "common":"bluefin stoneroller",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"camppauc",
       "map":"camppaucrm"
    },
@@ -284,6 +319,7 @@
       "common":"goldfish",
       "marine":"freshwater",
       "distribution":"Introduced, potentially statewide.",
+      "huc8":"Occurs in Hiawassee, Toccoa, Conasauga, Coosawattee, Etowah, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Flint, Lower Oconee, and Middle Savannah HUC 8 basins.",
       "photo":"caraaura",
       "map":"caraaurarm"
    },
@@ -292,6 +328,7 @@
       "common":"rosyside dace",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee and Savannah River Basins.",
+      "huc8":"Occurs in the Little Tennessee, Hiawassee, and Tugaloo HUC 8 basins.",
       "photo":"clinfund",
       "map":"clinfundrm"
    },
@@ -300,6 +337,7 @@
       "common":"grass carp",
       "marine":"freshwater",
       "distribution":"Introduced, potentially statewide.",
+      "huc8":"Occurs in Conasauga, Coosawattee, Etowah, Oostanaula, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. Georgia Reservoir, Lower Ocmulgee, Upper Oconee, Lower Oconee, Middle Savannah HUC 8 basins.",
       "photo":"ctenidel",
       "map":"ctenidelrm"
    },
@@ -308,6 +346,7 @@
       "common":"common carp",
       "marine":"freshwater",
       "distribution":"Introduced, potentially statewide.",
+      "huc8":"Occurs in the Hiawassee, Toccoa, Chickamauga Creek, Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, Upper Tallapoosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George, Lower Chattahoochee, Middle Flint, Lower Flint, Ichawaynochaway Creek, Spring Creek, Upper Ocmulgee, Lower Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Tugaloo, Seneca, Upper Savannah, Little River (Savannah), Middle Savannah HUC 8 basins.",
       "photo":"cyprcarp",
       "map":"cyprcarprm"
    },
@@ -316,6 +355,7 @@
       "common":"bluestripe shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, this occurs in the Chattahoochee and Flint River Basins.",
+      "huc8":"Occurs in Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Upper Flint, Middle Flint, Lower Flint, Kinchafoonee - Muckalee Creeks, and Ichawaynochaway Creek HUC 8 basins.",
       "photo":"ccallita",
       "map":"ccallitarm"
    },
@@ -324,6 +364,7 @@
       "common":"whitetail shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee and Savannah River Basins.",
+      "huc8":"Occurs in the Little Tennessee, Hiawassee, Toccoa, Chickamauga Creek, and Tugaloo HUC 8 basins.",
       "photo":"cyprgala",
       "map":"cyprgalarm"
    },
@@ -332,6 +373,7 @@
       "common":"Tallapoosa shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tallapoosa River Basin.",
+      "huc8":"Occurs in the Upper Tallapoosa HUC 8 basin.",
       "photo":"cyprgibb",
       "map":"cyprgibbrm"
    },
@@ -340,6 +382,7 @@
       "common":"bannerfin shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Ochlockonee, Suwannee, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Upper Ochlockonee, Lower Ochlockonee, Little River - Withlacoochee, Withlacoochee, Alapaha, Lower Ocmulgee, Little Ocmulgee, Lower Oconee, Altamaha, Ohoopee, Canoochee, Upper Ogeechee, Lower Ogeechee, Middle Savannah, and Lower Savannah HUC 8 basins.",
       "photo":"cyprleed",
       "map":"cyprleedrm"
    },
@@ -348,6 +391,7 @@
       "common":"red shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa, Chattahoochee, and Ocmulgee River Basins.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, and Upper Ocmulgee HUC 8 basins.",
       "photo":"cyprlutr",
       "map":"cyprlutrrm"
    },
@@ -356,6 +400,7 @@
       "common":"spotfin chub",
       "marine":"freshwater",
       "distribution":"Historical distribution in Georgia included the Tennessee River Basin.",
+      "huc8":"Occurred in the Chickamauga Creek HUC 8 basin.",
       "photo":"cyprmona",
       "map":"cyprmonarm"
    },
@@ -364,6 +409,7 @@
       "common":"whitefin shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Savannah River Basin.",
+      "huc8":"Occurs in the Tugaloo, Upper Savannah, Broad, Little River (Savannah), Middle Savannah, Brier Creek, and Lower Savannah HUC 8 basins.",
       "photo":"cyprnive",
       "map":"cyprniverm"
    },
@@ -372,6 +418,7 @@
       "common":"fireyblack shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Savannah River basin.",
+      "huc8":"Occurs in the Tugaloo HUC 8 basin.",
       "photo":"cyprpyrr",
       "map":"cyprpyrrrm"
    },
@@ -380,6 +427,7 @@
       "common":"spotfin shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "huc8":"Occurs in the Toccoa and Chickamauga Creek HUC 8 basins.",
       "photo":"cyprspil",
       "map":"cyprspilrm"
    },
@@ -388,6 +436,7 @@
       "common":"tricolor shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Etowah, Oostanaula, and Upper Coosa HUC 8 basins.",
       "photo":"cyprtric",
       "map":"cyprtricrm"
    },
@@ -396,6 +445,7 @@
       "common":"blacktail shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, and Ocmulgee River Basins.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, Upper Tallapoosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee Creeks, Ichawaynochaway Creek, Lower Flint, Spring Creek, Apalachicola, Upper Ochlockonee, Lower Ochlockonee, Little River (Suwannee), Withlacoochee, Alapaha, and Upper Ocmulgee HUC 8 basins.",
       "photo":"cyprvenu",
       "map":"cyprvenurm"
    },
@@ -404,6 +454,7 @@
       "common":"steelcolor shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "huc8":"Occurs in the Chickamauga Creek HUC 8 basin.",
       "photo":"cyprwhip",
       "map":"cyprwhiprm"
    },
@@ -412,6 +463,7 @@
       "common":"Altamaha shiner",
       "marine":"freshwater",
       "distribution":"Occurs in the Ocmulgee and Oconee River Basins primarily above the Fall Line.",
+      "huc8":"Occurs in the Upper Ocmulgee and Upper Oconee HUC 8 basins.",
       "photo":"cyprxaen",
       "map":"cyprxaenrm"
    },
@@ -420,6 +472,7 @@
       "common":"blotched chub",
       "marine":"freshwater",
       "distribution":"In Georiga, occurs in the Tennessee River Basin.",
+      "huc8":"Occurs in the Hiawassee and Toccoa HUC 8 basins.",
       "photo":"eriminsi",
       "map":"eriminsirm"
    },
@@ -428,6 +481,7 @@
       "common":"flame chub",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "huc8":"Occurs in the Chickamauga HUC 8 basin.",
       "photo":"hemiflam",
       "map":"hemiflamrm"
    },
@@ -436,6 +490,7 @@
       "common":"eastern silvery minnow",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, Altamaha, and Savannah River Basins.",
+      "huc8":"Occurs in the Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Ohoopee, Altamaha, Tugaloo, Upper Savannah, Broad, Little River (Savannah), Middle Savannah, and Lower Savannah HUC 8 basins.",
       "photo":"hyboregi",
       "map":"hyboregirm"
    },
@@ -444,6 +499,7 @@
       "common":"lined chub",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa and Tallapoosa River basins.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, and Upper Tallapoosa HUC 8 basins.",
       "photo":"hyboline",
       "map":"hybolinerm"
    },
@@ -452,6 +508,7 @@
       "common":"rosyface chub",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Upper Ocmulgee, Upper Oconee, Lower Oconee, Upper Ogeechee, Lower Ogeechee, Tugaloo, Upper Savannah, Broad, Little River - Savannah, and Middle Savannah HUC 8 basins.",
       "photo":"hyborubr",
       "map":"hyborubrrm"
    },
@@ -460,6 +517,7 @@
       "common":"coastal chub",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee and Flint River basins.",
+      "huc8":"Occurs in the Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee Creeks, Ichawaynochaway Creek, Spring Creek, Lower Flint, and Apalachicola HUC 8 basins.",
       "photo":"hybowinc",
       "map":"hybowincrm"
    },
@@ -468,6 +526,7 @@
       "common":"striped shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, and Tallapoosa River basins.",
+      "huc8":"Occurs in the Chickamauga Creek, Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, and Upper Tallapoosa HUC 8 basins.",
       "photo":"luxichry",
       "map":"luxichryrm"
    },
@@ -476,6 +535,7 @@
       "common":"warpaint shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee and Savannah River Basins.",
+      "huc8":"Occurs in the Chickamauga Creek, Toccoa, Hiawassee, Little Tennessee, and Tugaloo HUC 8 basins.",
       "photo":"luxicocc",
       "map":"luxicoccrm"
    },
@@ -484,6 +544,7 @@
       "common":"bandfin shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, Occurs in the Coosa, Tallapoosa, Chattahoochee, Ocmulgee, Oconee, and Savannah River Basins.",
+      "huc8":"Occurs in the Coosawattee, Etowah, Upper Tallapoosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Apalachicola, Upper Ocmulgee, Upper Oconee, and Tugaloo HUC 8 basins.",
       "photo":"luxizoni",
       "map":"luxizonirm"
    },
@@ -492,6 +553,7 @@
       "common":"blacktip shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee and Flint River Basins.",
+      "huc8":"Occurs in the Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George, Lower Chattahoochee, and Upper Flint HUC 8 basins.",
       "photo":"lythatra",
       "map":"lythatrarm"
    },
@@ -500,6 +562,7 @@
       "common":"pretty shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tallapoosa River Basin.",
+      "huc8":"Occurs in the Upper Tallapoosa HUC 8 basin.",
       "photo":"lythbell",
       "map":"lythbellrm"
    },
@@ -508,6 +571,7 @@
       "common":"scarlet shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River Basin. ",
+      "huc8":"Occurs in the Chickamauga Creek HUC 8 basin.",
       "photo":"lythfasc",
       "map":"lythfascrm"
    },
@@ -516,6 +580,7 @@
       "common":"mountain shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee and Coosa River basins.",
+      "huc8":"Occurs in the Chickamauga Creek, Conasauga, Coosawattee, Etowah, Oostanaula, and Upper Coosa HUC 8 basins.",
       "photo":"lythliru",
       "map":"lythlirurm"
    },
@@ -524,6 +589,7 @@
       "common":"Coosa chub (fall line chub complex)",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"macrspae",
       "map":"macrspaerm"
    },
@@ -532,6 +598,7 @@
       "common":"silver chub",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa River basin",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Oostanaula, Etowah, and Upper Coosa HUC 8 basins.",
       "photo":"macrstor",
       "map":"macrstorrm"
    },
@@ -540,6 +607,7 @@
       "common":"bluehead chub",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa, Tallapoosa, Chattahoochee, Flint, Ocmulgee, Oconee, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Coosawattee, Etowah, Upper Tallapoosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Upper Flint, Upper Ocmulgee, Lower Ocmulgee, Upper Oconee, Lower Oconee, Tugaloo, Upper Savannah, Broad, Little River - Savannah, Middle Savannah, Brier, and Lower Savannah HUC 8 bsins.",
       "photo":"nocolept",
       "map":"nocoleptrm"
    },
@@ -548,6 +616,7 @@
       "common":"river chub",
       "marine":"freshwater",
       "distribution":"In Georgia, occur in the Tennessee, Coosa, and Savannah River basins.",
+      "huc8":"Occurs in the Little Tennessee, Hiawassee, Toccoa, Chickamauga Creek, Coosawattee, and Tugaloo HUC 8 basins.",
       "photo":"nocomicr",
       "map":"nocomicrrm"
    },
@@ -556,6 +625,7 @@
       "common":"golden shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in all major river basins.",
+      "huc8":"Occurs in the Chickamauga Creek, Toccoa, Hiawassee, Little Tennessee, Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, Upper Tallapoosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee Creeks, Ichawaynochaway Creek, Spring Creek, Lower Flint, Upper Ochlockonee, Lower Ochlockonee, Apalachicola, Apalachee Bay - St. Marks, Aucilla, Little River (Suwannee), Withlacoochee, Satilla, St. Marys, Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Upper Oconee, Lower Oconee, Ohoopee, Altamaha, Upper Ogeechee, Lower Ogeechee, Tugaloo, Upper Savannah, Broad, Little River (Savannah), Middle Savannah, Brier Creek, and Lower Savannah HUC 8 basins.",
       "photo":"notecrys",
       "map":"notecrysrm"
    },
@@ -564,6 +634,7 @@
       "common":"highfin shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Savannah River Basin.",
+      "huc8":"Occurs in the Stevens HUC 8 basin.",
       "photo":"notralti",
       "map":"notraltirm"
    },
@@ -572,6 +643,7 @@
       "common":"longjaw minnow",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ocmulgee, and Oconee River Basins.",
+      "huc8":"Occurs in the Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee Creeks, Apalachicola, Upper Ocmulgee, Upper Oconee, and Lower Oconee HUC 8 basins.",
       "photo":"ericbucc",
       "map":"ericbuccrm"
    },
@@ -580,6 +652,7 @@
       "common":"popeye shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "huc8":"Occurs in the Chickamauga Creek HUC 8 basin.",
       "photo":"notrario",
       "map":"notrariorm"
    },
@@ -588,6 +661,7 @@
       "common":"burrhead shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa River basin.",
+      "huc8":"Occurs in the Conasauga and Oostanaula HUC 8 basins.",
       "photo":"notraspe",
       "map":"notrasperm"
    },
@@ -596,6 +670,7 @@
       "common":"emerald shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "huc8":"Occurs in the Chickamauga Creek HUC 8 basin.",
       "photo":"notrathe",
       "map":"notratherm"
    },
@@ -604,6 +679,7 @@
       "common":"rough shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee River Basin.",
+      "huc8":"Occurs in the Middle Chattahoochee - Lake Harding and Middle Chattahoochee - Water F. George Reservoir HUC 8 basins.",
       "photo":"notrbail",
       "map":"notrbailrm"
    },
@@ -612,6 +688,7 @@
       "common":"rainbow shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Etowah, Oostanaula, and Upper Coosa HUC 8 basins.",
       "photo":"notrchro",
       "map":"notrchrorm"
    },
@@ -620,6 +697,7 @@
       "common":"dusky shiner",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"notrcumm",
       "map":"notrcummrm"
    },
@@ -628,6 +706,7 @@
       "common":"redeye chub",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint and Ocmulgee River Basins below the Fall Line.",
+      "huc8":"Occurs in the Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Kinchafoonee - Muckalee Creeks, Middle Flint, Ichawaynochaway Creek, Lower Flint, Spring Creek, and Lower Ocmulgee HUC 8 basins.",
       "photo":"notrharp",
       "map":"notrharprm"
    },
@@ -636,6 +715,7 @@
       "common":"spottail shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurrs in the Chattahoochee, Flint, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins.",
+      "huc8":"Occurs in the Upper Chattahoochee, Upper Flint, Upper Ocmulgee, Lower Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Upper Ogeechee, Tugaloo, Seneca, Upper Savannah, Broad, Little River (Savannah), Middle Savannah, and Lower Savannah HUC 8 basins.",
       "photo":"notrhuds",
       "map":"notrhudsrm"
    },
@@ -644,6 +724,7 @@
       "common":"highscale shiner",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"notrhyps",
       "map":"notrhypsrm"
    },
@@ -652,6 +733,7 @@
       "common":"Tennessee shiner",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"notrleuc",
       "map":"notrleucrm"
    },
@@ -660,6 +742,7 @@
       "common":"longnose shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ocmulgee, and Oconee River Basins.",
+      "huc8":"Occurs in the Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee Creeks, Ichawaynochaway Creek, Lower Flint, Upper Ocmulgee, Upper Oconee HUC 8 basins.",
       "photo":"notrlong",
       "map":"notrlongrm"
    },
@@ -668,6 +751,7 @@
       "common":"yellowfin shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, Flint, Ocmulgee, Oconee, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Little Tennessee, Etowah, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Upper Flint, Upper Ocmulgee, Lower Ocmulgee, Upper Oconee, Lower Oconee, Upper Ogeechee, Tugaloo, Upper Savannah, Broad, Little River - Savannah, Middle Savannah, and Brier Creek HUC 8 basins.",
       "photo":"notrluti",
       "map":"notrlutirm"
    },
@@ -676,6 +760,7 @@
       "common":"taillight shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, St. Mary's, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins primarily below the Fall Line.",
+      "huc8":"Occurs in the Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Ichawaynochaway Creek, Lower Flint, Spring Creek, Upper Ochlockonee, Apalachicola, Little River (Suwannee), Alapaha, Satilla, St. Marys, Lower Ocmulgee, Little Ocmulgee, Lower Oconee, Ohoopee, Altamaha, Canoochee, Upper Ogeechee, Lower Ogeechee, Middle Savannah, and Lower Savannah HUC 8 basins.",
       "photo":"notrmacu",
       "map":"notrmacurm"
    },
@@ -684,6 +769,7 @@
       "common":"coastal shiner",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"notrpete",
       "map":"notrpeterm"
    },
@@ -692,6 +778,7 @@
       "common":"silver shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "huc8":"Occurs in the Little Tennessee HUC 8 basin.",
       "photo":"notrphot",
       "map":"notrphotrm"
    },
@@ -700,6 +787,7 @@
       "common":"sandbar shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Savannah River Basin.",
+      "huc8":"Occurs in the Tugaloo, Upper Savannah, Broad, and Little River (Savannah) HUC 8 basins.",
       "photo":"notrscep",
       "map":"notrsceprm"
    },
@@ -708,6 +796,7 @@
       "common":"mirror shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee and Savannah River Basins.",
+      "huc8":"Occurs in the Toccoa, Hiawassee, Little Tennessee, and Tugaloo HUC 8 basins.",
       "photo":"notrspec",
       "map":"notrspecrm"
    },
@@ -716,6 +805,7 @@
       "common":"lowland shiner",
       "marine":"",
       "distribution":"In Georgia, occurs in the Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Satilla, Little Satilla, Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Lower Oconee, Ohoopee, Upper Ogeechee, Lower Ogeechee, Little River - Savannah, Brier Creek, and Middle Savannah HUC 8 basins.",
       "photo":"pterston",
       "map":"pterstonrm"
    },
@@ -724,6 +814,7 @@
       "common":"weed shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwanee, Ocmulgee ad Oconee River Basins",
+      "huc8":"Occurs in the Alapaha, Apalachicola, Aucilla, Ichawaynochaway, Kinchafoonee-Muckalee, Little (Suwannee), Lower Chattahoochee, Lower Flint, Lower Ochlockonee, Lower Oconee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George, Middle Flint, Ochlockonee, Spring Creek, Upper Flint, Upper Ochlockonee, Upper Ocmulgee, Withlacoochee ",
       "photo":"notrtexa",
       "map":"notrtexarm"
    },
@@ -732,6 +823,7 @@
       "common":"mimic shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "huc8":"Occurs in the Chickamauga Creek HUC 8 basin.",
       "photo":"notrvolu",
       "map":"notrvolurm"
    },
@@ -740,6 +832,7 @@
       "common":"Coosa shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa, Tallapoosa, and Chattahoochee River Basins.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, Upper Tallapoosa, and Upper Chattahoochee HUC 8 basins.",
       "photo":"notrxaen",
       "map":"notrxaenrm"
    },
@@ -748,6 +841,7 @@
       "common":"pugnose minnow",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Ichawaynochaway, Spring, Lower Flint, Apalachicola, Upper Ochlockonee, Lower Ochlockonee, Withlacoochee, Little River - Withlacoochee, Alapaha, St. Marys, Satilla, Lower Ocmulgee, Little Ocmulgee, Lower Oconee, Ohoopee, Altamaha, Canoochee, Upper Ogeechee, Lower Ogeechee, Middle Savannah, Brier Creek, and Lower Savannah HUC 8 basins.",
       "photo":"opsoemil",
       "map":"opsoemilrm"
    },
@@ -756,6 +850,7 @@
       "common":"riffle minnow",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa and Tallapoosa River Basins.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, and Upper Tallapoosa HUC 8 basins.",
       "photo":"phencato",
       "map":"phencatorm"
    },
@@ -764,6 +859,7 @@
       "common":"fatlips minnow",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "huc8":"Occurs in the Little Tennessee HUC 8 basin.",
       "photo":"phencras",
       "map":"phencrasrm"
    },
@@ -772,6 +868,7 @@
       "common":"stargazing minnow",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "huc8":"Occurs in the Chickamauga Creek HUC 8 basin.",
       "photo":"phenuran",
       "map":"phenuranrm"
    },
@@ -780,6 +877,7 @@
       "common":"Tennessee dace",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "huc8":"Occurs in the Chickamauga Creek HUC 8 basin.",
       "photo":"phoxtenn",
       "map":"phoxtennrm"
    },
@@ -788,6 +886,7 @@
       "common":"bluntnose minnow",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "huc8":"Occurs in the Hiawassee and Chickamauga Creek HUC 8 basins.",
       "photo":"pimenota",
       "map":"pimenotarm"
    },
@@ -796,6 +895,7 @@
       "common":"bullhead minnow",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, and Upper Tallapoosa HUC 8 basins.",
       "photo":"pimevigi",
       "map":"pimevigirm"
    },
@@ -804,6 +904,7 @@
       "common":"broadstripe shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee River basin.",
+      "huc8":"Occurs in the Middle Chattahoochee - Walter F. George Reservoir and Lower Chattahoochee HUC 8 basins.",
       "photo":"ptereury",
       "map":"ptereuryrm"
    },
@@ -812,6 +913,7 @@
       "common":"Apalachee shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint, and Apalachicola River basins.",
+      "huc8":"Occurs in the Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Ichawaynochaway, Spring Creek, Lower Flint, and Apalachicola HUC 8 basins.",
       "photo":"ptergran",
       "map":"ptergranrm"
    },
@@ -820,6 +922,7 @@
       "common":"metallic shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Ochlockonee and Suwannee River basins.",
+      "huc8":"Occurs in the Upper Ochlockonee, Lower Ochlockonee, Little River - Withlacoochee, Withlacoochee, and Alapaha HUC 8 basins.",
       "photo":"ptermeta",
       "map":"ptermetarm"
    },
@@ -828,6 +931,7 @@
       "common":"bluenose shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Flint River basin.",
+      "huc8":"Occurs in the Middle Flint, Ichawaynochaway, and Spring Creek HUC 8 basins.",
       "photo":"pterwela",
       "map":"pterwelarm"
    },
@@ -836,6 +940,7 @@
       "common":"longnose dace",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee and Savannah River basins.",
+      "huc8":"Occurs in the Little Tennessee, Hiawassee, Toccoa, and the Tugaloo HUC 8 basins",
       "photo":"rhincata",
       "map":"rhincatarm"
    },
@@ -844,6 +949,7 @@
       "common":"western blacknose dace",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa River and Savannah River Basins.",
+      "huc8":"Occurs in the Chickamauga Creek, Toccoa, Hiawassee, Little Tennessee, Conasauga, Coosawattee, Etowah, Oostanaula and Upper Coosa, Tugaloo HUC 8 basins.",
       "photo":"rhinobtu",
       "map":"rhinobturm"
    },
@@ -852,6 +958,7 @@
       "common":"creek chub",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"semoatro",
       "map":"semoatrorm"
    },
@@ -860,6 +967,7 @@
       "common":"Dixie chub",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"semothor",
       "map":"semothorrm"
    },
@@ -868,6 +976,7 @@
       "common":"river carpsucker",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"carpcarp",
       "map":"carpcarprm"
    },
@@ -876,6 +985,7 @@
       "common":"quillbacks",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"carpcypr",
       "map":"carpcyprrm"
    },
@@ -884,6 +994,7 @@
       "common":"highfin carpsucker species",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"carpveli",
       "map":"carpvelirm"
    },
@@ -892,6 +1003,7 @@
       "common":"white sucker",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, Ocmulgee, and Savannah River basins.",
+      "huc8":"Occurs in the Little Tennessee, Chickamauga, Conasauga, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Upper Ocmulgee, and Tugaloo HUC 8 basins.",
       "photo":"catocomm",
       "map":"catocommrm"
    },
@@ -900,6 +1012,7 @@
       "common":"creek chubsucker",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ocmulgee, Oconee, Altamaha, Ogeechee and Savannah River basins.",
+      "huc8":"Occurs in the Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Upper Oconee, Lower Oconee, Ohoopee, Altamaha, Canoochee, Upper Ogeechee, Lower Ogeechee, Broad, Upper Savannah, Stevens, Little River - Savannah, Brier Creek, Middle Savannah, and Lower Savannah HUC 8 basins.",
       "photo":"erimoblo",
       "map":"erimoblorm"
    },
@@ -908,6 +1021,7 @@
       "common":"lake chubsucker",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins.",
+      "huc8":"Occurs in the Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee-Muckalee, Ichawaynochaway, Spring Creek, Lower Flint, Upper Ochlockonee, Little River -Suwannee, Alapaha, WIthlachoochee, Aucilla, Upper Suwannee, Satilla, Little Satilla, St. Marys, Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Lower Oconee, Altamaha, Ohoopee, Canoochee, Upper Ogeechee, Lower Ogeechee, Ogeechee River Coastal, Brier Creek, and Middle Savannah HUC 8 basins. ",
       "photo":"erimsuce",
       "map":"erimsucerm"
    },
@@ -916,6 +1030,7 @@
       "common":"Alabama hog sucker",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa, Tallapoosa, Chattahoochee, and Flint River Basins.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, Upper Tallapoosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir and Upper Flint HUC 8 basins.",
       "photo":"hypeetow",
       "map":"hypeetowrm"
    },
@@ -924,6 +1039,7 @@
       "common":"northern hog sucker",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Oconee, and Savannah River basins.",
+      "huc8":"Occurs in the Little Tennessee, Hiawassee, Toccoa, Chickamauga Creek, Upper Oconee, Tugaloo, Upper Savannah, Broad, Stevens, Little River - Savannah, Middle Savannah, Brier Creek, and Lower Savannah HUC 8 basins.",
       "photo":"hypenigr",
       "map":"hypenigrrm"
    },
@@ -932,6 +1048,7 @@
       "common":"smallmouth buffalo",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa River basin.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Oostanaula, Etowah, and Upper Coosa HUC 8 basins.",
       "photo":"ictibuba",
       "map":"ictibubarm"
    },
@@ -940,6 +1057,7 @@
       "common":"black buffalo",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Chattahoochee, and Savannah River basins.",
+      "huc8":"Occurs in the Chickamauga Creek, Upper Chattahoochee, and Seneca River HUC 8 basins.",
       "photo":"ictinige",
       "map":"ictinigerm"
    },
@@ -948,6 +1066,7 @@
       "common":"spotted sucker",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in all major river basins.",
+      "huc8":"Occurs in the Chickamauga Creek, Toccoa, Hiawassee, Little Tennessee, Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, Upper Tallapoosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee Creeks, Ichawaynochaway Creek, Spring Creek, Lower Flint, Upper Ochlockonee, Lower Ochlockonee, Apalachicola, Little River (Suwannee), Withlacoochee, Satilla, Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Upper Oconee, Lower Oconee, Ohoopee, Altamaha, Upper Ogeechee, Lower Ogeechee, Tugaloo, Upper Savannah, Broad, Stevens, Little River (Savannah), Middle Savannah, Brier Creek, and Lower Savannah HUC 8 basins.",
       "photo":"minymela",
       "map":"minymelarm"
    },
@@ -956,6 +1075,7 @@
       "common":"silver redhorse",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "huc8":"Occurs Hiawassee HUC 8 basin.",
       "photo":"moxoanis",
       "map":"moxoanisrm"
    },
@@ -964,6 +1084,7 @@
       "common":"pacu species",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, Flint, Ochlockonee, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Hiawassee, Chickamauga, Oostanaula, Etowah, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Upper Flint, Kinchafoonee - Muckalee, Lower Flint, Aucilla, Satilla, Upper Ocmulgee, Lower Ocmulgee, Upper Oconee, Altamaha, Ogeechee River Coastal, and Little River - Savannah HUC 8 basins.",
       "photo":"piarspec",
       "map":"piarspecrm"
    },
@@ -972,6 +1093,7 @@
       "common":"river redhorse",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa and Tennessee River Basins.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Oostanaula, Upper Coosa, and Hiawassee HUC 8 basins.",
       "photo":"moxocari",
       "map":"moxocarirm"
    },
@@ -980,6 +1102,7 @@
       "common":"notchlip redhorse",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins.",
+      "huc8":"Occurs in the Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Ohoopee, Upper Ogeechee, Tugaloo, Broad, Upper Savannah, Middle Savannah, and Lower Savannah HUC 8 basins.",
       "photo":"moxocoll",
       "map":"moxocollrm"
    },
@@ -988,6 +1111,7 @@
       "common":"black redhorse",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, and Tallapoosa River Basins.",
+      "huc8":"Occurs in the Little Tennessee, Hiawassee, Toccoa, Chickamauga, Conasauga, Coosawattee, Oostanaula, Etowah, Upper Coosa, and Upper Tallapoosa HUC 8 basins.",
       "photo":"moxoduqu",
       "map":"moxoduqurm"
    },
@@ -996,6 +1120,7 @@
       "common":"golden redhorse",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa, Tallapoosa, and Tennessee River Basins.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, Upper Tallapoosa, Chickamauga, Toccoa, Hiawassee, and Little Tennessee HUC 8 basins.",
       "photo":"moxoeryt",
       "map":"moxoerytrm"
    },
@@ -1004,6 +1129,7 @@
       "common":"harelip sucker",
       "marine":"freshwater",
       "distribution":"In Georgia, occurred in the Tennessee River Basin.",
+      "huc8":"Is known only from the Chickamauga Creek HUC 8 Basin. ",
       "photo":"moxolace",
       "map":"moxolacerm"
    },
@@ -1012,6 +1138,7 @@
       "common":"greater jumprock",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee and Flint River Basins.",
+      "huc8":"Occurs in the Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee-Muckalee, Ichawaynochaway, and Spring Creek HUC 8 basins.",
       "photo":"scarlach",
       "map":"scarlachrm"
    },
@@ -1020,6 +1147,7 @@
       "common":"blacktail redhorse",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa and Tallapoosa River Basins.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa and Upper Tallapoosa HUC 8 basins.",
       "photo":"moxopoec",
       "map":"moxopoecrm"
    },
@@ -1028,6 +1156,7 @@
       "common":"robust redhorse",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, Ogeechee, and Savannah River Basins.",
+      "huc8":"Occurs in the Upper Ocmulgee, Lower Ocmulgee, Upper Oconee, Lower Oconee, Broad, Upper Savannah, Middle Savannah, and Brier Creek HUC 8 basins.",
       "photo":"moxorobu",
       "map":"moxoroburm"
    },
@@ -1036,6 +1165,7 @@
       "common":"striped jumprock",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ocmulgee, Oconee, and Savannah River basins.",
+      "huc8":"Occurs in the Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Upper Flint, Upper Ocmulgee, Lower Ocmulgee, Upper Oconee, Lower Oconee, Tugaloo, Upper Savannah, and Broad River HUC 8 basins.",
       "photo":"scarrupi",
       "map":"scarrupirm"
    },
@@ -1044,6 +1174,7 @@
       "common":"brassy jumprock",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, and Savannah River basins.",
+      "huc8":"Occurs in the Upper Ocmulgee, Upper Oconee, Lower Oconee, and Broad River HUC 8 basins. ",
       "photo":"scarspla",
       "map":"scarsplarm"
    },
@@ -1052,6 +1183,7 @@
       "common":"sicklefin redhorse",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "huc8":"Occurs in the Hiawassee HUC 8 basin.",
       "photo":"moxospsi",
       "map":"moxospsirm"
    },
@@ -1060,6 +1192,7 @@
       "common":"Apalachicola redhorse",
       "marine":"freshwater",
       "distribution":"In Georgia, this occurs in the Chattahoochee and Flint River Basins.",
+      "huc8":"Occurs in Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Lower Flint, Kinchafoonee - Muckalee Creeks, Ichawaynochaway, Spring Creek, and Lower Flint HUC 8 basins.",
       "photo":"moxogram",
       "map":"moxogramrm"
    },
@@ -1068,6 +1201,7 @@
       "common":"snail bullhead",
       "marine":"freshwater",
       "distribution":"Occurs in the Tennessee, Coosa, Chattahoochee, Flint, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Hiawassee, Etowah, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Ichawaynochaway, Spring Creek, Lower Flint, Satilla, Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Upper Ogeechee, Lower Ogeechee, Tugaloo, Broad, Upper Savannah, Little River - Savannah, Stevens, Brier Creek, Middle Savannah, and Lower Savannah HUC 8 basins.",
       "photo":"ameibrun",
       "map":"ameibrunrm"
    },
@@ -1076,6 +1210,7 @@
       "common":"white catfish",
       "marine":"brackish, freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Middle Flint, Kinchafoonee - Muckalee Creeks, Lower Flint, Spring Creek, Upper Ochlockonee, Lower Ochlockonee, St. Marys River, Upper Ocmulgee, Lower Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Lower Ogeechee, Tugaloo, Upper Savannah, Broad, Little River - Savannah, Middle Savannah, and Lower Savannah HUC 8 basins.",
       "photo":"ameicatu",
       "map":"ameicaturm"
    },
@@ -1084,6 +1219,7 @@
       "common":"black bullhead",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"ameimela",
       "map":"ameimelarm"
    },
@@ -1092,6 +1228,7 @@
       "common":"yellow bullhead",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in all major river basins.",
+      "huc8":"Occurs in the Chickamauga Creek, Hiawassee, Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, Upper Tallapoosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee Creeks, Ichawaynochaway Creek, Spring Creek, Lower Flint, Apalachicola, Upper Ochlockonee, Lower Ochlockonee, Little River (Suwannee), Withlacoochee, Alapaha, Upper Suwannee, Satilla, Little Satilla, St. Marys, Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Upper Oconee, Lower Oconee, Ohoopee, Altamaha, Upper Ogeechee, Lower Ogeechee, Ogeechee River Coastal, Tugaloo, Upper Savannah, Broad, Little River (Savannah), Stevens, Middle Savannah, Brier Creek, and Lower Savannah HUC 8 basins.",
       "photo":"ameinata",
       "map":"ameinatarm"
    },
@@ -1100,6 +1237,7 @@
       "common":"brown bullhead",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in all major river basins.",
+      "huc8":"Occurs in the Chickamauga Creek, Toccoa, Hiawassee, Little Tennessee, Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, Upper Tallapoosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George, Lower Chattahoochee, Upper Flint, Kinchafoonee - Muckalee Creeks, Ichawaynochaway Creek, Spring Creek, Lower Flint, Upper Ochlockonee, Lower Ochlockonee, Little River (Suwannee), Upper Suwannee, Satilla, Upper Ocmulgee, Lower Ocmulgee, Upper Oconee, Lower Oconee, Ohoopee, Altamaha, Canoochee, Upper Ogeechee, Lower Ogeechee, Ogeechee River Coastal, Tugaloo, Upper Savannah, Broad, Little River (Savannah), Stevens, and Middle Savannah HUC 8 basins.",
       "photo":"ameinebu",
       "map":"ameineburm"
    },
@@ -1108,6 +1246,7 @@
       "common":"flat bullhead",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"ameiplat",
       "map":"ameiplatrm"
    },
@@ -1116,6 +1255,7 @@
       "common":"spotted bullhead",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, and Withlacoochee River systems.",
+      "huc8":"Occurs in the Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Middle Flint, Spring Creek, Lower Flint, Upper Ochlockonee, Lower Ochlockonee HUC 8 basins.",
       "photo":"ameiserr",
       "map":"ameiserrrm"
    },
@@ -1124,6 +1264,7 @@
       "common":"blue catfish",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa, Chattahoochee, Flint, Ocmulgee, Oconee, Altamaha, Satilla, and Savannah River basins.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Oostanaula, Etowah, Upper Coosa, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Lower Flint, Upper Ocmulgee, Upper Oconee, Altamaha, Broad, Upper Savannah, Satilla, HUC 8 basins.",
       "photo":"ictafurc",
       "map":"ictafurcrm"
    },
@@ -1132,6 +1273,7 @@
       "common":"channel catfish",
       "marine":"brackish, freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Hiawassee, Toccoa, Chickamauga, Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, Upper Tallapoosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Ichawaynochaway, Spring Creek, Lower Flint, Upper Ochlockonee, Lower Ochlockonee, Little River - Withlacoochee, Alapaha, Upper Suwannee, St. Marys, Satilla, Upper Ocmulgee, Lower Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Ohoopee, Canoochee, Upper Ogeechee, Lower Ogeechee, Tugaloo, Upper Savannah, Broad, Little River - Savannah, Middle Savannah, and Lower Savannah HUC 8 basins.",
       "photo":"ictapunc",
       "map":"ictapuncrm"
    },
@@ -1140,6 +1282,7 @@
       "common":"mountain madtom",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "huc8":"Occurs in the Chickamauga Creek HUC 8 basin.",
       "photo":"notueleu",
       "map":"notueleurm"
    },
@@ -1148,6 +1291,7 @@
       "common":"yellowfin madtom",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "huc8":"Occurs in the Chickamauga Creek HUC 8 basin.",
       "photo":"notuflav",
       "map":"notuflavrm"
    },
@@ -1156,6 +1300,7 @@
       "common":"black madtom",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tallapoosa and Chattahoochee River basins.",
+      "huc8":"Occurs in the Upper Tallapoosa and Middle Chattahoochee - Lake Harding HUC 8 baisns.",
       "photo":"notufune",
       "map":"notufunerm"
    },
@@ -1164,6 +1309,7 @@
       "common":"tadpole madtom",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Upper Chattahoochee, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Spring Creek, Lower Flint, Upper Ochlockonee, Lower Ochlockonee, Little River - Withlacoochee, Withlacoochee, Alapaha, Upper Suwannee, St. Marys, Satilla, Little Satilla, Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Ohoopee, Upper Ogeechee, Lower Ogeechee, Canoochee, Ogeechee River Coastal, Upper Savannah, Middle Savannah, Little River - Savannah, Brier, and Lower Savannah HUC 8 basins.",
       "photo":"notugyri",
       "map":"notugyrirm"
    },
@@ -1172,6 +1318,7 @@
       "common":"margined madtom",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, and Savannah River basins.",
+      "huc8":"Occurs in the Upper Ocmulgee, Lower Ocmulgee, Upper Oconee, Lower Oconee, Tugaloo, Upper Savannah, Broad, Little River - Savannah, Stevens, Middle Savannah, and Brier Creek HUC 8 basins.",
       "photo":"notuinsi",
       "map":"notuinsirm"
    },
@@ -1180,6 +1327,7 @@
       "common":"speckled madtom",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, St. Marys, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, Upper Tallapoosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Ichawaynochaway, Spring Creek, Lower Flint, Upper Ochlockonee, Lower Ochlockonee, Apalachicola, Little River - Withlacoochee, Withlacoochee, Alapaha, St. Marys, Suwannee, Satilla, Upper Ocmulgee, Lower Ocmulgee, Upper Oconee, Lower Oconee, Ohoopee, Upper Ogeechee, Lower Ogeechee, Upper Savannah, Broad, Little River - Savannah, Middle Savannah, Brier, and Lower Savannah HUC 8 basins.",
       "photo":"notulept",
       "map":"notuleptrm"
    },
@@ -1188,6 +1336,7 @@
       "common":"freckled madtom",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"notunoct",
       "map":"notunoctrm"
    },
@@ -1196,6 +1345,7 @@
       "common":"Coosa madtom",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa River basin.",
+      "huc8":"Occurs in the Conasauga and Etowah HUC 8 basins.",
       "photo":"notuspmu",
       "map":"notuspmurm"
    },
@@ -1204,6 +1354,7 @@
       "common":"flathead catfish",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, Flint, Satilla, Ocmulgee, Oconee, Altamaha, and Savannah River basins.",
+      "huc8":"Occurs in the Hiawassee, Toccoa, Chickamauga, Conasauga, Coosawattee, Etowah, Oostanaula, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Ichawaynochaway, Lower Flint, Satilla, Upper Ocmulgee, Lower Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Ohoopee, Tugaloo, Upper Savannah, Broad, and Little River - Savannah HUC 8 basins.",
       "photo":"pylooliv",
       "map":"pyloolivrm"
    },
@@ -1212,6 +1363,7 @@
       "common":"hardhead catfish",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Ogeechee River basin.",
+      "huc8":"Occurs in the Ogeechee River Coastal HUC 8 basin.",
       "photo":"ariofeli",
       "map":"ariofelirm"
    },
@@ -1220,6 +1372,7 @@
       "common":"gafftopsail catfish",
       "marine":"marine, brackish",
       "distribution":"In Georgia, occurs in the Satilla, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Satilla, Ogeechee River Coastal, and Lower Savannah HUC 8 basins.",
       "photo":"bagrmari",
       "map":"bagrmarirm"
    },
@@ -1228,6 +1381,7 @@
       "common":"redfin pickerel",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa, Chattahoochee, Flint, Ochlockonee, Suwanne, Satilla, St. Marys, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Upper Coosa, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Ichawaynochaway, Spring Creek, Lower Flint, Upper Ochlockonee, Lower Ochlockonee, Apalachicola, Aucilla, Little River - Withlacoochee, Withlacoochee, Alapaha, St. Marys, Satilla, Little Satilla, Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Ohoopee, Canoochee, Upper Ocmulgee, Lower Ocmulgee, Upper Savannah, Broad, Little River - Savannah, Middle Savannah, Brier Creek, and Lower Savannah HUC 8 basins.",
       "photo":"esoxamer",
       "map":"esoxamerrm"
    },
@@ -1236,6 +1390,7 @@
       "common":"northern pike",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Savannah River basin.",
+      "huc8":"Occurs in the Tugaloo HUC 8 basin.",
       "photo":"esoxluci",
       "map":"esoxlucirm"
    },
@@ -1244,6 +1399,7 @@
       "common":"muskellunge",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "huc8":"Occurs in the Toccoa HUC 8 basin.",
       "photo":"esoxmasq",
       "map":"esoxmasqrm"
    },
@@ -1252,6 +1408,7 @@
       "common":"chain pickerel",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa, Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, St. Marys, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Conasauga, Etowah, Upper Coosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Ichawaynochaway, Spring Creek, Lower Flint, Upper Ochlockonee, Lower Ochlockonee, Apalachicola, Upper Ochlockonee, Lower Ochlockonee, Aucilla, Little River - Withlacoochee, Alapaha, Upper Suwannee, St. Marys, Satilla, Little Satilla, Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Ohoopee, Upper Ogeechee, Lower Ogeechee, Tugaloo, Upper Savannah, Broad, Little River - Savannah, Stevens, Middle Savannah, Brier Creek, and Lower Savannah HUC 8 basins.",
       "photo":"esoxnige",
       "map":"esoxnigerm"
    },
@@ -1260,6 +1417,7 @@
       "common":"eastern mudminnow",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Suwannee, Satilla, Ogeechee, and Savannah River Basins.",
+      "huc8":"In Georgia, occurs in the Alapaha, Upper Suwannee, Satilla, Cumberland - St. Simons, Canoochee, Ogeechee River Coastal, Brier Creek, and Middle Savannah HUC 8 basins.",
       "photo":"umbrpygm",
       "map":"umbrpygmrm"
    },
@@ -1268,6 +1426,7 @@
       "common":"rainbow trout",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, and Savannah River basins.",
+      "huc8":"Occurs in the Little Tennessee, Hiawassee, Toccoa, Chickamauga, Conasauga, Coosawattee, Oostanaula, Etowah, Upper Coosa, Upper Tallapoosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Tugaloo, Upper Savannah, and Broad River HUC 8 basins.",
       "photo":"oncomyki",
       "map":"oncomykirm"
    },
@@ -1276,6 +1435,7 @@
       "common":"brown trout",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, and Savannah River basins.",
+      "huc8":"Occurs in the Little Tennessee, Hiawassee, Toccoa, Chickamauga, Conasauga, Cooswattee, Etowah, Upper Coosa, Upper Chattahoochee, Tugaloo, Upper Savannah, and Broad River HUC 8 basins.",
       "photo":"salmtrut",
       "map":"salmtrutrm"
    },
@@ -1284,6 +1444,7 @@
       "common":"brook trout",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, and Savannah River basins.",
+      "huc8":"Occurs in the Little Tennessee, Hiawassee, Toccoa, Conasauga, Coosawattee, Etowah, Upper Coosa, Upper Chattahoochee, and Tugaloo HUC 8 basins.",
       "photo":"salvfont",
       "map":"salvfontrm"
    },
@@ -1292,6 +1453,7 @@
       "common":"pirate perch",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, St. Marys, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Ichawaynochaway, Spring Creek, Lower Flint, Upper Ochlockonee, Lower Ochlockonee, Apalachicola, Apalachee Bay - St. Marks, Aucilla, Little River - Withlacoochee, Withlacoochee, Alapaha, Upper Suwannee, St. Marys, Satilla, Little Satilla, Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Ohoopee, Canoochee, Upper Ogeechee, Lower Ogeechee, Little River - Savannah, Stevens, MIddle Savannah, Brier Creek, and Lower Savannah HUC 8 basins.",
       "photo":"aphrsaya",
       "map":"aphrsayarm"
    },
@@ -1300,6 +1462,7 @@
       "common":"swampfish",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Ocmulgee, Altamaha, Ogeechee, and Savannah River Basins.",
+      "huc8":"Occurs in the Little Ocmulgee, Ohoopee, Canoochee, Lower Ogeechee, Middle Savannah, Brier Creek, and Lower Savannah HUC 8 basins.",
       "photo":"cholcorn",
       "map":"cholcornrm"
    },
@@ -1308,6 +1471,7 @@
       "common":"southern cavefish",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "huc8":"Occurs in the Chickamauga Creek HUC 8 basin.",
       "photo":"typhsubt",
       "map":"typhsubtrm"
    },
@@ -1316,6 +1480,7 @@
       "common":"mountain mullet",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Savannah River basin.",
+      "huc8":"Occurs in the Middle Savannah River HUC 8 basin.",
       "photo":"agonmont",
       "map":"agonmontrm"
    },
@@ -1324,6 +1489,7 @@
       "common":"striped mullet",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Flint, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Lower Flint, St. Marys, Satilla, Upper Ocmulgee, Lower Ocmulgee, Altamaha, Upper Ogeechee, Lower Ogeechee, Ogeechee River Coastal, Middle Savannah, and Lower Savannah HUC 8 basins.",
       "photo":"mugiceph",
       "map":"mugicephrm"
    },
@@ -1332,6 +1498,7 @@
       "common":"white mullet",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Satilla, Ogeechee and Savannah River basins.",
+      "huc8":"Occurs in the Lower Ogeechee, Ogeechee River Coastal, and Lower Savannah HUC 8 basins.",
       "photo":"mugicure",
       "map":"mugicurerm"
    },
@@ -1340,6 +1507,7 @@
       "common":"brook silverside",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Chattahoochee, Flint, Apalachicola, Ochlockonee, Suwannee, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Ichawaynochaway, Spring Creek, Lower Flint, Upper Ochlockonee, Lower Ochlockonee, Apalachicola, Little River - Withlacoochee, Withlacoochee, Alapaha, Upper Suwannee, St. Marys, Satilla, Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Ohoopee, Canoochee, Upper Ogeechee, Lower Ogeechee, Middle Savannah, Brier Creek, and Lower Savannah HUC 8 basins.",
       "photo":"labisicc",
       "map":"labisiccrm"
    },
@@ -1348,6 +1516,7 @@
       "common":"rough silverside",
       "marine":"marine, brackish",
       "distribution":"In Georgia, occurs in the Satilla, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Cumberland - St. Simons, Ogeechee River Coastal, and Lower Savannah River HUC 8 basin.",
       "photo":"membmart",
       "map":"membmartrm"
    },
@@ -1356,6 +1525,7 @@
       "common":"inland silverside",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the St. Marys, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the St. Marys, Lower Ogeechee, Ogeechee River Coastal, and Lower Savannah HUC 8 basins.",
       "photo":"menibery",
       "map":"meniberyrm"
    },
@@ -1364,6 +1534,7 @@
       "common":"Atlantic silverside",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Satilla and Ogeechee River basins.",
+      "huc8":"Occurs in the Cumberland - St. Simons, Lower Ogeechee, and Ogeechee River Coastal HUC 8 basins.",
       "photo":"menimeni",
       "map":"menimenirm"
    },
@@ -1372,6 +1543,7 @@
       "common":"Atlantic needlefish",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ocmulgee, Altamaha, Ogeechee, and Savannah River Basins.",
+      "huc8":"Occurs in the Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Lower Flint, Upper Ocmulgee, Lower Ocmulgee, Altamaha, Upper Ogeechee, Lower Ogeechee, Ogeechee RIver Coastal, Middle Savannah, and Lower Savannah HUC 8 basins.",
       "photo":"stromari",
       "map":"stromarirm"
    },
@@ -1380,6 +1552,7 @@
       "common":"stippled studfish",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tallapoosa River basin.",
+      "huc8":"Occurs in the Upper Tallapoosa HUC 8 basin.",
       "photo":"fundbifa",
       "map":"fundbifarm"
    },
@@ -1388,6 +1561,7 @@
       "common":"northern studfish",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "huc8":"Occurs in the Chickamauga Creek HUC 8 basin.",
       "photo":"fundcate",
       "map":"fundcaterm"
    },
@@ -1396,6 +1570,7 @@
       "common":"golden topminnow",
       "marine":"brackish, freshwater",
       "distribution":"In Georgia, occurs in the Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Ogeechee, and Savannah River Basins.",
+      "huc8":"Occurs in the Ichawaynochaway, Spring Creek, Lower Ochlockonee, Alapaha, Upper Suwannee, St. Marys, Lower Ocmulgee, Ogeechee River Coastal, and Middle Savannah HUC 8 basin.",
       "photo":"fundchry",
       "map":"fundchryrm"
    },
@@ -1404,6 +1579,7 @@
       "common":"banded topminnow",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Flint River basin.",
+      "huc8":"Occurs in the Spring Creek HUC 8 basin.",
       "photo":"fundcing",
       "map":"fundcingrm"
    },
@@ -1412,6 +1588,7 @@
       "common":"marsh killifish",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Satilla, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Cumberland - St. Simons, Ogeechee River Coastal, and Lower Savannah HUC 8 basins.",
       "photo":"fundconf",
       "map":"fundconfrm"
    },
@@ -1420,6 +1597,7 @@
       "common":"russetfin topminnow",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"fundesca",
       "map":"fundescarm"
    },
@@ -1428,6 +1606,7 @@
       "common":"mummichog",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the St. Marys, Satilla, Ogeechee and Savannah River basins.",
+      "huc8":"Occurs in the St. Marys, Cumberland-St. Simons, Ogeechee River Coastal, and Lower Savannah HUC 8 basins.",
       "photo":"fundhete",
       "map":"fundheterm"
    },
@@ -1436,6 +1615,7 @@
       "common":"lined topminnow",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"fundline",
       "map":"fundlinerm"
    },
@@ -1444,6 +1624,7 @@
       "common":"spotfin killifish",
       "marine":"marine, brackish",
       "distribution":"In Georgia, occurs in the Ogeechee River basin.",
+      "huc8":"Occurs in the Ogeechee River Coastal HUC 8 basin.",
       "photo":"fundluci",
       "map":"fundlucirm"
    },
@@ -1452,6 +1633,7 @@
       "common":"striped killifish",
       "marine":"marine, brackish",
       "distribution":"In Georgia, occurs in the Satilla and Ogeechee River basins.",
+      "huc8":"Occurs in the the Cumberland - St. Simons and Ogeechee River Coastal HUC 8 basins.",
       "photo":"fundmaja",
       "map":"fundmajarm"
    },
@@ -1460,6 +1642,7 @@
       "common":"blackspotted topminnow",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, and Chattahoochee River basins.",
+      "huc8":"Occurs in the Chickamauga Creek, Conasauga, Coosawattee, Oostanaula, Upper Coosa, Upper Tallapoosa, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, and Lower Chattahoochee HUC 8 basins.",
       "photo":"fundoliv",
       "map":"fundolivrm"
    },
@@ -1468,6 +1651,7 @@
       "common":"chain pipefish",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Ogeechee and Savannah River basins.",
+      "huc8":"Occurs in the Lower Ogeechee, Ogeechee River Coastal, and Lower Savannah HUC 8 basins.",
       "photo":"syngloui",
       "map":"synglouirm"
    },
@@ -1476,6 +1660,7 @@
       "common":"northern pipefish",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Ogeechee River basin.",
+      "huc8":"Occurs in the Ogeechee River Coastal HUC 8 basin.",
       "photo":"syngfusc",
       "map":"syngfuscrm"
    },
@@ -1484,6 +1669,7 @@
       "common":"southern studfish",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa and Chattahoochee River basin.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, Upper Chattahoochee, and Middle Chattahoochee - Lake Harding HUC 8 basins.",
       "photo":"fundstel",
       "map":"fundstelrm"
    },
@@ -1492,6 +1678,7 @@
       "common":"pygmy killifish",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Flint, Suwannee, St. Marys, Satilla, and Ogeechee River basins.",
+      "huc8":"Occurs in the Spring Creek, Little River - Withlacoochee, Withlacoochee, Upper Suwannee, St. Marys, Satilla, Little Satilla, and Ogeechee River Coastal HUC 8 basins.",
       "photo":"leptomma",
       "map":"leptommarm"
    },
@@ -1500,6 +1687,7 @@
       "common":"bluefin killifish",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Flint and Ogeechee River basin.",
+      "huc8":"Occurs in the Lower Flint, Upper Ogeechee, and Ogeechee River Coastal HUC 8 basins.",
       "photo":"lucagood",
       "map":"lucagoodrm"
    },
@@ -1508,6 +1696,7 @@
       "common":"rainwater killifish",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Suwannee and Savannah River basins.",
+      "huc8":"Occurs in the Alapaha and Lower Savannah HUC 8 basins.",
       "photo":"lucaparv",
       "map":"lucaparvrm"
    },
@@ -1516,6 +1705,7 @@
       "common":"western and eastern mosquitofish",
       "marine":"brackish, freshwater",
       "distribution":"Occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Chickamauga, Upper Sevier, Conasauga, Coosawattee, Oostanaula, Etowah, Upper Coosa, Upper Tallapoosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Ichawaynochaway, Spring Creek, Lower Flint, Upper Ochlockonee, Lower Ochlockonee, Apalachicola, Apalachee Bay - St. Marks, Aucilla, Withlacoochee, Little River - Withlacoochee, Alapaha, Upper Suwannee, St. Marys, Satilla, Little Satilla, Cumberland - St. Simons, Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Ohoopee, Canoochee, Upper Ogeechee, Lower Ogeechee, Ogeechee River Coastal, Upper Savannah, Broad, Stevens, Little River - Savannah, Middle Savannah, Brier Creek, and Lower Savannah River HUC 8 basins.",
       "photo":"gambusia",
       "map":"gambusiarm"
    },
@@ -1524,6 +1714,7 @@
       "common":"least killifish",
       "marine":"brackish, freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Suwannee, St. Marys, Satilla, Altamaha, Ogeechee and Savannah River Basins.",
+      "huc8":"Occurs in the Lower Chattahoochee, Middle Flint, Spring Creek, Lower Flint, Little River - Withlacoochee, St. Marys, Satilla, Altamaha, Ohoopee, Ogeechee River Coastal, and Middle Savannah HUC 8 basins.",
       "photo":"heteform",
       "map":"heteformrm"
    },
@@ -1532,6 +1723,7 @@
       "common":"sailfin molly",
       "marine":"brackish, freshwater",
       "distribution":"In Georgia, occurs in the St. Marys and Ogeechee River basins.",
+      "huc8":"Occurs in the St. Marys and Ogeechee River Coastal HUC 8 basins.",
       "photo":"poeclati",
       "map":"poeclatirm"
    },
@@ -1540,6 +1732,7 @@
       "common":"sheepshead minnow",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Satilla, Ogeecheen and Savannah River basins. ",
+      "huc8":"Occurs in the Cumberland - St. Simons, Ogeechee River Coastal, and Lower Savannah HUC 8 basins.",
       "photo":"cyprvari",
       "map":"cyprvarirm"
    },
@@ -1548,6 +1741,7 @@
       "common":"Gulf pipefish",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Ogeechee and Savannah River systems.",
+      "huc8":"Occurs in the Ogeehee River Coastal and Lower Savannah HUC 8 basins.",
       "photo":"syngscov",
       "map":"syngscovrm"
    },
@@ -1556,6 +1750,7 @@
       "common":"swamp eel",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee River Basin.",
+      "huc8":"Occurs in the Upper Chattahoochee and Middle Chattahoochee - Lake Harding HUC 8 basin.",
       "photo":"monoalbu",
       "map":"monoalburm"
    },
@@ -1564,6 +1759,7 @@
       "common":"Savannah sculpin",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"cottsava",
       "map":"cottsavarm"
    },
@@ -1572,6 +1768,7 @@
       "common":"banded sculpin",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"cottcaro",
       "map":"cottcarorm"
    },
@@ -1580,6 +1777,7 @@
       "common":"Coosa banded sculpin",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"cottzoph",
       "map":"cottzophrm"
    },
@@ -1588,6 +1786,7 @@
       "common":"Chattahoochee sculpin",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"cottchat",
       "map":"cottchatrm"
    },
@@ -1596,6 +1795,7 @@
       "common":"banded sculpin species",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"cottspca",
       "map":"cottspcarm"
    },
@@ -1604,6 +1804,7 @@
       "common":"Tallapoosa sculpin",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tallapoosa River Basin.",
+      "huc8":"Occurs in the Upper Tallapoosa HUC 8 basin.",
       "photo":"cottttal",
       "map":"cottttalrm"
    },
@@ -1612,6 +1813,7 @@
       "common":"common snook",
       "marine":"marine, brackish",
       "distribution":"In Georgia, occurs in the Ogeechee River basin. ",
+      "huc8":"Occurs in the Ogeechee River Coastal HUC 8 basin.",
       "photo":"centunde",
       "map":"centunderm"
    },
@@ -1620,6 +1822,7 @@
       "common":"white perch",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Savannah River basin.",
+      "huc8":"Occurs in the Tugaloo, Upper Savannah, Little River - Savannah, and Middle Savannah HUC 8 basins.",
       "photo":"moroamer",
       "map":"moroamerrm"
    },
@@ -1628,6 +1831,7 @@
       "common":"white bass X striped bass hybrid",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, Flint, Ocmulgee, Oconee, Altamaha, and Savannah River basins.",
+      "huc8":"Occurs in the Hiawassee, Coosawattee, Oostanaula, Etowah, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George, Upper Flint, Middle Flint, Kinchafoonee-Muckalee, Lower Flint, Upper Ocmulgee, Lower Ocmulgee, Upper Oconee, Altamaha, Tugaloo, Upper Savannah, Broad, Little River - Savannah, Middle Savannah, and Lower Savannah HUC 8 basins.",
       "photo":"morochsa",
       "map":"morochsarm"
    },
@@ -1636,6 +1840,7 @@
       "common":"yellow bass",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa River basin.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, and Oostanaula HUC 8 basins.",
       "photo":"moromiss",
       "map":"moromissrm"
    },
@@ -1644,6 +1849,7 @@
       "common":"striped bass",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, Flint, Ochlockonee, St. Marys, Ocmulgee, Oconee, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Hiawassee, Conasauga, Coosawattee, Oostanaula, Etowah, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Lower Flint, Upper Ochlockonee, St. Marys, Upper Ocmulgee, Lower Ocmulgee, Upper Oconee, Upper Ogeechee, Lower Ogeechee, Tugaloo, Upper Savannah, Little River - Savannah, Middle Savannah, and Lower Savannah River HUC 8 basins.",
       "photo":"morosaxa",
       "map":"morosaxarm"
    },
@@ -1652,6 +1858,7 @@
       "common":"mud sunfish",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Middle Flint, Upper Ochlockonee, Lower Ochlockonee, Little River - Withlachoochee, Withlacoochee, Alapaha, Upper Suwannee, St. Marys, Little Satilla, Satilla, Lower Ocmulgee, Lower Oconee, Ohoopee, Canoochee, Upper Ogeechee, Lower Ogeechee, Middle Savannah, and Brier Creek HUC 8 basins.",
       "photo":"acanpomo",
       "map":"acanpomorm"
    },
@@ -1660,6 +1867,7 @@
       "common":"shadow bass",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa, Tallapoosa, Chattahoochee, and Flint River basins.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Oostanaula, Etowah, Upper Coosa, Upper Tallapoosa, Middle Chattahoochee - Walter F. George Reservoir, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Ichawaynochaway, Spring Creek, Lower Flint, Upper Ochlockonee, Lower Ochlockonee, and Apalachicola HUC 8 basins.",
       "photo":"amblario",
       "map":"amblariorm"
    },
@@ -1668,6 +1876,7 @@
       "common":"rock bass",
       "marine":"freshwater",
       "distribution":"In Georgia occurs in the Tennessee, Chattahoochee, and Savannah River basins.",
+      "huc8":"Occurs in the Little Tennessee, Hiawassee, Toccoa, Chickamauga Creek, Upper Chattahoochee, and Tugaloo HUC 8 basins",
       "photo":"amblrupe",
       "map":"amblruperm"
    },
@@ -1676,6 +1885,7 @@
       "common":"flier",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Middle Chattahoochee - Lake Harding, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Ichawaynochaway, Spring Creek, Lower Flint, Upper Ochlockonee, Lower Ochlockonee, Apalachee Bay - St. Marks, Aucilla, Little River - Withlacoochee, Withlacoochee, Alapaha, Upper Suwannee, St. Marys, Satilla, Little Satilla, Cumberland - St. Simons, Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Ohoopee, Canoochee, Upper Ogeechee, Lower Ogeechee, Ogeechee River Coastal, Brier Creek, Middle Savannah and Lower Savannah HUC 8 basins.",
       "photo":"centmacr",
       "map":"centmacrrm"
    },
@@ -1684,6 +1894,7 @@
       "common":"blackbanded sunfish",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Ochlockonee, Suwannee and Savannah River Basins.",
+      "huc8":"Occurs in the Aucilla, Alapaha, Upper Suwannee, St. Marys, and Middle Savannah HUC 8 basins.",
       "photo":"ennechae",
       "map":"ennechaerm"
    },
@@ -1692,6 +1903,7 @@
       "common":"bluespotted sunfish",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins.",
+      "huc8":"Occurs in the Lower Chattahoochee, Upper Flint, Spring Creek, Lower Flint, Lower Ochlockonee, Little River - Withlacoochee, Withlacoochee, Alapaha, Upper Suwannee, St. Marys, Satilla, Little Satilla, Lower Ocmulgee, Little Ocmulgee, Lower Oconee, Ohoopee, Canoochee, Upper Ogeechee, Lower Ogeechee, Ogeechee River Coastal, Middle Savannah, Brier Creek, and Lower Savannah HUC 8 basins.",
       "photo":"enneglor",
       "map":"enneglorrm"
    },
@@ -1700,6 +1912,7 @@
       "common":"banded sunfish",
       "marine":"brackish, freshwater",
       "distribution":"In Georgia, occurs in the Suwannee, St. Marys, Satilla, Oconee, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Withlacoochee, Alapaha, Upper Suwannee, St. Marys, Little Satilla, Satilla, Lower Oconee, Lower Ogeechee, Ogeechee River Coastal, and Middle Savannah HUC 8 basins.",
       "photo":"enneobes",
       "map":"enneobesrm"
    },
@@ -1708,6 +1921,7 @@
       "common":"redbreast sunfish",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, St. Marys, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Little Tennessee, Hiawassee, Toccoa, Chickamauga, Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, Upper Tallapoosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Ichawaynochaway, Spring Creek, Lower Flint, Upper Ochlockonee, Lower Ochlockonee, Apalachicola, Aucilla, Little River - Withlacoochee, Withlacoochee, Alapaha, St. Marys, Satilla, Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Ohoopee, Canoochee, Upper Ogeechee, Lower Ogeechee, Tugaloo, Upper Savannah, Broad, Little River - Savannah, Stevens, Middle Savannah, Brier, and Lower Savannah HUC 8 basins.",
       "photo":"lepoauri",
       "map":"lepoaurirm"
    },
@@ -1716,6 +1930,7 @@
       "common":"green sunfish",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Little Tennessee, Hiawassee, Toccoa, Chickamauga, Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, Upper Tallapoosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Ichawaynochaway, Spring Creek, Lower Flint, Upper Ochlockonee, Lower Ochlockonee, Little River - Withlacoochee, Withlacoochee, Alapaha, Upper Ocmulgee, Lower Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Ohoopee, Upper Ogeechee, Tugaloo, Upper Savannah, Broad, Little River - Savannah, Stevens, and Middle Savannah HUC 8 basins.",
       "photo":"lepocyan",
       "map":"lepocyanrm"
    },
@@ -1724,6 +1939,7 @@
       "common":"pumpkinseed",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Savannah River basin.",
+      "huc8":"Occurs in the Upper Savannah, Little River - Savannah, Stevens, and Middle Savannah HUC 8 basins.",
       "photo":"lepogibb",
       "map":"lepogibbrm"
    },
@@ -1732,6 +1948,7 @@
       "common":"warmouth",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Hiawassee, Toccoa, Chickamauga, Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, Upper Tallapoosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Ichawaynochaway, Spring Creek, Lower Flint, Upper Ochlockonee, Lower Ochlockonee, Apalachicola, Apalachee Bay - St. Marks, Aucilla, Little River - Withlacoochee, Withlacoochee, Alapaha, Upper Suwannee, St. Marys, Little Satilla, Satilla, Cumberland - St. Simons, Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Ohoopee, Canoochee, Upper Ogeechee, Lower Ogeechee, Ogeechee River Coastal, Tugaloo, Upper Savannah, Broad, Little River - Savannah, Stevens, Middle Savannah, Brier, and Lower Savannah HUC 8 basins.",
       "photo":"lepogulo",
       "map":"lepogulorm"
    },
@@ -1740,6 +1957,7 @@
       "common":"orangespotted sunfish",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee and Flint River basins.",
+      "huc8":"Occurs in the Middle Chattahoochee - Walter F. George Reservoir, and Lower Flint HUC 8 basins.",
       "photo":"lepohumi",
       "map":"lepohumirm"
    },
@@ -1748,6 +1966,7 @@
       "common":"dollar sunfish",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"lepomarg",
       "map":"lepomargrm"
    },
@@ -1756,6 +1975,7 @@
       "common":"longear sunfish",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"lepomega",
       "map":"lepomegarm"
    },
@@ -1764,6 +1984,7 @@
       "common":"spotted sunfish integrade",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Upper Coosa, Tallapoosa, Chattahoochee, and Flint River basins. ",
+      "huc8":"Occurs in the Chickamauga Creek, Conasauga, Oostanaula, Coosawattee, Etowah, Upper Coosa, Upper Tallapoosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Ichawaynochaway, Spring Creek, Lower Flint, and Apalachicola HUC 8 basins.",
       "photo":"lepomipu",
       "map":"lepomipurm"
    },
@@ -1772,6 +1993,7 @@
       "common":"spotted sunfish",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Upper Ochlockonee, Lower Ochlockonee, Aucilla, Little River - Withlacoochee, Withlacoochee, Alapaha, Upper Suwannee, St. Marys, Satilla, Little Satilla, Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Upper Oconee, Lower Oconee, Ohoopee, Altamaha, Canoochee, Upper Ogeechee, Lower Ogeechee, Middle Savannah, Brier Creek, and Lower Savannah HUC 8 basins.",
       "photo":"lepopunc",
       "map":"lepopuncrm"
    },
@@ -1780,6 +2002,7 @@
       "common":"shoal bass",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint and Ocmulgee River systems.",
+      "huc8":"Occurs in the Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Upper Flint, Middle Flint, Kinchafoonee - Muckalee Creeks, Ichawaynochaway Creek, Lower Flint, Upper Ocmulgee, and Lower Ocmulgee HUC 8 basins.",
       "photo":"micrcata",
       "map":"micrcatarm"
    },
@@ -1788,6 +2011,7 @@
       "common":"redeye bass",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"micrcoos",
       "map":"micrcoosrm"
    },
@@ -1796,6 +2020,7 @@
       "common":"smallmouth bass",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"micrdolo",
       "map":"micrdolorm"
    },
@@ -1804,6 +2029,7 @@
       "common":"Suwannee bass",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Ochlockonee and Suwannee River basins.",
+      "huc8":"Occurs in the Upper Ochlockonee, Lower Ochlockonee, Withlacoochee, and Alapaha HUC 8 basins.",
       "photo":"micrnoti",
       "map":"micrnotirm"
    },
@@ -1812,6 +2038,7 @@
       "common":"spotted bass",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"micrpunc",
       "map":"micrpuncrm"
    },
@@ -1820,6 +2047,7 @@
       "common":"largemouth bass",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, St. Marys, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Little Tennessee, Hiawassee, Toccoa, Chickamauga, Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, Upper Tallapoosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Ichawaynochaway, Spring Creek, Lower Flint, Upper Ochlockonee, Lower Ochlockonee, Apalachicola, Aucilla, Apalachee Bay - St. Marks, Little River - Withlacoochee, Withlacoochee, Alapaha, Upper Suwannee, St. Marys, Satilla, Little Satilla, Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Ohoopee, Canoochee, Upper Ogeechee, Lower Ogeechee, Tugaloo, Upper Savannah, Broad, Little River - Savannah, Stevens, Middle Savannah, Brier, and Lower Savannah HUC 8 basins.",
       "photo":"micrsalm",
       "map":"micrsalmrm"
    },
@@ -1828,6 +2056,7 @@
       "common":"Bartram's bass",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Savannah River basin.",
+      "huc8":"Occurs in the Tugaloo, Upper Savannah, Broad, and Middle Savannah HUC 8 basins.",
       "photo":"micrbart",
       "map":"micrbartrm"
    },
@@ -1836,6 +2065,7 @@
       "common":"white crappie",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ocmulgee, Oconee, and Savannah River basins.",
+      "huc8":"Occurs in the Hiawassee, Conasauga, Coosawattee, Etowah, Oostanaula, Upper Tallapoosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Upper Flint, Middle Flint, Lower Flint, Upper Ocmulgee, Upper Oconee, Lower Oconee, Tugaloo, Upper Savannah, Little River - Savannah, and Middle Savannah HUC 8 basins.",
       "photo":"pomoannu",
       "map":"pomoannurm"
    },
@@ -1844,6 +2074,7 @@
       "common":"black crappie",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, St. Marys, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Hiawassee, Toccoa, Chickamauga, Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, Upper Tallapoosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Ichawaynochaway, Spring Creek, Lower Flint, Upper Ochlockonee, Lower Ochlockonee, Apalachee Bay - St. Marks, Little River - Withlacoochee, Alapaha, Upper Suwannee, St. Marys, Satilla, Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Ohoopee, Canoochee, Upper Ogeechee, Lower Ogeechee, Tugaloo, Upper Savannah, Broad, Little River - Savannah, Middle Savannah, and Lower Savannah HUC 8 basins.",
       "photo":"pomonigr",
       "map":"pomonigrrm"
    },
@@ -1852,6 +2083,7 @@
       "common":"tilapia species",
       "marine":"brackish, freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Satilla, and Savannah River basins.",
+      "huc8":"Occurs in the Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Spring Creek, Lower Flint, Cumberland - St. Simons Island, and Upper Savannah HUC 8 basins.",
       "photo":"oreospec",
       "map":"oreospecrm"
    },
@@ -1860,6 +2092,7 @@
       "common":"longnose shiner species",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "huc8":"Occurs in the Etowah and Coosawattee HUC 8 basins.",
       "photo":"notrsplo",
       "map":"notrsplorm"
    },
@@ -1868,6 +2101,7 @@
       "common":"rainbow darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "huc8":"Occurs in the Chickamauga Creek HUC 8 basin.",
       "photo":"ethecaer",
       "map":"ethecaerrm"
    },
@@ -1876,6 +2110,7 @@
       "common":"lipstick darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tallapoosa River Basin.",
+      "huc8":"Occurs in the Upper Tallapoosa HUC 8 basin.",
       "photo":"ethechuc",
       "map":"ethechucrm"
    },
@@ -1884,6 +2119,7 @@
       "common":"ashy darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurred in the Tennessee River Basin.",
+      "huc8":"Occurred in the Chickamauga Creek HUC 8 basin.",
       "photo":"ethecine",
       "map":"ethecinerm"
    },
@@ -1892,6 +2128,7 @@
       "common":"Coosa darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa River basin.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Oostanaula, Etowah, and Upper Coosa HUC 8 basins.",
       "photo":"ethecoos",
       "map":"ethecoosrm"
    },
@@ -1900,6 +2137,7 @@
       "common":"coldwater darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "huc8":"Occurs in the Conasauga and Upper Coosa HUC 8 basins.",
       "photo":"etheditr",
       "map":"etheditrrm"
    },
@@ -1908,6 +2146,7 @@
       "common":"black darter",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"ethedury",
       "map":"etheduryrm"
    },
@@ -1916,6 +2155,7 @@
       "common":"brown darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint and Ochlockonee River Basins, below the Fall Line.",
+      "huc8":"Occurs in the Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee Creeks, Ichawaynochaway Creek, Lower Flint, Spring Creek, Upper Ochlockonee, Lower Ochlockonee, and Apalachicola HUC 8 basins.",
       "photo":"etheedwi",
       "map":"etheedwirm"
    },
@@ -1924,6 +2164,7 @@
       "common":"Etowah darter",
       "marine":"freshwater",
       "distribution":"Occurs in the Etowah River basin.",
+      "huc8":"Occurs in the Etowah River HUC 8 basin.",
       "photo":"etheetow",
       "map":"etheetowrm"
    },
@@ -1932,6 +2173,7 @@
       "common":"Savannah darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Savannah River basin.",
+      "huc8":"Occurs in the Middle Savannah, Brier Creek, and Lower Savannah HUC 8 basins.",
       "photo":"ethefric",
       "map":"ethefricrm"
    },
@@ -1940,6 +2182,7 @@
       "common":"swamp darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, Satilla, Ocmulgee, Oconee, Altamaha, Savannah and Ogeechee River Basins.",
+      "huc8":"Occurs in the Middle Chattahoochee - Walter F. George Reservoir, Upper Flint, Middle Flint, Kinchafoonee - Muckalee Creeks, Ichawaynochaway Creek, Lower Flint, Spring Creek, Upper Ochlockonee, Lower Ochlockonee, Apalachicola, Apalachee Bay - St. Marks, Little River (Suwannee), Withlacoochee, Alapaha, Upper Suwannee, St. Marys, Satilla, Little Satilla, Cumberland - St. Simons, Upper Ocmulgee, Lower Ocmulgee, Lower Oconee, Altamaha, Ohoopee, Canoochee, Upper Ogeechee, Lower Ogeechee, Ogeechee River Coastal, Brier Creek, and Middle Savannah HUC 8 basins.",
       "photo":"ethefusi",
       "map":"ethefusirm"
    },
@@ -1948,6 +2191,7 @@
       "common":"Tuckasegee darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "huc8":"Occurs in the Little Tennessee HUC 8 basin.",
       "photo":"etheguts",
       "map":"ethegutsrm"
    },
@@ -1956,6 +2200,7 @@
       "common":"Christmas darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins.",
+      "huc8":"Occurs in the Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Upper Oconee, Lower Oconee, Ohoopee, Upper Ogeechee, Lower Ogeechee, Broad, Little River (Savannah), Stevens, Middle Savannah, and Brier Creek HUC 8 basins.",
       "photo":"ethehopk",
       "map":"ethehopkrm"
    },
@@ -1964,6 +2209,7 @@
       "common":"turquoise darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Upper Ocmulgee, Upper Oconee, Lower Oconee, Upper Ogeechee, Tugaloo, Broad, Little River - Savannah, Middle Savannah, Brier Creek, and Lower Savannah HUC 8 basin.",
       "photo":"etheinsc",
       "map":"etheinscrm"
    },
@@ -1972,6 +2218,7 @@
       "common":"blueside darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "huc8":"Occurs in the Chickamauga Creek HUC 8 basin.",
       "photo":"ethejess",
       "map":"ethejessrm"
    },
@@ -1980,6 +2227,7 @@
       "common":"greenbreast darter",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"ethejord",
       "map":"ethejordrm"
    },
@@ -1988,6 +2236,7 @@
       "common":"tessellated darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins.",
+      "huc8":"Occurs in the Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Ohoopee, Canoochee, Upper Ogeechee, Lower Ogeechee, Broad, Upper Savannah, Little River (Savannah), Stevens, Middle Savannah, Brier Creek, and Lower Savannah HUC 8 basins.",
       "photo":"etheolms",
       "map":"etheolmsrm"
    },
@@ -1996,6 +2245,7 @@
       "common":"goldstripe darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint, Ocmulgee, and Oconee River Basins.",
+      "huc8":"Occurs in the Middle Chattahoochee - Walter F. Georgia Reservoir, Ichawaynochaway Creek, Middle Flint, Upper Ocmulgee, Lower Ocmulgee, and Lower Oconee HUC 8 basins.",
       "photo":"etheparv",
       "map":"etheparvrm"
    },
@@ -2004,6 +2254,7 @@
       "common":"redline darter species",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "huc8":"Occurs in the Toccoa and Hiawassee HUC 8 basins.",
       "photo":"ethespru",
       "map":"ethesprurm"
    },
@@ -2012,6 +2263,7 @@
       "common":"Cherokee darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "huc8":"Occurs in the Etowah HUC 8 basin.",
       "photo":"ethescot",
       "map":"ethescotrm"
    },
@@ -2020,6 +2272,7 @@
       "common":"sawcheek darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Ocmulgee, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Lower Ocmulgee, Upper Ogeechee, Middle Savannah, Brier Creek, and Lower Savannah River HUC 8 basin.",
       "photo":"etheserr",
       "map":"etheserrrm"
    },
@@ -2028,6 +2281,7 @@
       "common":"Tennessee darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "huc8":"Occurs in the Chickamauga Creek HUC 8 basin.",
       "photo":"ethetenn",
       "map":"ethetennrm"
    },
@@ -2036,6 +2290,7 @@
       "common":"wounded darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "huc8":"Occurs in the Toccoa HUC 8 basin.",
       "photo":"ethevuln",
       "map":"ethevulnrm"
    },
@@ -2044,6 +2299,7 @@
       "common":"speckled darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa, and Tallapoosa River Basins.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, and Upper Tallapoosa HUC 8 basins.",
       "photo":"ethestig",
       "map":"ethestigrm"
    },
@@ -2052,6 +2308,7 @@
       "common":"Tallapoosa darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tallapoosa River Basin.",
+      "huc8":"Occurs in the Upper Tallapoosa HUC 8 basin.",
       "photo":"ethetall",
       "map":"ethetallrm"
    },
@@ -2060,6 +2317,7 @@
       "common":"redline darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "huc8":"Occurs in the Chickamauga Creek HUC 8 basin.",
       "photo":"etherufi",
       "map":"etherufirm"
    },
@@ -2068,6 +2326,7 @@
       "common":"trispot darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, and Oostanaula HUC 8 basins.",
       "photo":"ethetris",
       "map":"ethetrisrm"
    },
@@ -2076,6 +2335,7 @@
       "common":"backwater darter",
       "marine":"freshwater",
       "distribution":"Occurs in the Chattahoochee River basin.",
+      "huc8":"Occurs in the Middle Chattahoochee - Walter F. George Resevoir HUC 8 basin.",
       "photo":"ethezoni",
       "map":"ethezonirm"
    },
@@ -2084,6 +2344,7 @@
       "common":"yellow perch",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ocmulgee, Oconee, Altamaha, and Savannah River Basins.",
+      "huc8":"Occurs in the Toccoa, Hiawassee, Little Tennessee, Coosawattee, Etowah, Upper Coosa, Upper Tallapoosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George, Lower Chattahoochee, Middle Flint, Lower Flint, Spring Creek, Upper Ocmulgee, Lower Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Ohoopee, Tugaloo, Seneca, Upper Savannah, Broad, Little River (Savannah), Middle Savannah, and Lower Savannah HUC 8 basins.",
       "photo":"percflav",
       "map":"percflavrm"
    },
@@ -2092,6 +2353,7 @@
       "common":"amber darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "huc8":"Occurs in the Conasauga and Etowah HUC 8 basins.",
       "photo":"percante",
       "map":"percanterm"
    },
@@ -2100,6 +2362,7 @@
       "common":"goldline darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "huc8":"Occurs in the Coosawattee HUC 8 basin.",
       "photo":"percauro",
       "map":"percaurorm"
    },
@@ -2108,6 +2371,7 @@
       "common":"logperch",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River basin.",
+      "huc8":"Occurs in the Chickamauga Creek HUC 8 basin.",
       "photo":"perccapr",
       "map":"perccaprrm"
    },
@@ -2116,6 +2380,7 @@
       "common":"gilt darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "huc8":"Occurs in the Toccoa, Hiawassee, and Little Tennessee HUC 8 basins.",
       "photo":"percevid",
       "map":"percevidrm"
    },
@@ -2124,6 +2389,7 @@
       "common":"Conasauga logperch",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "huc8":"Occurs in the Conasauga HUC 8 basin.",
       "photo":"percjenk",
       "map":"percjenkrm"
    },
@@ -2132,6 +2398,7 @@
       "common":"Mobile logperch",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa and Tallapoosa River Basins.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, and Upper Tallapoosa HUC 8 basins.",
       "photo":"perckath",
       "map":"perckathrm"
    },
@@ -2140,6 +2407,7 @@
       "common":"bridled darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, and Etowah HUC 8 basins.",
       "photo":"perckush",
       "map":"perckushrm"
    },
@@ -2148,6 +2416,7 @@
       "common":"freckled darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "huc8":"Occurs in the Conasauga and Etowah HUC 8 basins.",
       "photo":"perclent",
       "map":"perclentrm"
    },
@@ -2156,6 +2425,7 @@
       "common":"silver jenny",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the St. Marys, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the St. Marys, Ogeechee River Coastal, and Lower Savannah River HUC 8 basins.",
       "photo":"eucigula",
       "map":"eucigularm"
    },
@@ -2164,6 +2434,7 @@
       "common":"blackbanded darter",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"percnigr",
       "map":"percnigrrm"
    },
@@ -2172,6 +2443,7 @@
       "common":"bronze darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa and Tallapoosa River Basins.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Etowah, Upper Coosa, and Upper Tallapoosa HUC 8 basins.",
       "photo":"percpalm",
       "map":"percpalmrm"
    },
@@ -2180,6 +2452,7 @@
       "common":"dusky darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "huc8":"Occurs in the Chickamauga Creek and Toccoa HUC 8 basins.",
       "photo":"percscie",
       "map":"percscierm"
    },
@@ -2188,6 +2461,7 @@
       "common":"river darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurred in the Coosa River basin.",
+      "huc8":"Occurred in the Conasauga HUC 8 basin.",
       "photo":"percshum",
       "map":"percshumrm"
    },
@@ -2196,6 +2470,7 @@
       "common":"Muscadine darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tallapoosa River Basin.",
+      "huc8":"Occurs in the Upper Tallapoosa HUC 8 basin.",
       "photo":"percsmit",
       "map":"percsmitrm"
    },
@@ -2204,6 +2479,7 @@
       "common":"Halloween darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee and Flint River Basins.",
+      "huc8":"Occurs in the Upper Chattahoochee, Middle Chattahoochee - Walter F. George Reservoir, Upper Flint, Middle Flint, Kinchafoonee - Muckalee Creeks, and Ichawaynochaway Creek HUC 8 basins.",
       "photo":"perccryp",
       "map":"perccryprm"
    },
@@ -2212,6 +2488,7 @@
       "common":"olive darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River Basins.",
+      "huc8":"Occurs in the Toccoa HUC 8 basin.",
       "photo":"percsqua",
       "map":"percsquarm"
    },
@@ -2220,6 +2497,7 @@
       "common":"snail darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "huc8":"Occurs in the Chickamauga Creek HUC 8 basin.",
       "photo":"perctana",
       "map":"perctanarm"
    },
@@ -2228,6 +2506,7 @@
       "common":"sauger",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Chattahoochee, Flint, and Savannah River basins.",
+      "huc8":"Occurs in the Chickamauga Creek, Middle Chattahoochee - Lake Harding, Lower Flint, and Upper Savannah River HUC 8 basins.",
       "photo":"stizcana",
       "map":"stizcanarm"
    },
@@ -2236,6 +2515,7 @@
       "common":"walleye",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, and Savannah River basins.",
+      "huc8":"Occurs in the Hiawassee, Toccoa, Conasauga, Coosawattee, Oostanaula, Upper Coosa, Upper Chattahoochee, Tugaloo, and Upper Savannah HUC 8 basins.",
       "photo":"stizvitr",
       "map":"stizvitrrm"
    },
@@ -2244,6 +2524,7 @@
       "common":"crevalle jack",
       "marine":"marine, brackish",
       "distribution":"In Georgia, occurs in the Ogeechee and Savannah River basins.",
+      "huc8":"Occurs in the Ogeechee River Coastal and Lower Savannah HUC 8 basins.",
       "photo":"carahipp",
       "map":"carahipprm"
    },
@@ -2252,6 +2533,7 @@
       "common":"striped mojarra",
       "marine":"marine, brackish",
       "distribution":"In Georgia, occurs in the Savannah River basin.",
+      "huc8":"Occurs in the Lower Savannah HUC 8 basin.",
       "photo":"eugeplum",
       "map":"eugeplumrm"
    },
@@ -2260,6 +2542,7 @@
       "common":"spotfin mojarra",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Altamaha and Ogeechee River basins.",
+      "huc8":"Occurs in the Altamaha, Lower Ogeechee, and Ogeechee River Coastal HUC 8 basins.",
       "photo":"euciarge",
       "map":"euciargerm"
    },
@@ -2268,6 +2551,7 @@
       "common":"sheepshead",
       "marine":"marine, brackish",
       "distribution":"In Georgia, occurs in the Ogeechee River basin.",
+      "huc8":"Occurs in the Ogeechee River Coastal HUC 8 basin.",
       "photo":"archprob",
       "map":"archprobrm"
    },
@@ -2276,6 +2560,7 @@
       "common":"pinfish",
       "marine":"marine, brackish",
       "distribution":"In Georgia, occurs in the Ogeechee River basin.",
+      "huc8":"Occurs in the Lower Ogeechee and Ogeechee River Coastal HUC 8 basins.",
       "photo":"lagorhom",
       "map":"lagorhomrm"
    },
@@ -2284,6 +2569,7 @@
       "common":"freshwater drum",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee and Coosa River basins.",
+      "huc8":"Occurs in the Chickamauga, Conasauga, Coosawattee, Oostanaula, Etowah, and Upper Coosa HUC 8 basins.",
       "photo":"aplogrun",
       "map":"aplogrunrm"
    },
@@ -2292,6 +2578,7 @@
       "common":"silver perch",
       "marine":"marine, brackish",
       "distribution":"In Georgia, occurs in the Satilla and Ogeechee River basins.",
+      "huc8":"Occurs in the Cumberland - St. Simons, Lower Ogeechee, and Ogeechee River Coastal HUC 8 basins.",
       "photo":"bairchry",
       "map":"bairchryrm"
    },
@@ -2300,6 +2587,7 @@
       "common":"spotted seatrout",
       "marine":"marine, brackish",
       "distribution":"In Georgia, occurs in the Ogeechee and Savannah HUC 8 basins.",
+      "huc8":"Occurs in the Lower Ogeechee, Ogeechee River Coastal, and Lower Savannah HUC 8 basins.",
       "photo":"cynonebu",
       "map":"cynoneburm"
    },
@@ -2308,6 +2596,7 @@
       "common":"spot",
       "marine":"marine, brackish",
       "distribution":"In Georgia, occurs in the Satilla and Ogeechee River basins.",
+      "huc8":"Occurs in the Cumberland - St. Simons, Lower Ogeechee, and Ogeechee River Coastal HUC 8 basins.",
       "photo":"leioxant",
       "map":"leioxantrm"
    },
@@ -2316,6 +2605,7 @@
       "common":"Atlantic croaker",
       "marine":"marine, brackish",
       "distribution":"In Georgia, occurs in the Satilla, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Cumberland - St. Simons, Ogeechee River Coastal, Lower Ogeechee, and Lower Savannah River HUC 8 basins.",
       "photo":"micrundu",
       "map":"micrundurm"
    },
@@ -2324,6 +2614,7 @@
       "common":"red drum",
       "marine":"marine, brackish",
       "distribution":"In Georgia, occurs in the Ogeechee River basin.",
+      "huc8":"Occurs in the Lower Ogeechee and Ogeechee River Coastal HUC 8 basin.",
       "photo":"sciaocel",
       "map":"sciaocelrm"
    },
@@ -2332,6 +2623,7 @@
       "common":"Everglades pygmy sunfish",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Upper Flint, Middle Flint, Ichawaynochaway Creek, Apalachicola, Upper Ochlockonee, Little River - Withlacoochee, Withlacoochee, Alapaha, Upper Suwannee, St. Marys, Satilla, Little Satilla, Ocmulgee, Little Ocmulgee, Altamaha, Upper Ogeechee, Lower Ogeechee, Ogeechee River Coastal, and Lower Savannah HUC 8 basins.",
       "photo":"elasever",
       "map":"elaseverrm"
    },
@@ -2340,6 +2632,7 @@
       "common":"Okefenokee pygmy sunfish",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Suwannee, St. Marys, Satilla, and Ocmulgee River basins.",
+      "huc8":"Occurs in the Little River - Withlacoochee, Withlacoochee, Upper Suwannee, St. Marys, Satilla, Little Satilla, and Little Ocmulgee HUC 8 basins.",
       "photo":"elasokef",
       "map":"elasokefrm"
    },
@@ -2348,6 +2641,7 @@
       "common":"Gulf coast pygmy sunfish",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Flint and Ochlockonee River Basins.",
+      "huc8":"",
       "photo":"elasgilb",
       "map":"elasgilbrm"
    },
@@ -2356,6 +2650,7 @@
       "common":"banded pygmy sunfish",
       "marine":"freshwater",
       "distribution":"Occurs in the Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins. ",
+      "huc8":"Occurs in the Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Ichawaynochaway, Spring Creek, Lower Flint, Upper Ochlockonee, Little River - Withlacoochee, Alapaha, St. Marys, Satilla, Little Satilla, Lower Ocmulge, Little Ocmulgee, Lower Oconee, Altamaha, Ohoopee, Canoochee, Upper Ogeechee, Lower Ogeechee, Brier Creek, Middle Savanah HUC 8 basins.",
       "photo":"elaszona",
       "map":"elaszonarm"
    },
@@ -2364,6 +2659,7 @@
       "common":"fat sleeper",
       "marine":"brackish, freshwater",
       "distribution":"In Georgia, occurs in the Ogeechee River basin. ",
+      "huc8":"Occurs in the Ogeechee River Coastal HUC 8 basin.",
       "photo":"dormmacu",
       "map":"dormmacurm"
    },
@@ -2372,6 +2668,7 @@
       "common":"darter goby",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in Ogeechee and Savannah River basin.",
+      "huc8":"Occurs in the Lower Ogeechee and Lower Savannah HUC 8 basins.",
       "photo":"ctenbole",
       "map":"ctenbolerm"
    },
@@ -2380,6 +2677,7 @@
       "common":"freshwater goby",
       "marine":"brackish, freshwater",
       "distribution":"In Georgia, occurs in the Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Altamaha, Lower Ogeechee, and Lower Savannah HUC 8 basins.",
       "photo":"ctenshuf",
       "map":"ctenshufrm"
    },
@@ -2388,6 +2686,7 @@
       "common":"naked goby",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Ogeechee River basin.",
+      "huc8":"Occurs in the Lower Ogeechee and Ogeechee River Coastal HUC 8 basins.",
       "photo":"gobibosc",
       "map":"gobiboscrm"
    },
@@ -2396,6 +2695,7 @@
       "common":"Atlantic spadefish",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Ogeechee and Savannah River basins.",
+      "huc8":"Occurs in the Ogeechee River Coastal and Lower Savannah River HUC 8 basins.",
       "photo":"chaefabe",
       "map":"chaefaberm"
    },
@@ -2404,6 +2704,7 @@
       "common":"bay whiff",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Ogeechee River basin.",
+      "huc8":"Occurs in the Ogeechee River Coastal HUC 8 basin.",
       "photo":"cithspil",
       "map":"cithspilrm"
    },
@@ -2412,6 +2713,7 @@
       "common":"summer flounder",
       "marine":"marine, brackish",
       "distribution":"In Georgia, occurs in the Ogeechee and Savannah River basins.",
+      "huc8":"Occurs in the Ogeechee River Coastal and Lower Savannah HUC 8 basins.",
       "photo":"paradent",
       "map":"paradentrm"
    },
@@ -2420,6 +2722,7 @@
       "common":"southern flounder",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Altamaha, Lower Ogeechee, Ogeechee River Coastal, and Lower Savannah River HUC 8 basins.",
       "photo":"paraleth",
       "map":"paralethrm"
    },
@@ -2428,6 +2731,7 @@
       "common":"hogchoker",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Flint, Ocmulgee, Altamaha, Ogeechee, and Savannah River Basins below the Fall Line.",
+      "huc8":"Occurs in the Lower Flint, Spring Creek, Lower Ocmulgee, Altamaha, Ohoopee, Ogeechee River Coastal, Lower Ogeechee, Middle Savannah, and Lower Savannah HUC 8 basins.",
       "photo":"trinmacu",
       "map":"trinmacurm"
    },
@@ -2436,6 +2740,7 @@
       "common":"blue shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "huc8":"Occurs in the Conasauga and Coosawattee HUC 8 basins.",
       "photo":"cyprcaer",
       "map":"cyprcaerrm"
    },
@@ -2444,6 +2749,7 @@
       "common":"Ocmulgee shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Ocmulgee and Oconee River basins.",
+      "huc8":"Occurs in the Upper Ocmulgee, Lower Ocmulgee, Upper Oconee, and Lower Oconee HUC 8 basins.",
       "photo":"ccallise",
       "map":"ccalliserm"
    },
@@ -2452,6 +2758,7 @@
       "common":"Alabama shiner",
       "marine":"freshwater",
       "distribution":"In Geoergia, occurs in the Coosa and Tallapoosa River Basins.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, and Upper Tallapoosa HUC 8 basins.",
       "photo":"cyprcall",
       "map":"cyprcallrm"
    },
@@ -2460,6 +2767,7 @@
       "common":"bigeye chub",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "huc8":"Occurs in the Chickamauga Creek, Toccoa, and Hiawassee HUC 8 basins.",
       "photo":"hyboambl",
       "map":"hyboamblrm"
    },
@@ -2468,6 +2776,7 @@
       "common":"ironcolor shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs primarily below the Fall Line in the Flint, Ochlockonee, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River Basins.",
+      "huc8":"Occurs in the Upper Flint, Middle Flint, Kinchafoonee - Muckalee Creeks, Ichawaynochaway Creek, Lower Flint, Spring Creek, Apalachicola, Lower Ocmulgee, Little Ocmulgee, Upper Oconee, Lower Oconee, Ohoopee, Altamaha, Canoochee, Upper Ogeechee, Lower Ogeechee, Middle Savannah, Brier Creek, and Lower Savannah HUC 8 basins.",
       "photo":"notrchal",
       "map":"notrchalrm"
    },
@@ -2476,6 +2785,7 @@
       "common":"silverstripe shiner",
       "marine":"freshwater",
       "distribution":"In Georgia, occus in the Coosa and Tallapoosa River basins.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, and Upper Tallapoosa HUC 8 basins.",
       "photo":"notrstil",
       "map":"notrstilrm"
    },
@@ -2484,6 +2794,7 @@
       "common":"telescope shiner",
       "marine":"freshwater",
       "distribution":"In Georgia occurs in the Tennessee River Basin.",
+      "huc8":"Occurs in the Chickamauga Creek, and Toccoa HUC 8 basins.",
       "photo":"notrtele",
       "map":"notrtelerm"
    },
@@ -2492,6 +2803,7 @@
       "common":"banded killifish",
       "marine":"brackish, freshwater",
       "distribution":"In Georgia, occurs in the Savannah River Basin.",
+      "huc8":"Occurs in the Upper Savannah HUC 8 basin.",
       "photo":"funddiap",
       "map":"funddiaprm"
    },
@@ -2500,6 +2812,7 @@
       "common":"smoky sculpin",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"cottsmok",
       "map":"cottsmokrm"
    },
@@ -2508,6 +2821,7 @@
       "common":"white bass",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, Chattahoochee, Flint, Ocmulgee, Oconee, and Savannah River basins.",
+      "huc8":"Occurs in the Hiawassee, Toccoa, Conasauga, Coosawattee, Oostanaula, Etowah, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Upper Flint, Middle Flint, Spring Creek, Lower Flint, Upper Ocmulgee, Upper Oconee, Tugaloo, Upper Savannah, Little River - Savannah, Middle Savannah River HUC 8 basins.",
       "photo":"morochry",
       "map":"morochryrm"
    },
@@ -2516,6 +2830,7 @@
       "common":"bluegill",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee, Coosa, Tallapoosa, Chattahoochee, Flint, Ochlockonee, Suwannee, St. Marys, Satilla, Ocmulgee, Oconee, Altamaha, Ogeechee, and Savannah River basins.",
+      "huc8":"Occurs in the Little Tennessee, Hiawassee, Toccoa, Chickamauga, Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, Upper Tallapoosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Ichawaynochaway, Spring Creek, Lower Flint, Upper Ochlockonee, Lower Ochlockonee, Apalachicola, Apalachee Bay - St. Marks, Aucilla, Little River - Withlacoochee, Withlacoochee, Alapaha, Upper Suwannee, St. Marys, Little Satilla, Satilla, Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Upper Oconee, Lower Oconee, Altamaha, Ohoopee, Canoochee, Upper Ogeechee, Lower Ogeechee, Tugaloo, Upper Savannah, Broad, Little River - Savannah, Stevens, Middle Savannah, Brier, and Lower Savannah HUC 8 basins.",
       "photo":"lepomacr",
       "map":"lepomacrrm"
    },
@@ -2524,6 +2839,7 @@
       "common":"redear sunfish",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in all major river basins.",
+      "huc8":"Occurs in the Chickamauga Creek, Toccoa, Hiawassee, Conasauga, Coosawattee, Etowah, Oostanaula, Upper Coosa, Upper Tallapoosa, Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee Creeks, Ichawaynochaway Creek, Spring Creek, Lower Flint, Upper Ochlockonee, Lower Ochlockonee, Aucilla, Little River - Suwannee, Withlacoochee, Alapaha, Satilla, St. Marys, Upper Ocmulgee, Lower Ocmulgee, Little Ocmulgee, Upper Oconee, Lower Oconee, Ohoopee, Altamaha, Canoochee, Upper Ogeechee, Lower Ogeechee, Tugaloo, Upper Savannah, Broad, Little River - Savannah, Middle Savannah, Brier, and Lower Savannah HUC 8 basins.",
       "photo":"lepomicr",
       "map":"lepomicrrm"
    },
@@ -2532,6 +2848,7 @@
       "common":"redface topminnow",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Suwannee and St. Marys River basins.",
+      "huc8":"Occurs in the Upper Suwannee and St. Marys HUC 8 basin.",
       "photo":"fundrubr",
       "map":"fundrubrrm"
    },
@@ -2540,6 +2857,7 @@
       "common":"greenside darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "huc8":"Occurs in the Chickamauga, Toccoa, and Hiawassee HUC 8 basins.",
       "photo":"ethebled",
       "map":"ethebledrm"
    },
@@ -2548,6 +2866,7 @@
       "common":"greenfin darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "huc8":"Occurs in the Little Tennessee HUC 8 basin.",
       "photo":"ethechbr",
       "map":"ethechbrrm"
    },
@@ -2556,6 +2875,7 @@
       "common":"banded darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "huc8":"Occurs in the Chickamauga, Toccoa, and Hiawassee HUC 8 basins.",
       "photo":"ethezona",
       "map":"ethezonarm"
    },
@@ -2564,6 +2884,7 @@
       "common":"rock darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Coosa River Basin.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, Etowah, and Oostanaula HUC 8 basins.",
       "photo":"etherupe",
       "map":"etheruperm"
    },
@@ -2572,6 +2893,7 @@
       "common":"holiday darter complex",
       "marine":"freshwater",
       "distribution":"In Georgia occurs in the Coosa River Basin.",
+      "huc8":"Occurs in the Conasauga, Coosawattee, and Etowah HUC 8 basins.",
       "photo":"ethespbr",
       "map":"ethespbrrm"
    },
@@ -2580,6 +2902,7 @@
       "common":"gulf darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee, Flint, and Ochlockonee River basins.",
+      "huc8":"Occurs in the Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, Lower Chattahoochee, Upper Flint, Middle Flint, Kinchafoonee - Muckalee, Ichawaynochaway, Spring Creek, Lower Flint, Apalachicola, Upper Ochlockonee, and Lower Ochlockonee HUC 8 basins.",
       "photo":"etheswai",
       "map":"etheswairm"
    },
@@ -2588,6 +2911,7 @@
       "common":"tangerine darter",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Tennessee River Basin.",
+      "huc8":"Occurs in the Toccoa HUC 8 basin.",
       "photo":"percaura",
       "map":"percaurarm"
    },
@@ -2596,6 +2920,7 @@
       "common":"bluebarred pygmy sunfish",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Savannah River basin.",
+      "huc8":"Occurs in the Middle Savannah, Brier Creek, and Lower Savannah HUC 8 basins.",
       "photo":"elasokat",
       "map":"elasokatrm"
    },
@@ -2604,6 +2929,7 @@
       "common":"fathead minnow",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"pimeprom",
       "map":"pimepromrm"
    },
@@ -2612,6 +2938,7 @@
       "common":"redeye bass (Chattahoochee)",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Chattahoochee and Flint River basins.",
+      "huc8":"Occurs in the Upper Chattahoochee, Middle Chattahoochee - Lake Harding, Middle Chattahoochee - Walter F. George Reservoir, and Upper Flint HUC 8 basins.",
       "photo":"micrspch",
       "map":"micrspchrm"
    },
@@ -2620,6 +2947,7 @@
       "common":"redeye bass (Altamaha \/ Ogeechee)",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Ocmulgee, Oconee, and Ogeechee River basins.",
+      "huc8":"Occurs in the Upper Ocmulgee, Upper Oconee, Lower Oconee, and Upper Ogeechee HUC 8 basins.",
       "photo":"micrspao",
       "map":"micrspaorm"
    },
@@ -2628,6 +2956,7 @@
       "common":"oscar",
       "marine":"freshwater",
       "distribution":"In Georgia, records have occured in the Coosa, Chattahoochee, Flint, and Ocmulgee River basins.",
+      "huc8":"Occurs in the Etowah, Upper Chattahoochee, Middle Chattahoochee - Walter F. Georgia Reservoir, Middle Flint, Lower Flint, and Upper Ocmulgee HUC 8 basins.",
       "photo":"astrocel",
       "map":"astrocelrm"
    },
@@ -2636,6 +2965,7 @@
       "common":"Etowah chub",
       "marine":"freshwater",
       "distribution":"In Georgia occurs in the Coosa River system.",
+      "huc8":"Occurs in the Etowah HUC 8 basin.",
       "photo":"hybospwi",
       "map":"hybospwirm"
    },
@@ -2644,6 +2974,7 @@
       "common":"paddlefish",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Flint River basin.",
+      "huc8":"Occurs in the Lower Flint HUC 8 basin.",
       "photo":"polyspat",
       "map":"polyspatrm"
    },
@@ -2652,6 +2983,7 @@
       "common":"weakfish",
       "marine":"marine, brackish",
       "distribution":"In Georgia, occurs in the Ogeechee and Savannah River basins.",
+      "huc8":"Occurs in the Lower Ogeechee, Ogeechee River Coastal, and Lower Savannah River HUC 8 basins. ",
       "photo":"cynorega",
       "map":"cynoregarm"
    },
@@ -2660,6 +2992,7 @@
       "common":"silver seatrout",
       "marine":"marine, brackish",
       "distribution":"In Georgia, occurs in the Ogeechee River basin.",
+      "huc8":"Occurs in the Ogeechee River Coastal HUC 8 basin.",
       "photo":"cynonoth",
       "map":"cynonothrm"
    },
@@ -2668,6 +3001,7 @@
       "common":"Alabama bass",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"micrhens",
       "map":"micrhensrm"
    },
@@ -2676,6 +3010,7 @@
       "common":"opossum pipefish",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Satilla and Savannah River basins.",
+      "huc8":"Occurs in the Cumberland - St. Simons and Lower Savannah HUC 8 basins.",
       "photo":"micrbrac",
       "map":"micrbracrm"
    },
@@ -2684,6 +3019,7 @@
       "common":"Ridge and Valley sculpin",
       "marine":"freshwater",
       "distribution":"Distribution map under review.",
+      "huc8":"",
       "photo":"cottrvsc",
       "map":"cottrvscrm"
    },
@@ -2692,6 +3028,7 @@
       "common":"white cloud mountain minnow",
       "marine":"freshwater",
       "distribution":"In Georgia, occurs in the Savannah River basin.",
+      "huc8":"Occurs in the Middle Savannah River HUC 8 basin.",
       "photo":"tanialbo",
       "map":"tanialborm"
    },
@@ -2700,6 +3037,7 @@
       "common":"alewife",
       "marine":"marine, brackish, freshwater",
       "distribution":"In Georgia, occurs in the Coosa River basins.",
+      "huc8":"Coosawattee",
       "photo":"alospseu",
       "map":"alospseurm"
    }

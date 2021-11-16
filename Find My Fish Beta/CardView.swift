@@ -2,6 +2,8 @@
 //  CardView.swift
 //  Find My Fish Beta
 //
+//  The detailed fish view.
+//
 //  Created by NMI Capstone on 9/28/21.
 //
 
@@ -11,24 +13,23 @@ struct CardView: View {
     
     @Environment(\.presentationMode) var presentationMode // for custom back button
     var fish: Fish
-    var num: Int
     
     var body: some View {
+        // the gradient background
         LinearGradient(gradient: Gradient(colors: [Color ("Blueish"), Color("Greenish")]), startPoint: .topTrailing, endPoint: .bottomLeading)
             .edgesIgnoringSafeArea(.all)
             .overlay(
                 ZStack (alignment: .center) {
-                    GeometryReader { geo in
-                        ZStack (alignment: .center) {
-                            ScrollView(.vertical, showsIndicators: false) {
-                                VStack(alignment: .center)
-                                {
+                    GeometryReader { geo in // for responsive sizes
+                        ZStack () {
+                            ScrollView(.vertical, showsIndicators: false) { // allows page to be scrollable
+                                VStack(alignment: .center) {
+                                    
                                     // Spacer for resizable positioning
                                     Spacer()
                                         .frame(height: geo.size.height/8)
                                     
-                                    
-                                    // custom sizing for fish common name
+                                    // common name, more bold
                                     Text(fish.common)
                                         .font(Font.custom("Montserrat-SemiBold", size: geo.size.height > geo.size.width ? geo.size.width * 0.1: geo.size.height * 0.09))
                                         .multilineTextAlignment(.center)
@@ -38,7 +39,7 @@ struct CardView: View {
                                         .lineLimit(3)
                                         .minimumScaleFactor(0.5)
                                     
-                                    // custom font for fish scientific name
+                                    // scientiic name, less bold
                                     Text(fish.scientific)
                                         .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.06: geo.size.height * 0.09))
                                         .multilineTextAlignment(.center)
@@ -51,6 +52,7 @@ struct CardView: View {
                                     Spacer()
                                         .frame(height: geo.size.height/20)
                                     
+                                    // Displays fish image if it exists or not found image
                                     ZStack {
                                         Image("NotFound")
                                             .resizable()
@@ -69,26 +71,28 @@ struct CardView: View {
                                     Spacer()
                                         .frame(height: geo.size.height/30)
                                     
-                                    Text("Found in: " + fish.marine)
-                                        .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.06: geo.size.height * 0.09))
-                                        .multilineTextAlignment(.center)
-                                        .foregroundColor(Color ("BW"))
-                                        .minimumScaleFactor(0.5)
-                                    
-                                    // custom font for fish distribution
-                                    Text(fish.distribution)
-                                        .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.06: geo.size.height * 0.09))
-                                        .multilineTextAlignment(.center)
-                                        .foregroundColor(Color ("BW"))
-                                        .minimumScaleFactor(0.5)
-                                        .padding(10)
+                                    // fish details
+                                    VStack {
+                                        Text("Found in: " + fish.marine)
+                                            .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.06: geo.size.height * 0.09))
+                                            .multilineTextAlignment(.center)
+                                            .foregroundColor(Color ("BW"))
+                                            .minimumScaleFactor(0.5)
+                                            .padding(10)
+                                        
+                                        Text(fish.distribution)
+                                            .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.06: geo.size.height * 0.09))
+                                            .multilineTextAlignment(.center)
+                                            .foregroundColor(Color ("BW"))
+                                            .minimumScaleFactor(0.5)
+                                            .padding(10)
+                                    }
                                     
                                     // Spacer for resizable positioning
                                     Spacer()
                                         .frame(height: geo.size.height/20)
                                     
-                                    // image that shrinks and darkens when paused
-                                    // Image("map" + String(Int.random(in: 1..<5)))
+                                    // Displays fish map if it exists or not found image
                                     ZStack {
                                         Image("NotFound")
                                             .resizable()
@@ -102,14 +106,24 @@ struct CardView: View {
                                             .padding(5)
                                             .shadow(color: .black, radius: 5, x: 4, y: 4)
                                     }
+                                    
+                                    // more fish details, this can tend to be longer and redundant so it's
+                                    // at the bottom of the view
+                                    Text(fish.huc8)
+                                        .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.06: geo.size.height * 0.09))
+                                        .multilineTextAlignment(.center)
+                                        .foregroundColor(Color ("BW"))
+                                        .minimumScaleFactor(0.5)
+                                        .padding(10)
                                 }
                             }
-                        }
+                        }.frame(width: geo.size.width, height: geo.size.height, alignment: .center)
+                        // ^ centers eveything in view
                     }
                 }
                     .edgesIgnoringSafeArea(.top) // because of custom nav button
                     .navigationBarBackButtonHidden(true)
-                // the custom back button
+                    // the custom back button
                     .navigationBarItems(leading:
                                             Button(action: {
                                                 self.presentationMode.wrappedValue.dismiss()
@@ -125,8 +139,9 @@ struct CardView: View {
     }
 }
 
+// Preview for testing
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView(fish: ReadData().fishes[32], num: 1)
+        CardView(fish: ReadData().fishes[36])
     }
 }

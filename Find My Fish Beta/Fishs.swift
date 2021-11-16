@@ -2,17 +2,20 @@
 //  Fishs.swift
 //  Find My Fish Beta
 //
+//  Creates Fish object and loads data from JSON
+//
 //  Created by NMI Capstone on 10/5/21.
 //
 
 import Foundation
 
-struct Fish: Codable, Identifiable {
+struct Fish: Codable, Identifiable, Comparable {
     enum CodingKeys: CodingKey {
         case scientific
         case common
         case marine
         case distribution
+        case huc8
         case photo
         case map
     }
@@ -22,8 +25,13 @@ struct Fish: Codable, Identifiable {
     var common: String
     var marine: String
     var distribution: String
+    var huc8: String
     var photo: String
     var map: String
+    
+    static func < (lhs: Fish, rhs: Fish) -> Bool {
+            lhs.common < rhs.common
+    }
 }
 
 class ReadData: ObservableObject  {

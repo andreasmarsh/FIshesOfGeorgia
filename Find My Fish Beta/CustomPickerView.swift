@@ -2,6 +2,8 @@
 //  CustomPickerView.swift
 //  Find My Fish Beta
 //
+//  Custom Picker that resizes with passed in geometry reader values
+//
 //  Created by NMI Capstone on 9/30/21 using a tutorial by Stewart Lynch
 //
 
@@ -13,15 +15,19 @@ protocol CustomPicker {
 
 struct CustomPickerView: View {
     var items: [String]
-    @State private var filteredItems: [String] = []
-    @State private var filterString: String = ""
-    @State private var frameHeight: CGFloat = 400
+    @State private var filteredItems: [String] = [] // list of filtered items
+    @State private var filterString: String = "" // string used to filter
+    @State private var frameHeight: CGFloat = 400 // holder for adaptive height based on number of entries presented
     @Binding var pickerField: String
     @Binding var presentPicker: Bool
     @Binding var val: Int
     var fieldList: [String]
     var saveUpdates: ((String) -> Void)?
+    var width: CGFloat
+    var height: CGFloat
+    
     var body: some View {
+        // filters items and ajusts height of popup accordingly
         let filterBinding = Binding<String> (
             get: { filterString },
             set: {
@@ -35,7 +41,7 @@ struct CustomPickerView: View {
             }
         )
         return ZStack {
-            Color.black.opacity(0.4)
+            Color.black.opacity(0.4) // to dampen current view
             VStack {
                 VStack(alignment: .leading, spacing: 5) {
                     HStack {
@@ -44,13 +50,18 @@ struct CustomPickerView: View {
                                 presentPicker = false
                             }
                         }) {
+                            // cancel button that adapts to screen size
                             ZStack {
-                                Rectangle().foregroundColor((Color.clear)).frame(width: 70, height: 40, alignment: .center)
+                                Rectangle().foregroundColor((Color.clear)).frame(width: width * 0.2, height: height * 0.05, alignment: .center)
                             Text("Cancel")
-                                    .font(Font.custom("Montserrat-SemiBold", size: 15))
+                                    .font(Font.custom("Montserrat-SemiBold", size: height > width ? width * 0.04: height * 0.06))
+                                    .padding(5)
+                                    .foregroundColor(Color ("WB"))
+                                    .minimumScaleFactor(0.5)
                             }
                         }
                         Spacer()
+                        // if you want to save updates, we do not want this
                         if let saveUpdates = saveUpdates {
                             Button(action: {
                                 if !items.contains(filterString) {
@@ -67,14 +78,14 @@ struct CustomPickerView: View {
                             .disabled(filterString.isEmpty)
                         }
                     }
-                    .background(Color(UIColor.darkGray))
-                    .foregroundColor(.white)
+                    .background(Color(UIColor.darkGray)) // list background
+                    .foregroundColor(.white) // list foreground
                     Text("Tap an entry to select it.")
-                        .font(Font.custom("Montserrat-Regular", size: 12))
+                        .font(Font.custom("Montserrat-Regular", size: height > width ? width * 0.032: height * 0.06))
                         .padding(.leading,10)
                     TextField("Filter by entering text", text: filterBinding)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
-                        .font(Font.custom("Montserrat-Regular", size: 16))
+                        .font(Font.custom("Montserrat-Regular", size: height > width ? width * 0.04: height * 0.08))
                         .foregroundColor(Color ("BW"))
                         .padding()
                         .padding(.top, -10)
@@ -88,19 +99,19 @@ struct CustomPickerView: View {
                                 }
                             }) {
                                 Text(item)
-                                    .font(Font.custom("Montserrat-SemiBold", size: 16))
+                                    .font(Font.custom("Montserrat-SemiBold", size: height > width ? width * 0.04: height * 0.08))
                             }
                         }
-                        .listRowBackground(Color ("WB"))
+                        .listRowBackground(Color ("WB2"))
                     }
                     .padding(.top, -20)
                 }
                 .background(Color(UIColor.secondarySystemBackground))
                 .cornerRadius(10)
-                .frame(maxWidth: 400)
+                .frame(maxWidth: width)
                 .padding(.horizontal,10)
-                .frame(height: frameHeight)
-                .padding(.top, 120)
+                .frame(height: frameHeight) // note use of frameheight to adjust height as list changes
+                .padding(.top, height / 6)
                 Spacer()
             }
         }
@@ -111,24 +122,27 @@ struct CustomPickerView: View {
         }
     }
     
+    // adjusts height based on filtered data
     fileprivate func setHeight() {
         withAnimation {
-            if filteredItems.count > 5 {
-                frameHeight = 420
+            if filteredItems.count > 9 {
+                frameHeight = height / 1.55
             } else if filteredItems.count == 0 {
-                frameHeight = 130
+                frameHeight = height / 8
             } else {
-                frameHeight = CGFloat(filteredItems.count * 45 + 160)
+                frameHeight = CGFloat(Double(filteredItems.count) * (height * 0.055) + (height / 5.2))
             }
         }
     }
     
 }
 
+
+// testing preview
 struct CustomPickerView_Previews: PreviewProvider {
     static let sampleData = ["Milk", "Apples", "Sugar", "Eggs", "Oranges", "Potatoes", "Corn", "Bread"].sorted()
     
     static var previews: some View {
-        CustomPickerView(items: sampleData, pickerField: .constant(""), presentPicker: .constant(true), val: .constant(0), fieldList: sampleData)
+        CustomPickerView(items: sampleData, pickerField: .constant(""), presentPicker: .constant(true), val: .constant(0), fieldList: sampleData, width: 300, height: 400)
     }
 }
