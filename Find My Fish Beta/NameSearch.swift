@@ -54,7 +54,7 @@ struct NameSearch: View, CustomPicker {
                             
                             // sub header
                             Text("switch between searching by scientific or common name")
-                                .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.04: screenHeight * 0.06))
+                                .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.045: screenHeight * 0.06))
                                 .multilineTextAlignment(.center)
                                 .padding(5)
                                 .frame(width: screenWidth/1.1, height: 60)
@@ -71,7 +71,7 @@ struct NameSearch: View, CustomPicker {
                                         ForEach(0..<commonSci.count) { //index in
                                             Text(commonSci[$0])
                                                 .foregroundColor(Color ("BW"))
-                                                .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.04: screenHeight * 0.06))
+                                                .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.05: screenHeight * 0.07))
                                         }}
                                     .frame(width: screenWidth/1.5, height: 40)
                                     .clipped()
@@ -89,7 +89,7 @@ struct NameSearch: View, CustomPicker {
                                                      fieldString: $name,
                                                      width: screenWidth,
                                                      placeholder: Text("Select a fish name.")
-                                                        .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.04: screenHeight * 0.04)),
+                                                        .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.05: screenHeight * 0.07)),
                                                      tag: $tag,
                                                      selectedTag: tag)
                             }

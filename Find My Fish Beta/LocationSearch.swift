@@ -355,7 +355,7 @@ struct LocationSearch: View, CustomPicker {
                             
                             // sub-header
                             Text("select a location and marine")
-                                .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.04: screenHeight * 0.06))
+                                .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.045: screenHeight * 0.06))
                                 .multilineTextAlignment(.center)
                                 .padding(.bottom, -5)
                                 .frame(width: screenWidth/1.1, height: 40)
@@ -367,7 +367,7 @@ struct LocationSearch: View, CustomPicker {
                                                      fieldString: $huc,
                                                      width: screenWidth,
                                                      placeholder: Text("Select a Hydrologic Unit Location.")
-                                                        .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.04: screenHeight * 0.04))
+                                                        .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.05: screenHeight * 0.07))
                                                      ,
                                                      tag: $tag,
                                                      selectedTag: 2)
@@ -402,7 +402,7 @@ struct LocationSearch: View, CustomPicker {
                                                      fieldString: $marine,
                                                      width: screenWidth,
                                                      placeholder: Text("Select a fish marine.")
-                                                        .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.04: screenHeight * 0.04))
+                                                        .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.05: screenHeight * 0.07))
                                                      ,
                                                      tag: $tag,
                                                      selectedTag: 1)
