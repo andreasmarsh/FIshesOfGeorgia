@@ -20,7 +20,7 @@ struct Fish: Codable, Identifiable, Comparable {
         case map
     }
     
-    var id = UUID()
+    var id = UUID() // makes fish identifiable
     var scientific: String
     var common: String
     var marine: String
@@ -29,6 +29,7 @@ struct Fish: Codable, Identifiable, Comparable {
     var photo: String
     var map: String
     
+    // makes fish comparable
     static func < (lhs: Fish, rhs: Fish) -> Bool {
             lhs.common < rhs.common
     }
