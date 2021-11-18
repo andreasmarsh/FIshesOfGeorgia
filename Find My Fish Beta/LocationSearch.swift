@@ -18,8 +18,7 @@ struct LocationSearch: View, CustomPicker {
     
     @ObservedObject var datas: ReadData // gets fish data
     
-    @State private var hucMap = false // for huc popup map
-    @State private var marineInfo = false // for marine popup
+    @State private var hucMap = false // for popup map
     
     @State private var orientation = UIDeviceOrientation.unknown // for orientation
     @State private var screenWidth = UIScreen.main.bounds.size.width // screen width
@@ -377,11 +376,11 @@ struct LocationSearch: View, CustomPicker {
                                     hucMap = !hucMap
                                 }) {
                                     if (hucMap == false) {
-                                        Image(systemName: "map")
+                                        Image(systemName: "questionmark.circle")
                                             .font(.largeTitle)
                                             .foregroundColor(Color ("BW"))
                                     } else {
-                                        Image(systemName: "map.fill")
+                                        Image(systemName: "questionmark.circle.fill")
                                             .font(.largeTitle)
                                             .foregroundColor(Color ("BW"))
                                     }
@@ -396,7 +395,7 @@ struct LocationSearch: View, CustomPicker {
                                 filter2 = pickedHuc[hucPicked]
                             }
                             
-                            HStack {
+                            VStack {
                                 // picker for marine
                                 CustomPickerTextView(presentPicker: $presentPicker,
                                                      fieldString: $marine,
@@ -406,66 +405,6 @@ struct LocationSearch: View, CustomPicker {
                                                      ,
                                                      tag: $tag,
                                                      selectedTag: 1)
-                                
-                                // button for marine info pop-up
-                                Button(action: {
-                                    marineInfo = !marineInfo
-                                }) {
-                                    if (marineInfo == false) {
-                                        Image(systemName: "questionmark.circle")
-                                            .font(.largeTitle)
-                                            .foregroundColor(Color ("BW"))
-                                    } else {
-                                        Image(systemName: "questionmark.circle.fill")
-                                            .font(.largeTitle)
-                                            .foregroundColor(Color ("BW"))
-                                    }
-                                }
-                                // the pop over that displays marine info
-                                .popover(isPresented: $marineInfo) {
-                                    LinearGradient(gradient: Gradient(colors: [Color ("Blueish"), Color("Greenish")]), startPoint: .topTrailing, endPoint: .bottomLeading)
-                                        .edgesIgnoringSafeArea(.all)
-                                        .overlay(
-                                            ZStack() {
-                                                VStack() {
-                                                    Spacer()
-                                                        .frame(height: screenHeight/8)
-                                                    
-                                                    Text("Marine Definitions")
-                                                        .font(Font.custom("Montserrat-SemiBold", size: screenHeight > screenWidth ? screenWidth * 0.1: screenHeight * 0.09))
-                                                        .multilineTextAlignment(.trailing)
-                                                        .padding(20)
-                                                        .foregroundColor(Color ("BW"))
-                                                        .animation(.spring(response: 0.8, dampingFraction: 0.4, blendDuration: 0.7))
-                                                    
-                                                    Text("Brackish: (of water) slightly salty, as is the mixture of river water and seawater in estuaries.\n\n" + "Freshwater: (of water) possesses little dissolved minerals, salt.\n\n" + "Marine: (of water) very salty, seawater.")
-                                                        .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.05: screenHeight * 0.06))
-                                                        .multilineTextAlignment(.leading)
-                                                        .padding(.bottom, -5)
-                                                        .frame(width: screenWidth/1.1)
-                                                        .foregroundColor(Color ("BW"))
-                                                        .minimumScaleFactor(0.5)
-                                                        .animation(.spring(response: 0.8, dampingFraction: 0.4, blendDuration: 0.7))
-                                                    
-                                                    
-                                                    Image("groupLogo") // the logo hero image
-                                                        .resizable()
-                                                        .aspectRatio(contentMode: .fill)
-                                                        .edgesIgnoringSafeArea(.bottom)
-                                                        .offset(x: CGFloat(-screenWidth)/34)
-                                                        .opacity(0.95)
-                                                        .animation(.spring(response: 0.8, dampingFraction: 0.4, blendDuration: 0.7))
-                                                        .mask(LinearGradient(gradient:
-                                                                                Gradient(
-                                                                                    colors: [Color.black.opacity(0.9),  Color.black.opacity(0.05), Color.black.opacity(0)]),
-                                                                             startPoint: .top, endPoint: .bottom
-                                                                            )
-                                                                .frame(width: CGFloat(screenWidth), height: CGFloat(screenHeight/2)))
-                                                    
-                                                }
-                                            }
-                                        )
-                                }
                             }
                             .frame(width: screenWidth / 1.5)
                             .padding(6)

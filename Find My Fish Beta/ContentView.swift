@@ -49,8 +49,8 @@ struct ContentView: View {
     
     @State private var orientation = UIDeviceOrientation.unknown // for orientation
     
-    @State private var screenWidth = UIScreen.main.bounds.size.width // for adjustable screen size
-    @State private var screenHeight = UIScreen.main.bounds.size.height // for adjustable screen size
+    @State private var screenWidth = UIScreen.main.bounds.size.width
+    @State private var screenHeight = UIScreen.main.bounds.size.height
     
     var body: some View {
         
@@ -104,7 +104,7 @@ struct ContentView: View {
                     //}
                 )
         }
-        .onRotate { newOrientation in // upadate screen dimsneions when screen is rotated
+        .onRotate { newOrientation in
             orientation = newOrientation
             screenWidth = UIScreen.main.bounds.size.width
             screenHeight = UIScreen.main.bounds.size.height
