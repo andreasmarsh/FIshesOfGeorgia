@@ -82,7 +82,7 @@ struct CustomPickerView: View {
                     .background(Color(UIColor.darkGray)) // list background
                     .foregroundColor(.white) // list foreground
                     Text("Tap an entry to select it.")
-                        .font(Font.custom("Montserrat-Regular", size: height > width ? width * 0.032: height * 0.06))
+                        .font(Font.custom("Montserrat-Regular", size: height > width ? width * 0.035: height * 0.06))
                         .padding(.leading,10)
                     TextField("Filter by entering text", text: filterBinding)
                         .textFieldStyle(RoundedBorderTextFieldStyle())

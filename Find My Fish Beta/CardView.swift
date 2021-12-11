@@ -72,17 +72,17 @@ struct CardView: View {
                                         .frame(height: geo.size.height/30)
                                     
                                     // fish details
-                                    VStack {
+                                    VStack (alignment: .leading) {
                                         Text("Found in: " + fish.marine)
                                             .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.06: geo.size.height * 0.09))
-                                            .multilineTextAlignment(.center)
+                                            .multilineTextAlignment(.leading)
                                             .foregroundColor(Color ("BW"))
                                             .minimumScaleFactor(0.5)
                                             .padding(10)
                                         
                                         Text(fish.distribution)
                                             .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.06: geo.size.height * 0.09))
-                                            .multilineTextAlignment(.center)
+                                            .multilineTextAlignment(.leading)
                                             .foregroundColor(Color ("BW"))
                                             .minimumScaleFactor(0.5)
                                             .padding(10)
@@ -111,7 +111,7 @@ struct CardView: View {
                                     // at the bottom of the view
                                     Text(fish.huc8)
                                         .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.06: geo.size.height * 0.09))
-                                        .multilineTextAlignment(.center)
+                                        .multilineTextAlignment(.leading)
                                         .foregroundColor(Color ("BW"))
                                         .minimumScaleFactor(0.5)
                                         .padding(10)
