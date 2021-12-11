@@ -19,7 +19,7 @@ struct CustomPickerTextView: View {
     var body: some View {
         HStack(alignment: .center) {
         SuperTextField(placeholder: placeholder.foregroundColor(Color ("BW")), text: $fieldString)
-                .font(Font.custom("Montserrat-Regular", size: width * 0.04)) // set up custom font using geometry reader sizing
+                .font(Font.custom("Montserrat-Regular", size: width * 0.05)) // set up custom font using geometry reader sizing
                 .multilineTextAlignment(.center)
             .overlay(
                 Button(action: {

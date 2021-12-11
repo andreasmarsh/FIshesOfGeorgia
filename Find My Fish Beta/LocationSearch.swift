@@ -429,7 +429,7 @@ struct LocationSearch: View, CustomPicker {
                                             ZStack() {
                                                 VStack() {
                                                     Spacer()
-                                                        .frame(height: screenHeight/8)
+                                                        .frame(height: screenHeight/6)
                                                     
                                                     Text("Marine Definitions")
                                                         .font(Font.custom("Montserrat-SemiBold", size: screenHeight > screenWidth ? screenWidth * 0.1: screenHeight * 0.09))
@@ -442,7 +442,7 @@ struct LocationSearch: View, CustomPicker {
                                                         .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.05: screenHeight * 0.06))
                                                         .multilineTextAlignment(.leading)
                                                         .padding(.bottom, -5)
-                                                        .frame(width: screenWidth/1.1)
+                                                        .frame(width: screenWidth/1.4)
                                                         .foregroundColor(Color ("BW"))
                                                         .minimumScaleFactor(0.5)
                                                         .animation(.spring(response: 0.8, dampingFraction: 0.4, blendDuration: 0.7))
@@ -464,7 +464,9 @@ struct LocationSearch: View, CustomPicker {
                                                     
                                                 }
                                             }
+                                                .frame(width: screenWidth / 1.34, height: screenHeight, alignment: .center)
                                         )
+                                        .frame(width: screenWidth, height: screenHeight, alignment: .center)
                                 }
                             }
                             .frame(width: screenWidth / 1.5)
