@@ -49,65 +49,60 @@ struct ContentView: View {
     
     @State private var orientation = UIDeviceOrientation.unknown // for orientation
     
-    @State private var screenWidth = UIScreen.main.bounds.size.width // for adjustable screen size
-    @State private var screenHeight = UIScreen.main.bounds.size.height // for adjustable screen size
-    
     var body: some View {
         
         NavigationView{
             customBackground // the gradient used for background
                 .overlay(
-                    //GeometryReader { geometry in // usde to resize objects
                     ZStack () {
-                        VStack(alignment: .center) {
-                            
-                            Image("groupLogo") // the logo hero image
-                                .resizable()
-                                .aspectRatio(contentMode: .fit)
-                                .edgesIgnoringSafeArea(.top)
-                                .offset(x: CGFloat(-screenWidth)/34)
-                                .opacity(0.95)
-                                .animation(.spring(response: 0.8, dampingFraction: 0.4, blendDuration: 0.7))
-                                .mask(LinearGradient(gradient:
-                                                        Gradient(
-                                                            colors: [Color.black,Color.clear.opacity(0.8), Color.clear.opacity(0)]),
-                                                     startPoint: .top, endPoint: .bottom
-                                                    )
-                                        .frame(width: CGFloat(screenWidth), height: CGFloat(screenHeight)))
-                                .overlay(Text("Fishes of Georgia") // the text below the image
-                                            .font(Font.custom("Montserrat-SemiBold", size: screenHeight > screenWidth ? screenWidth * 0.1: screenHeight * 0.09))
-                                            .multilineTextAlignment(.center)
-                                            .padding(.top, screenHeight/7)
-                                            .foregroundColor(Color ("BW"))
-                                            .multilineTextAlignment(.center)
-                                            .lineLimit(3)
-                                            .minimumScaleFactor(0.5))
-                            
-                            // name search button using buttonView
-                            NavigationLink(destination: NameSearch(datas: datas, commonNames: datas.fishes.map {$0.common}, scientificNames: ReadData().fishes.map {$0.scientific})) {
-                                ButtonView(image: "doc.text.magnifyingglass", title: "Name Search", wid: screenWidth)
-                            }
-                            
-                            Spacer()
-                                .frame(height: screenHeight/20)
-                            
-                            // name search button using buttonView
-                            NavigationLink(destination: LocationSearch(datas: datas)) {
-                                ButtonView(image: "globe.americas", title: "Location Search", wid: screenWidth)
-                            }
-                            
-                            Spacer()
-                                .frame(height: screenHeight/6)
+                        GeometryReader { geometry in // used to resize objects
+                            ZStack () {
+                                VStack(alignment: .center) {
+                                    
+                                    Image("groupLogo") // the logo hero image
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fit)
+                                        .edgesIgnoringSafeArea(.top)
+                                        .offset(x: CGFloat(-geometry.size.width)/12)
+                                        .opacity(0.95)
+                                        .animation(.spring(response: 0.8, dampingFraction: 0.4, blendDuration: 0.7))
+                                        .mask(LinearGradient(gradient:
+                                                                Gradient(
+                                                                    colors: [Color.black,Color.clear.opacity(0.8), Color.clear.opacity(0)]),
+                                                             startPoint: .top, endPoint: .bottom
+                                                            )
+                                                .frame(width: CGFloat(geometry.size.width), height: CGFloat(geometry.size.height)))
+                                        .overlay(Text("Fishes of Georgia") // the text below the image
+                                                    .font(Font.custom("Montserrat-SemiBold", size: geometry.size.height > geometry.size.width ? geometry.size.width * 0.1: geometry.size.height * 0.09))
+                                                    .multilineTextAlignment(.center)
+                                                    .padding(.top, geometry.size.height/7)
+                                                    .foregroundColor(Color ("BW"))
+                                                    .multilineTextAlignment(.center)
+                                                    .lineLimit(3)
+                                                    .minimumScaleFactor(0.5))
+                                    
+                                    // name search button using buttonView
+                                    NavigationLink(destination: NameSearch(datas: datas, commonNames: datas.fishes.map {$0.common}, scientificNames: ReadData().fishes.map {$0.scientific})) {
+                                        ButtonView(image: "doc.text.magnifyingglass", title: "Name Search", wid: geometry.size.width)
+                                    }
+                                    
+                                    Spacer()
+                                        .frame(height: geometry.size.height/20)
+                                    
+                                    // name search button using buttonView
+                                    NavigationLink(destination: LocationSearch(datas: datas)) {
+                                        ButtonView(image: "globe.americas", title: "Location Search", wid: geometry.size.width)
+                                    }
+                                    
+                                    Spacer()
+                                        .frame(height: geometry.size.height/6)
+                                }
+                            }.frame(width: geometry.size.width, height: geometry.size.height, alignment: .center)
+                            // ^ used to center the content
+                            //}
                         }
-                    }.frame(width: screenWidth, height: screenHeight, alignment: .center)
-                    // ^ used to center the content
-                    //}
+                    }
                 )
-        }
-        .onRotate { newOrientation in // upadate screen dimsneions when screen is rotated
-            orientation = newOrientation
-            screenWidth = UIScreen.main.bounds.size.width
-            screenHeight = UIScreen.main.bounds.size.height
         }
         .navigationViewStyle(StackNavigationViewStyle())
         // makes iPad display same as iPhones, no need for weird side bar
