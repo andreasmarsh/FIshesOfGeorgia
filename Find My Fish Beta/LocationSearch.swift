@@ -431,7 +431,7 @@ struct LocationSearch: View, CustomPicker {
                                             ZStack() {
                                                 VStack() {
                                                     Spacer()
-                                                        .frame(height: screenHeight/6)
+                                                        .frame(height: screenHeight > screenWidth ? screenHeight/6: screenHeight/12)
                                                     
                                                     Text("Marine Definitions")
                                                         .font(Font.custom("Montserrat-SemiBold", size: screenHeight > screenWidth ? screenWidth * 0.1: screenHeight * 0.09))
@@ -449,12 +449,15 @@ struct LocationSearch: View, CustomPicker {
                                                         .minimumScaleFactor(0.5)
                                                         .animation(.spring(response: 0.8, dampingFraction: 0.4, blendDuration: 0.7))
                                                     
+                                                    Spacer()
+                                                        .frame(height: screenHeight > screenWidth ? CGFloat(screenHeight * 0.1): CGFloat(0))
+                                                    
                                                     
                                                     Image("groupLogo") // the logo hero image
                                                         .resizable()
                                                         .aspectRatio(contentMode: .fill)
                                                         .edgesIgnoringSafeArea(.bottom)
-                                                        .offset(x: CGFloat(-screenWidth)/34)
+                                                        .offset(x: screenHeight > screenWidth ? CGFloat(-screenWidth)/34 : CGFloat(-screenWidth)/34)
                                                         .opacity(0.95)
                                                         .animation(.spring(response: 0.8, dampingFraction: 0.4, blendDuration: 0.7))
                                                         .mask(LinearGradient(gradient:
@@ -462,11 +465,12 @@ struct LocationSearch: View, CustomPicker {
                                                                                     colors: [Color.black.opacity(0.9),  Color.black.opacity(0.05), Color.black.opacity(0)]),
                                                                              startPoint: .top, endPoint: .bottom
                                                                             )
-                                                            .frame(width: CGFloat(screenWidth), height: CGFloat(screenHeight/2)))
+                                                            .frame(width: screenHeight > screenWidth ? CGFloat(screenWidth): CGFloat(screenWidth), height: screenHeight > screenWidth ? CGFloat(screenHeight/2): CGFloat(screenHeight/2)))
+                                                        .frame(maxWidth: screenHeight > screenWidth ? CGFloat(screenWidth): CGFloat(0), maxHeight: screenHeight > screenWidth ? CGFloat(screenHeight * 0.28): CGFloat(0))
                                                     
                                                 }
                                             }
-                                                .frame(width: screenWidth / 1.34, height: screenHeight, alignment: .center)
+                                            .frame(width: screenWidth, height: screenHeight, alignment: .center)
                                         )
                                         .frame(width: screenWidth, height: screenHeight, alignment: .center)
                                 }

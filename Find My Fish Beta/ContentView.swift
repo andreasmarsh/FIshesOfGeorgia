@@ -73,7 +73,7 @@ struct ContentView: View {
                                                             )
                                                 .frame(width: CGFloat(geometry.size.width), height: CGFloat(geometry.size.height)))
                                         .overlay(Text("Fishes of Georgia") // the text below the image
-                                                    .font(Font.custom("Montserrat-SemiBold", size: geometry.size.height > geometry.size.width ? geometry.size.width * 0.1: geometry.size.height * 0.15))
+                                                    .font(Font.custom("Montserrat-SemiBold", size: geometry.size.height > geometry.size.width ? geometry.size.width * 0.13: geometry.size.height * 0.15))
                                                     .multilineTextAlignment(.center)
                                                     .padding(.top, geometry.size.height/7)
                                                     .foregroundColor(Color ("BW"))
