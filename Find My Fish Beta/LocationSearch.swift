@@ -350,7 +350,7 @@ struct LocationSearch: View, CustomPicker {
                             Text("Location Search")
                                 .font(Font.custom("Montserrat-SemiBold", size: screenHeight > screenWidth ? screenWidth * 0.1: screenHeight * 0.09))
                                 .multilineTextAlignment(.center)
-                                .padding(20)
+                                .padding(8)
                                 .foregroundColor(Color ("BW"))
                             
                             // sub-header
@@ -365,12 +365,13 @@ struct LocationSearch: View, CustomPicker {
                                 // picker for huc map
                                 CustomPickerTextView(presentPicker: $presentPicker,
                                                      fieldString: $huc,
-                                                     width: screenWidth,
+                                                     width: screenWidth, height: screenHeight,
                                                      placeholder: Text("Select a Hydrologic Unit Location.")
-                                                        .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.05: screenHeight * 0.07))
+                                    .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.05: screenHeight * 0.055))
                                                      ,
                                                      tag: $tag,
                                                      selectedTag: 2)
+                                .frame(width: screenHeight > screenWidth ? screenWidth * 0.8: screenWidth * 0.3, height: screenHeight > screenWidth ? screenWidth * 0.2: screenHeight * 0.2)
                                 
                                 // button for huc map pop-up
                                 Button(action: {
@@ -400,12 +401,13 @@ struct LocationSearch: View, CustomPicker {
                                 // picker for marine
                                 CustomPickerTextView(presentPicker: $presentPicker,
                                                      fieldString: $marine,
-                                                     width: screenWidth,
+                                                     width: screenWidth, height: screenHeight,
                                                      placeholder: Text("Select a fish marine.")
-                                                        .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.05: screenHeight * 0.07))
+                                    .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.05: screenHeight * 0.055))
                                                      ,
                                                      tag: $tag,
                                                      selectedTag: 1)
+                                .frame(width: screenHeight > screenWidth ? screenWidth * 0.8: screenWidth * 0.3, height: screenHeight > screenWidth ? screenWidth * 0.2: screenHeight * 0.2)
                                 
                                 // button for marine info pop-up
                                 Button(action: {
@@ -460,7 +462,7 @@ struct LocationSearch: View, CustomPicker {
                                                                                     colors: [Color.black.opacity(0.9),  Color.black.opacity(0.05), Color.black.opacity(0)]),
                                                                              startPoint: .top, endPoint: .bottom
                                                                             )
-                                                                .frame(width: CGFloat(screenWidth), height: CGFloat(screenHeight/2)))
+                                                            .frame(width: CGFloat(screenWidth), height: CGFloat(screenHeight/2)))
                                                     
                                                 }
                                             }
@@ -477,11 +479,11 @@ struct LocationSearch: View, CustomPicker {
                             
                             // resizable spacer
                             Spacer()
-                                .frame(height: screenHeight/10)
+                                .frame(height: screenHeight > screenWidth ? screenHeight * 0.01: screenHeight * 0.1)
                             
                             // takes user to dynamicFilteredList using filtered list
                             NavigationLink(destination:  DynamicFilteredList(filteredFish: refilteredFish.sorted())) {
-                                ButtonView(image: "magnifyingglass", title: "Search", wid: screenWidth)
+                                ButtonView(image: "magnifyingglass", title: "Search", wid: screenWidth * 1.15, hei: screenHeight * 1.2)
                             }
                             
                             // resizable spacer
@@ -501,7 +503,7 @@ struct LocationSearch: View, CustomPicker {
                                              fieldList: marines,
                                              width: screenWidth,
                                              height: screenHeight)
-                                .zIndex(2.0)
+                            .zIndex(2.0)
                         } else {
                             CustomPickerView(items: HUCs.sorted(),
                                              pickerField: $huc,
@@ -510,7 +512,7 @@ struct LocationSearch: View, CustomPicker {
                                              fieldList: HUCs,
                                              width: screenWidth,
                                              height: screenHeight)
-                                .zIndex(2.0)
+                            .zIndex(2.0)
                         }
                     }
                 }
@@ -530,7 +532,7 @@ struct LocationSearch: View, CustomPicker {
                                                         .padding()
                                                         .font(.title)
                                                         .foregroundColor(Color ("Blueish").opacity(0.7))
-                                                        .shadow(color: /*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/, radius: 3.3, x: 0, y: 0)
+                                                        .shadow(color: .black, radius: 3.3, x: 0, y: 0)
                                                 }
                                             })
                                        )
@@ -553,5 +555,10 @@ struct LocationSearch: View, CustomPicker {
 struct LocationSearch_Previews: PreviewProvider {
     static var previews: some View {
         LocationSearch(datas: ReadData())
+        if #available(iOS 15.0, *) {
+            LocationSearch(datas: ReadData())                .previewInterfaceOrientation(.landscapeLeft)
+        } else {
+            // Fallback on earlier versions
+        }
     }
 }

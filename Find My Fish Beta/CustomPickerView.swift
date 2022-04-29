@@ -109,7 +109,7 @@ struct CustomPickerView: View {
                 }
                 .background(Color(UIColor.secondarySystemBackground))
                 .cornerRadius(10)
-                .frame(maxWidth: width)
+                .frame(maxWidth: height > width ? width: width * 0.8)
                 .padding(.horizontal,10)
                 .frame(height: frameHeight) // note use of frameheight to adjust height as list changes
                 .padding(.top, height / 6)
@@ -127,11 +127,11 @@ struct CustomPickerView: View {
     fileprivate func setHeight() {
         withAnimation {
             if filteredItems.count > 5 {
-                frameHeight = height / 1.55
+                frameHeight = height > width ? height / 1.55: height / 1.2
             } else if filteredItems.count == 0 {
-                frameHeight = height / 8
+                frameHeight = height > width ? height / 8: height / 8
             } else {
-                frameHeight = CGFloat(Double(filteredItems.count) * (height * 0.055) + (height / 5.2))
+                frameHeight = height > width ? CGFloat(Double(filteredItems.count) * (height * 0.055) + (height / 5.2)): CGFloat((Double(filteredItems.count) + 1) * (height * 0.2) + (height / 5))
             }
         }
     }
@@ -145,5 +145,12 @@ struct CustomPickerView_Previews: PreviewProvider {
     
     static var previews: some View {
         CustomPickerView(items: sampleData, pickerField: .constant(""), presentPicker: .constant(true), val: .constant(0), fieldList: sampleData, width: 300, height: 400)
+        
+        if #available(iOS 15.0, *) {
+            CustomPickerView(items: sampleData, pickerField: .constant(""), presentPicker: .constant(true), val: .constant(0), fieldList: sampleData, width: 900, height: 400)    .previewInterfaceOrientation(.landscapeLeft)
+        } else {
+            // Fallback on earlier versions
+        }
+        
     }
 }

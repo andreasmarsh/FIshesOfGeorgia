@@ -37,7 +37,7 @@ struct DynamicFilteredList: View {
                             }
                         )
                         ZStack() {
-                            VStack(alignment: .leading, spacing: 5) {
+                            VStack(alignment: .center, spacing: 5) {
                                 // used to input text to filter common name
                                 TextField("Filter by common name", text: filterBinding)
                                     .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -75,13 +75,13 @@ struct DynamicFilteredList: View {
                                             VStack(alignment: .trailing) {
                                                 VStack(alignment: .leading) {
                                                     Text(Fish.common)
-                                                        .font(Font.custom("Montserrat-Semibold", size: geo.size.height > geo.size.width ? geo.size.width * 0.035: geo.size.height * 0.09))
+                                                        .font(Font.custom("Montserrat-Semibold", size: geo.size.height > geo.size.width ? geo.size.width * 0.035: geo.size.height * 0.05))
                                                         .multilineTextAlignment(.leading)
                                                         .foregroundColor(Color ("BW"))
                                                         .lineLimit(3)
                                                         .minimumScaleFactor(0.5)
                                                     Text(Fish.scientific)
-                                                        .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.03: geo.size.height * 0.09))
+                                                        .font(Font.custom("Montserrat-Regular", size: geo.size.height > geo.size.width ? geo.size.width * 0.03: geo.size.height * 0.05))
                                                         .multilineTextAlignment(.leading)
                                                         .foregroundColor(Color ("BW"))
                                                         .lineLimit(3)
@@ -95,13 +95,13 @@ struct DynamicFilteredList: View {
                                             // allows each row to be clickable to card view
                                             NavigationLink(destination:  CardView(fish: Fish)) {
                                             }
-                                            .frame(maxWidth: 40, maxHeight: 60)
+                                            .frame(maxWidth: geo.size.height > geo.size.width ? geo.size.width * 0.06: geo.size.width * 0.05, maxHeight: geo.size.height > geo.size.width ? geo.size.height * 0.08: geo.size.height * 0.1)
                                             //.frame(maxWidth: geo.size.width * 0.0, maxHeight: geo.size.height * 0.1)
                                         }
                                     }
                                     .listRowBackground(Color ("WB2")) // to fit textfield
                                 }
-                                .frame(maxHeight: geo.size.height * 0.8)
+                                .frame(maxWidth: geo.size.height > geo.size.width ? geo.size.width * 1: geo.size.width * 0.8, maxHeight: geo.size.height * 0.8)
                             }
                             .offset(y: -(geo.size.height * 0.1))
                         }
@@ -135,5 +135,12 @@ struct DynamicFilteredList: View {
 struct DynamicFilteredList_Previews: PreviewProvider {
     static var previews: some View {
         DynamicFilteredList(filteredFish: ReadData().fishes.sorted())
+        
+        if #available(iOS 15.0, *) {
+            DynamicFilteredList(filteredFish: ReadData().fishes.sorted())
+                .previewInterfaceOrientation(.landscapeLeft)
+        } else {
+            // Fallback on earlier versions
+        }
     }
 }

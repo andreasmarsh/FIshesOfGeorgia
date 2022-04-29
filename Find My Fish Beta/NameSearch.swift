@@ -57,7 +57,7 @@ struct NameSearch: View, CustomPicker {
                                 .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.045: screenHeight * 0.06))
                                 .multilineTextAlignment(.center)
                                 .padding(5)
-                                .frame(width: screenWidth/1.1, height: 60)
+                                .frame(width: screenHeight > screenWidth ? screenWidth * 1.2: screenWidth/2.5, height: screenHeight > screenWidth ? screenHeight * 0.06: screenHeight * 0.2)
                                 .foregroundColor(Color ("BW"))
                                 .minimumScaleFactor(0.5)
                             
@@ -73,7 +73,7 @@ struct NameSearch: View, CustomPicker {
                                                 .foregroundColor(Color ("BW"))
                                                 .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.05: screenHeight * 0.07))
                                         }}
-                                    .frame(width: screenWidth/1.5, height: 40)
+                                    .frame(width: screenHeight > screenWidth ? screenWidth * 0.8: screenWidth * 0.3, height: screenHeight > screenWidth ? screenHeight * 0.06: screenHeight * 0.2)
                                     .clipped()
                                     .onReceive(
                                         [self.tag].publisher.first()){
@@ -87,25 +87,25 @@ struct NameSearch: View, CustomPicker {
                                 // CustomPicker
                                 CustomPickerTextView(presentPicker: $presentPicker,
                                                      fieldString: $name,
-                                                     width: screenWidth,
+                                                     width: screenWidth, height: screenHeight,
                                                      placeholder: Text("Select a fish name.")
-                                                        .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.05: screenHeight * 0.07)),
+                                    .font(Font.custom("Montserrat-Regular", size: screenHeight > screenWidth ? screenWidth * 0.05: screenHeight * 0.055)),
                                                      tag: $tag,
                                                      selectedTag: tag)
                             }
-                            .frame(width: screenWidth/1.5)
+                            .frame(width: screenHeight > screenWidth ? screenWidth * 0.8: screenWidth * 0.3, height: screenHeight > screenWidth ? screenWidth * 0.2: screenHeight * 0.2)
                             .padding()
                             
                             Spacer()
-                                .frame(height: screenHeight/10)
+                                .frame(height: screenHeight > screenWidth ? screenHeight * 0.02: screenHeight * 0.15)
                             
                             // Takes user to slected fish card view
                             NavigationLink(destination:  CardView(fish: datas.fishes[namePicked])) {
-                                ButtonView(image: "magnifyingglass", title: "Search", wid: screenWidth)
+                                ButtonView(image: "magnifyingglass", title: "Search", wid: screenWidth, hei: screenHeight)
                             }
                             
                             Spacer()
-                                .frame(height: screenHeight/6)
+                                .frame(height: screenHeight > screenWidth ? screenWidth * 0.3: screenHeight * 0.3)
                         }
                     }.frame(width: screenWidth, height: screenHeight, alignment: .center)
                     // centers the things in geo reader ^
@@ -121,7 +121,7 @@ struct NameSearch: View, CustomPicker {
                                              fieldList: commonNames,
                                              width: screenWidth,
                                              height: screenHeight)
-                                .zIndex(2.0)
+                            .zIndex(2.0)
                         } else {
                             CustomPickerView(items: scientificNames.sorted(),
                                              pickerField: $name,
@@ -130,7 +130,7 @@ struct NameSearch: View, CustomPicker {
                                              fieldList: scientificNames,
                                              width: screenWidth,
                                              height: screenHeight)
-                                .zIndex(2.0)
+                            .zIndex(2.0)
                         }
                     }
                 }
@@ -150,7 +150,7 @@ struct NameSearch: View, CustomPicker {
                                                         .padding()
                                                         .font(.title)
                                                         .foregroundColor(Color ("Blueish").opacity(0.9))
-                                                        .shadow(color: /*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/, radius: 3.3, x: 0, y: 0)
+                                                        .shadow(color: .black, radius: 3.3, x: 0, y: 0)
                                                 }
                                             })
                                        )
@@ -165,6 +165,12 @@ struct NameSearch: View, CustomPicker {
 struct NameSearch_Previews: PreviewProvider {
     static var previews: some View {
         NameSearch(datas: ReadData(), commonNames: ReadData().fishes.map {$0.common}, scientificNames: ReadData().fishes.map {$0.scientific})
+        
+        if #available(iOS 15.0, *) {
+            NameSearch(datas: ReadData(), commonNames: ReadData().fishes.map {$0.common}, scientificNames: ReadData().fishes.map {$0.scientific})                .previewInterfaceOrientation(.landscapeLeft)
+        } else {
+            // Fallback on earlier versions
+        }
     }
 }
 

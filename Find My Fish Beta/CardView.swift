@@ -123,7 +123,7 @@ struct CardView: View {
                 }
                     .edgesIgnoringSafeArea(.top) // because of custom nav button
                     .navigationBarBackButtonHidden(true)
-                    // the custom back button
+                // the custom back button
                     .navigationBarItems(leading:
                                             Button(action: {
                                                 self.presentationMode.wrappedValue.dismiss()
@@ -143,5 +143,12 @@ struct CardView: View {
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
         CardView(fish: ReadData().fishes[36])
+        
+        if #available(iOS 15.0, *) {
+            CardView(fish: ReadData().fishes[36])
+                .previewInterfaceOrientation(.landscapeLeft)
+        } else {
+            // Fallback on earlier versions
+        }
     }
 }
