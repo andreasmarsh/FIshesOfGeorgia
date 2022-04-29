@@ -476,7 +476,7 @@ struct LocationSearch: View, CustomPicker {
                                 }
                             }
                             .frame(width: screenWidth / 1.5)
-                            .padding(6)
+                            .padding(.top, -30)
                             .onChange(of: marine) { newValue in
                                 filter = pickedMarine[marinePicked]
                             }
