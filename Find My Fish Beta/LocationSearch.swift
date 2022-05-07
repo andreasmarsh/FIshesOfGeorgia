@@ -470,7 +470,7 @@ struct LocationSearch: View, CustomPicker {
                                                     
                                                 }
                                             }
-                                            .frame(width: screenWidth, height: screenHeight, alignment: .center)
+                                                .frame(width: screenHeight > screenWidth ? screenWidth * 0.7: screenWidth * 0.6, height: screenHeight, alignment: .center)
                                         )
                                         .frame(width: screenWidth, height: screenHeight, alignment: .center)
                                 }
